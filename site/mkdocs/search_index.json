@@ -1,0 +1,39 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Scholastic Test Plans\n\n\nThis project uses, Mkdocs, for full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#scholastic-test-plans", 
+            "text": "This project uses, Mkdocs, for full documentation visit  mkdocs.org .", 
+            "title": "Scholastic Test Plans"
+        }, 
+        {
+            "location": "/#commands", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/#project-layout", 
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }, 
+        {
+            "location": "/about/", 
+            "text": "Authors\n\n\nSajjad Hossain\n\n\n\n\nGitHub\n  \n\n\nTwitter", 
+            "title": "About"
+        }, 
+        {
+            "location": "/about/#authors", 
+            "text": "", 
+            "title": "Authors"
+        }, 
+        {
+            "location": "/about/#sajjad-hossain", 
+            "text": "GitHub     Twitter", 
+            "title": "Sajjad Hossain"
+        }
+    ]
+}
