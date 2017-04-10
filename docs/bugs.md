@@ -1,13 +1,3 @@
-<!-----
-layout: post
-featured: true
-title:  "The Art of Reproducing Bugs"
-description:  "What is Quality Assurance? How does automation fit in? This is what I've learned."
-banner: "http://localhost:4000/images/posts/banners/bug.jpg"
-date:   2015-11-11 14:31:11
-tags: methodologies bugs qualityassurance testing
----
--->
 # Reproducing Bugs
 ## How to File a Bug
 

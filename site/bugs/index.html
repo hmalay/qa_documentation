@@ -9,20 +9,20 @@
       
       
       
-        <link rel="shortcut icon" href="./assets/images/favicon.png">
+        <link rel="shortcut icon" href="../assets/images/favicon.png">
       
       <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.5.2">
     
     
       
-        <title>Scholastic Test Plans</title>
+        <title>Bugs - Scholastic Test Plans</title>
       
     
     
-      <script src="./assets/javascripts/modernizr-56ade86843.js"></script>
+      <script src="../assets/javascripts/modernizr-56ade86843.js"></script>
     
     
-      <link rel="stylesheet" href="./assets/stylesheets/application-e71521a2a2.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application-e71521a2a2.css">
       
     
     
@@ -59,7 +59,7 @@
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
         
-          <a href="." title="Scholastic Test Plans" class="md-icon md-icon--home md-header-nav__button">
+          <a href=".." title="Scholastic Test Plans" class="md-icon md-icon--home md-header-nav__button">
           </a>
         
       </div>
@@ -72,7 +72,7 @@
             
               
             
-            Home
+            Bugs
           
         </span>
       </div>
@@ -135,6 +135,30 @@
       
       
 
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../methodology/" title="Methodology" class="md-nav__link">
+      Methodology
+    </a>
+  </li>
+
+    
+      
+      
+      
+
   
 
 
@@ -145,34 +169,57 @@
       
     
     
-    <a href="." title="Home" class="md-nav__link md-nav__link--active">
-      Home
-    </a>
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Bugs
+      </label>
     
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="methodology/" title="Methodology" class="md-nav__link">
-      Methodology
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="bugs/" title="Bugs" class="md-nav__link">
+    <a href="./" title="Bugs" class="md-nav__link md-nav__link--active">
       Bugs
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-file-a-bug" title="How to File a Bug" class="md-nav__link">
+    How to File a Bug
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bug-tracking-software" title="Bug Tracking Software" class="md-nav__link">
+    Bug Tracking Software
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#jira" title="JIRA" class="md-nav__link">
+    JIRA
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
     
@@ -201,7 +248,7 @@
 
 
   <li class="md-nav__item">
-    <a href="test_plans/reading_pro_uat_plan/" title="Reading Pro UAT" class="md-nav__link">
+    <a href="../test_plans/reading_pro_uat_plan/" title="Reading Pro UAT" class="md-nav__link">
       Reading Pro UAT
     </a>
   </li>
@@ -218,7 +265,7 @@
 
 
   <li class="md-nav__item">
-    <a href="charles/" title="Charles" class="md-nav__link">
+    <a href="../charles/" title="Charles" class="md-nav__link">
       Charles
     </a>
   </li>
@@ -230,7 +277,7 @@
 
 
   <li class="md-nav__item">
-    <a href="about/" title="About" class="md-nav__link">
+    <a href="../about/" title="About" class="md-nav__link">
       About
     </a>
   </li>
@@ -253,6 +300,40 @@
     
   
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-file-a-bug" title="How to File a Bug" class="md-nav__link">
+    How to File a Bug
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bug-tracking-software" title="Bug Tracking Software" class="md-nav__link">
+    Bug Tracking Software
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#jira" title="JIRA" class="md-nav__link">
+    JIRA
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -264,7 +345,25 @@
               
                 
                 
-                <h1 id="scholastic-test-plans">Scholastic Test Plans</h1>
+                <h1 id="reproducing-bugs">Reproducing Bugs</h1>
+<h2 id="how-to-file-a-bug">How to File a Bug</h2>
+<p>When filing bugs, or jotting down <a href="https://en.wikipedia.org/wiki/Software_bug">steps-to-reproduce</a>, you should try to have the following information:</p>
+<ol>
+<li><code>Where the issue was observed?</code> </li>
+<li><code>What site was this on?</code></li>
+<li><code>What browser or device were you using?</code> Provide a URL, account name, device model, version if possible.</li>
+<li><code>What are the steps to reproduce the issue?</code> Be as detailed as possible. Sometimes issues can seem really obvious to you, and the steps you performed seem unimportant. They aren't. Developers need this information to help debug the issue. QA needs this information to be able to completely validate that the issue was fixed. </li>
+<li><code>What was the expected result?</code> Again, even if it seems obvious, go ahead and put the obvious expected result. This piece of information is not only vital in knowing how to fix the issue, but it's vital to QA to know what success will look like for the issue. In addition to the documentation aspect, this information can also save much wasted time and effort, as it lets all parties know what's expected. Maybe what the reporter expected is actually incorrect, and it is performing as it should. Maybe what the reporter expects is different from what the person working on the issue thinks should happen. Having the expectation allows that conversation to take place before work is started on the ticket and time is wasted.</li>
+<li><code>What was the actual result? What actually happened when you performed the steps in #2?</code> Please be descriptive in what the actual result was. This helps the person working on the ticket ensure that they have accurately reproduced the issue. It also exists to provide a clear contrast for the expected result.</li>
+</ol>
+<p>Other things that you should include in your bug ticket:</p>
+<ol>
+<li>Any specification documents relating to the functionality. This helps provide a trail and additional information when working on the issue.</li>
+<li>Screenshots or video of the issue. Sometimes a picture is worth a thousand words, and a video is worth exponentially more than that. These can provide insight into the issue that a written description never could.</li>
+</ol>
+<h2 id="bug-tracking-software">Bug Tracking Software</h2>
+<h3 id="jira">JIRA</h3>
+<p>The proprietary issue tracking product developed by Atlassian. It provides bug tracking, issue tracking, and project management functions. </p>
                 
                   
                 
@@ -283,14 +382,28 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
+          <a href="../methodology/" title="Methodology" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Methodology
+              </span>
+            </div>
+          </a>
         
-          <a href="methodology/" title="Methodology" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+        
+          <a href="../test_plans/reading_pro_uat_plan/" title="Reading Pro UAT" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Methodology
+                Reading Pro UAT
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -320,8 +433,8 @@
       
     </div>
     
-      <script src="./assets/javascripts/application-c6f9af8d0c.js"></script>
-      <script>app.initialize({url:{base:"."}})</script>
+      <script src="../assets/javascripts/application-c6f9af8d0c.js"></script>
+      <script>app.initialize({url:{base:".."}})</script>
       
     
     

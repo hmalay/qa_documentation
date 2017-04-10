@@ -11,6 +11,40 @@
 
     
     <url>
+     <loc>/methodology/</loc>
+     <lastmod>2017-04-07</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/bugs/</loc>
+     <lastmod>2017-04-07</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>/test_plans/reading_pro_uat_plan/</loc>
+     <lastmod>2017-04-07</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>/charles/</loc>
+     <lastmod>2017-04-07</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>/about/</loc>
      <lastmod>2017-04-07</lastmod>
      <changefreq>daily</changefreq>

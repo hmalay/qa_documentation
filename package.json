@@ -1,0 +1,19 @@
+{
+  "name": "scholastic-digital-applications-test-plans",
+  "version": "0.0.1",
+  "description": "scholastic digital applications documentation for test planning",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "mocha test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://smhossain@bitbucket.org/smhossain/scholastic-digital-applications-test-plans.git"
+  },
+  "author": "sajjad hossain",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/smhossain/scholastic-digital-applications-test-plans#readme"
+}

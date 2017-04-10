@@ -1,5 +1,18 @@
-site_name: Scholastic Test Plans
+site_name: Scholastic Testing
 pages:
     - Home: index.md
+    - Methodology: methodology.md
+    - Bugs: bugs.md
+    - Strategies:
+      - 'Reading Pro': 'strategies/reading_pro_uat_strategy.md'
+    - Plans:
+      - User Acceptance Tests:
+        - 'Reading Pro': 'plans/uat/reading_pro_uat_plan.md'
+    - Guides:
+        - Installation:
+          - 'Reading Pro': 'guides/reading_pro_installation_guide.md'
+    - UML(s):
+        - Environment Promotion: 'diagrams/environment_promotion.md'
+    - Charles: 'tools/charles.md'
     - About: about.md
 theme: material

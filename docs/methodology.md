@@ -1,8 +1,10 @@
-# QA Methodology
+# QA Test Planning Methodology 
+
 ## Planning
 To begin the planning stage, QA's have to meet with developers and/or product owners and/or clients to discuss the documentation and project scope prior to implementation to begin the planning stage. Documentation comes in various forms, from paper to electronic, but no matter what kind, these product/project documents have to be analyzed. The time reading it should also be time dedicated to looking for any discrepancies and issues, meanwhile also building and spec'ing test dependancies, frameworks and cases. The product document is examined thoroughly for complexity, UI features, functionality, issues and most importantly `requirements`; some aspects may need to be changed to work. Analysis as a QA is feedback for the developers.
+
 ## Implementation
-Feedback to developers signals the beginning of the implementation stage. The product is placed into the warm and loving hands of development. During this stage QA's begin to build test cases for the upcoming product. These cases are built with the concepts in Test Plans parenting Test Cases/Scenarios. Each test is designed to examine the product as per the Scope Document(s). After further documentation is processed, the QA's begin building test cases again to examine the code that has been provided. The testing goes on until all elements of the product have been tested thoroughly. 
+Feedback to developers signals the beginning of the implementation stage. The product is placed into the warm and loving hands of development. During this stage QA's begin to build test cases for the upcoming product. These cases are built with the concepts in Test Plans parenting Test Cases/Scenarios. Each test is designed to examine the product as per the Scope Document(s). After further documentation is processed, the QA's begin building test cases again to examine the code that has been provided. The testing goes on until all elements of the product have been tested thoroughly.
 
 Software testing is the process of validating and verifying that a software program/application/product:
 
@@ -11,12 +13,12 @@ Software testing is the process of validating and verifying that a software prog
 3. Can be implemented with the same characteristics in other environments
 
 ## Delivery & Maintenance
-This is the bulk of the QA work. Regression tests are executed during this phase, Manual or Automation. After more tests have been built to meet the needs of client based functionalities, a UAT has to be drafted and handed out to the client(s), internal and/or external. 
+This is the bulk of the QA work. Regression tests are executed during this phase, Manual or Automation. After more tests have been built to meet the needs of client based functionalities, a UAT has to be drafted and handed out to the client(s), internal and/or external.
 
 This UAT (User Acceptance Test) tests all up-to-date functions of the software. During this phase it is also key to build test plans, tests that check the code in a regimented fashion. These tests also have to be executed, heeding to the Test Schedule. All test results have to be delivered, in a Test Execution Report. `Everything has to be reproducible.`
 
 ## Test Types
-During the planning stage, QA Testers build test cases. Test cases and test plans require a full assessment of the documentation. 
+During the planning stage, QA Testers build test cases. Test cases and test plans require a full assessment of the documentation.
 
 There are many kinds of testing and they include but are not limited to:
 
@@ -53,7 +55,7 @@ If your testing team is divided into technology sub-teams, each sub-team should 
 
 
 ## Defining Test Scope
-In the scope and objectives section of the test plan, the testing team describes specifically what you want your testing to accomplish. 
+In the scope and objectives section of the test plan, the testing team describes specifically what you want your testing to accomplish.
 
 Also, you need to define the scope of your testing by identifying what you will test and what you will not. For example, you might limit your testing of client computer hardware to the minimum supported configurations or to the standard configurations.
 
@@ -76,7 +78,7 @@ List all the features or aspects of features that need to be tested. This part o
 4. Account Management
 5. RMA Return Management
 
-##Define Acceptance Criteria
+## Define Acceptance Criteria
 Acceptance criteria is to be determined by the User Stories that make up the MVP. The user stories will follow but the test coverage has to ensure:
 
 * The functionality of each feature and service that implemented
@@ -92,8 +94,8 @@ Acceptance criteria is to be determined by the User Stories that make up the MVP
 * Describes the risk factors that could prevent the successful completion of all required tests.
 
 
-##Create a Test Schedule
-Draft a preliminary schedule that includes each test listed in the test plan. The schedule can help you coordinate test lab use among sub-teams. Assign a team member, ideally the test lab manager, if your team has one, to maintain and update the lab schedule. Having an up-to-date schedule is critical when unscheduled lab requests are submitted. 
+## Create a Test Schedule
+Draft a preliminary schedule that includes each test listed in the test plan. The schedule can help you coordinate test lab use among sub-teams. Assign a team member, ideally the test lab manager, if your team has one, to maintain and update the lab schedule. Having an up-to-date schedule is critical when unscheduled lab requests are submitted.
 
 Testing occurs through all phases of development. The dates below denote stress, forced-error, UAT, End to End and System testing prior to client review. Testing will continue to occur during development and integration. Automation and unit tests to be completed in parallel to manual testing, if feasible and necessary. For example:
 
@@ -109,33 +111,33 @@ Testing occurs through all phases of development. The dates below denote stress,
 | Final QA - Alpha Testing | 5 | MM/DD/YYYY | MM/DD/YYYY |
 
 
-##Define Epic User Stories
+## Define Epic User Stories
 List all the features or aspects of features that need to be tested. This part of the test plan describes what to test, not how to test. The terminology and format are not limited to any type. However, user stories are business-readable and proficient.
 
-###User Stories [*](http://en.wikipedia.org/wiki/User_story)
+### User Stories [*](http://en.wikipedia.org/wiki/User_story)
 
-####Traditional user-story template
+#### Traditional user-story template
 
-	As a <role>, 
-	I want <goal/desire>, 
+	As a <role>,
+	I want <goal/desire>,
 	So that <benefit>
 
 The "so that" clause as optional.
 
-####Hunting the value
+#### Hunting the value
 
-	In order to <receive benefit>, 
-	As a <role>, 
+	In order to <receive benefit>,
+	As a <role>,
 	I want <goal/desire>
-	
-####Five W's specifies:
 
-	As <who> <when> <where>, 
-	I <what>, 
+#### Five W's specifies:
+
+	As <who> <when> <where>,
+	I <what>,
 	Because <why>
 
 
-##Define Scenarios
+## Define Scenarios
 A test case or scenario is a detailed procedure that fully tests a feature or an aspect of a feature. Whereas the test plan describes what is to be tested, a test case describes how to perform a particular test. You need to develop a test case for each test listed in the test plan or test specification.
 
 Test cases should be written by someone who understands the function or technology being tested and should go through a peer review.
@@ -148,7 +150,7 @@ Test cases include information such as the following:
 * Specific setup or configuration requirements
 * Description of how to perform the test
 * Expected results or success criteria for the test
-* Designing test cases can be a time-consuming phase in your testing schedule. Although you might be tempted to take shortcuts, the time you spend will pay off in the long run. 
+* Designing test cases can be a time-consuming phase in your testing schedule. Although you might be tempted to take shortcuts, the time you spend will pay off in the long run.
 
 *You can conduct tests faster when they are carefully planned. Otherwise, testers spend time debugging and rerunning tests.*
 
@@ -159,12 +161,12 @@ Some advantages of detailed test cases are that they are reproducible and they a
 It is recommended that you find a compromise between the two extremes, one that tends toward more detail. Balance thoroughness with practicality to reach your goal of test integrity and manageability.
 
 ##Advantages of Gherkin-based Tests
-Scenarios can be written in a multitude of ways. However, when it comes to standardization, its hard to hit the nail on the head as uniquely as Gherkin does. Even if AUT uses a JavaScript or fully-Manual testing solution, business-readable scenarios go along way for 
+Scenarios can be written in a multitude of ways. However, when it comes to standardization, its hard to hit the nail on the head as uniquely as Gherkin does. Even if AUT uses a JavaScript or fully-Manual testing solution, business-readable scenarios go along way for
 
 ###Gherkin scenarios
 
 Once you've chosen a feature, it's time to write scenarios that describe each part of it. Each scenario follows a very specific pattern. Start by giving it a name.
-The body of a scenario is made up of three different parts, let's use: `Given`, `When` and `Then`. 
+The body of a scenario is made up of three different parts, let's use: `Given`, `When` and `Then`.
 
 The first is Given, which describes the initial state of the system for the scenario. This is the only place where you can describe things that the user can't do. In this case, the "site administrator" can't magically put 5 news entries in the database, but that's ok. To have more than one Given statement, start the next line with And.
 
@@ -179,7 +181,7 @@ If we didn't go any further, we would at least have a standard way of describing
 	As an API user
 	I need to be able to POST JSON instructions that turn fences on/off
 
-	
+
 	Feature: Delicious humans
 	In order to be entertained
 	As a dinosaur
@@ -192,7 +194,7 @@ If we didn't go any further, we would at least have a standard way of describing
 		And I fill in "Title" with "Alan Grant does not endorse the park!"
 		And I press "Save"
 		Then I should see "Your article has been saved"
-		
+
 You can also add test data for your scenario, which can also be referred to as examples:
 
 	Feature: Add a news entry
@@ -202,7 +204,7 @@ You can also add test data for your scenario, which can also be referred to as e
 		And I fill in "<form>" with "<text>"
 		And I press "Save"
 		Then I should see "<expectedResult>"
-		
+
 		Examples:
 		| URL | button | form | text | expectedResult |
 		| /admin/news | New entry | Title | Alan Grant does not endorse the park! | Your article has been saved |
@@ -210,7 +212,7 @@ You can also add test data for your scenario, which can also be referred to as e
 
 
 
-##Execution & Results
+## Execution & Results
 Depending on test coverage, manual, unit and automation reports are handled separately. An example, below work in progress, would use the @TAGS to identify a test type, a feature & scenario.
 
 | Tags | P/F | Description | Notes |
