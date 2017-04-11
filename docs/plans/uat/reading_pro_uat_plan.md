@@ -1,7 +1,5 @@
 # User Acceptance Tests
 
-For `Reading Pro` as a `STUDENT`
-
 ## Overview
 
 ### Authors
@@ -136,6 +134,16 @@ The below epics and stories should pass in the all browsers and webkits defined.
 
 ## Test Cases
 
+## `${preconditions}` 
+
+```
+Given I am on using Reading Pro
+And I am a Student
+And I have my assessments
+And I go to my school
+And I have my products
+```
+
 ### I want to use the home page
 
 ```gherkin
@@ -160,10 +168,7 @@ So that I can access tools and applications
 ##### I want to see Scholastic Branding and Logo
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see the Scholastic Logo
 And it should be in the upper left corner
 And I should see the 
@@ -173,10 +178,7 @@ And I should see the
 ##### I want to see the SDM widget
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see the SMD widget
 When I mouse over my name
 Then I should see the log out link
@@ -194,10 +196,7 @@ Then the other application should open
 ##### I want to see the Navigation Bar
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see Home
 And I should see Search
 And I should see My Results
@@ -208,20 +207,14 @@ And I should see Reading Pro Test
 ##### I want to see the Welcome Message
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see 'Hi, ${studentFirstName}!'
 ```
 
 ##### I want to see My Guided Reading Level
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see My Guided Reading Level
 And if this is my first time in this view
 Then My Guided Reading Level should be blank
@@ -230,10 +223,7 @@ Then My Guided Reading Level should be blank
 ##### I want to see Reading Interests messages
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 And if this is my first time in this view
 Then I should see ${message}
 And it should be below student welcome message
@@ -242,10 +232,7 @@ And it should be below student welcome message
 ##### I want to see Reading Interests icons
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see upto 20 Reading Interest icons
 When I click on an icon
 Then the icon should be checked
@@ -258,10 +245,7 @@ Then I should not see any checks
 ##### I want to see Create My Reading List button
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see Create My Reading List button
 And it should be below Reading Icons
 ```
@@ -290,10 +274,7 @@ So that I can access recommended content
 ##### I want to see My Guided Reading Level
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see My Lexile
 And it should be empty by default
 ```
@@ -301,10 +282,7 @@ And it should be empty by default
 ##### I want to see Certificate Level
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see My Lexile
 And I should see Certificate Level
 And it should display a hyphen by default
@@ -313,10 +291,7 @@ And it should display a hyphen by default
 ##### I want to see Quizzes Passed
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see My Lexile
 And I should see Quizzes Passed
 And it should be 0 by default
@@ -328,10 +303,7 @@ Then I should see my grade
 ##### I want to see Words Read
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 And I've read ${books}
 Then I should see My Lexile
 And I should see Words Read
@@ -343,10 +315,7 @@ Then I should see number of words read
 ##### I want to see Average Quiz Score
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see My Lexile
 And I should see Average Quiz Score
 And it should be 0% by default
@@ -357,10 +326,7 @@ Then I should the average of all my tests scored
 ##### I want to see My Reading Interests
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see My Lexile
 And I should see My Reading Interests
 And I should see up to 3 icons
@@ -369,10 +335,7 @@ And I should see up to 3 icons
 ##### I want to edit My Reading Interests
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 And I chose my ${readingInterests}
 Then I should see My Lexile
 And I should see My Reading Interests
@@ -385,10 +348,7 @@ Then I should see my new Reading List
 ##### I want to see My Reading List
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 And I chose my ${readingInterests}
 Then I should see My Lexile
 And I should see 'Here are some books you might like to read'
@@ -441,10 +401,7 @@ So that I can filter content by custom search criteria
 ##### I want to see the Search Bar
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see the search bar
 And I should see the search button
 And I should see search filters
@@ -468,10 +425,7 @@ And I should see 'eBooks Only'
 ##### I want to use Search filter options
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see the search bar
 And I should see search filters
 When I click ${searchFilter}
@@ -481,10 +435,7 @@ Then I should see results filtered by ${filter}
 ##### I want to use Search
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see the search bar
 And I should see search filters
 When I fill in search with ${searchTerm}
@@ -510,10 +461,7 @@ Then the table should be sorted by the column values ascending
 ##### I want to Search by Reading Interests
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see the search bar
 And I should see the Reading Interests link
 When I follow Reading Interests
@@ -565,10 +513,7 @@ So that I can view results filtered by search criteria
 ##### I want to see my statistics
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see my statistics
 And I should see My Guided Reading
 And I should see Certificate Level
@@ -580,10 +525,7 @@ And I should see Average Quiz Score
 ##### I want to view a list of books I've read
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see List of Books I've Read
 And I should see ${books}
 And I should see ${bookCovers}
@@ -617,10 +559,7 @@ So that my reading level can be assessed and graded
 ##### I want to see a welcome message
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see Let's Get Started button
 When I press Let's Get Started
 Then I should see a modal
@@ -634,10 +573,7 @@ Then I should not see the modal
 ##### I want to start and pause the test
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see Let's Get Started button
 When I press Let's Get Started
 Then I should see a multiple choice question
@@ -657,10 +593,7 @@ Then I should not see the modal
 ##### I want to practice a test
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 And the teacher required a practice test for the class
 When I answer both questions
 Then I should see 'You have completed the practice test. All questions you answer from now on will be counted toward your Lexile measure.'
@@ -671,10 +604,7 @@ Then I should be on another question
 ##### I want to skip a question
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 And I am on a Reading Pro Test
 Then I should see Skip button
 And I should see the maximum amount of skips allowed
@@ -687,10 +617,7 @@ Then the Skip button should be disabled
 ##### I want to complete a test
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 And the teacher chose to share Lexile results
 And I am on a Reading Pro Test
 And I answered all the questions
@@ -720,11 +647,7 @@ So that my reading comprehension for that title can be assessed
 ##### I want to take a Book Quiz
 
 ```gherkin
-Given I am on a book
-Or I am on book reccomendations
-And I have my assessments
-And I go to my school
-And I have my products
+${preconditions}
 Then I should see Take Quiz button
 And I should see ${quizzes}
 And I should see 'Quizzes for ' + ${bookTitle}
@@ -804,13 +727,8 @@ Then I should not see the modal
 ##### I want to view statistics based on my quiz results
 
 ```gherkin
-Given I am on '/'
-And I have my assessments
-And I go to my school
-And I have my products
-And I am on a Reading Pro Test
-And I answered all the questions
-And I finished the Book Quiz
+${preconditions}
+And I finished ${bookQuiz}
 When I close the modal
 Then I should see my statistics and quiz results
 And I should see my Lexile updated with my score(s)
