@@ -2,13 +2,13 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Scholastic Test Plans", 
+            "text": "Scholastic Digital Applications Test Plans", 
             "title": "Home"
         }, 
         {
-            "location": "/#scholastic-test-plans", 
+            "location": "/#scholastic-digital-applications-test-plans", 
             "text": "", 
-            "title": "Scholastic Test Plans"
+            "title": "Scholastic Digital Applications Test Plans"
         }, 
         {
             "location": "/methodology/", 
@@ -141,18 +141,218 @@
             "title": "JIRA"
         }, 
         {
-            "location": "/test_plans/reading_pro_uat_plan/", 
+            "location": "/strategies/reading_pro_uat_strategy/", 
             "text": "", 
-            "title": "Reading Pro UAT"
+            "title": "Reading Pro"
         }, 
         {
-            "location": "/charles/", 
-            "text": "Charles (for Blackbox Testing)\n\n\nIf prefferred, download \nCharles\n. This tool, like JMeter, is powerful tool that tells you what exactly is going on when using a website. It can even be used to sniff iOS and Android http/https requests, let alone API's.  \n\n\nAs soon as you open Charles and play around outside the app, you'll notice data being collected in the left-tab. Every HTTP/HTTPS request being made is monitored. The data obtained will help test and make API/URI/URL requests. \n\n\nAUT\n = Application Under Test\n\n\n\n\n\n\n\n\nStep\n\n\nDescription\n\n\nScreenshot\n\n\n\n\n\n\n\n\n\n\n1\n\n\nOpen the AUT in your browser of choice. For this example, lets use Chrome on Mac OS X.\n\n\n\n\n\n\n\n\n2\n\n\nOpen \nCharles\n.\n\n\n\n\n\n\n\n\n3\n\n\nFrom the toolbar, select \nSettings\n.\n\n\n\n\n\n\n\n\n4\n\n\nFrom Settings, select \nRecorder Settings\n.\n\n\n\n\n\n\n\n\n5\n\n\nFrom Recorder Settings, select \nInclude\n tab.\n\n\n\n\n\n\n\n\n6\n\n\nFrom Include Tab, press \nAdd\n tab.\n\n\n\n\n\n\n\n\n7\n\n\nIn the \"Include\" section, limit the recorder to sniff only requests made from \nScholastic\n servers. This is called whitelisting.\n\n\n\n\n\n\n\n\n\n\nYour recording settings should reflect as follows. Be sure to include the server of the click-through. Refresh the AUT.\n\n\nUntil now your requests log should've been either empty or full of other requests from your computer. You should see requests being populated from \nScholastic\n servers.", 
+            "location": "/plans/uat/reading_pro_uat_plan/", 
+            "text": "User Acceptance Tests\n\n\nFor \nReading Pro\n\n\nOverview\n\n\nAuthors\n\n\n\n\n\n\n\n\nName\n\n\nEmail\n\n\n\n\n\n\n\n\n\n\nGrace Clifford\n\n\ngclifford@scholastic.com\n\n\n\n\n\n\nSajjad Hossain\n\n\nshossain@scholastic.com\n\n\n\n\n\n\n\n\nVesions\n\n\n\n\n\n\n\n\nDate\n\n\nVersion\n\n\n\n\n\n\n\n\n\n\n03/26/17\n\n\n1.0\n\n\n\n\n\n\n04/09/17\n\n\n1.1\n\n\n\n\n\n\n\n\nScope\n\n\nThe scope of this test plan only extends extends itself to User Acceptance Testing for Production Promotion. If these tests fail, then there are major, critical bugs to resolve for Reading Pro.\n\n\nAbstract\n\n\nScholastic Reading Pro Library is a browser-based eBook reader for students. Reading Pro Libraryallows students to select eBooks from the online library collection and read them in an eBook Viewer. Students keep their eBooks in their own custom bookshelf area. Studentsalso havean online profile showing their Lexile measure, books read, and other important reading data.\n\n\nRequirements\n\n\nSoftware\n\n\nOperating Systems\n\n\n\n\nMac OS\n\n\nLinux OS\n\n\nor Windows OS\n\n\n\n\nBrowsers/Webkits\n\n\n\n\n\n\n\n\nBrowser/Webkit\n\n\nMinimum Version\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnvironments\n\n\n\n\nLOCAL (DEV)\n\n\nDEV\n\n\nQA\n\n\nPRODUCTION\n\n\n\n\nPersonnel\n\n\n\n\nGrace Clifford\n\n\nChanda Chaudhary\n\n\nSrisha Vuppu\n\n\nSajjad Hossain\n\n\n\n\nTools\n\n\n\n\nEclipse\n\n\nJava 8\n\n\nWidefly\n\n\nMySQL\n\n\nMySQL Workbench\n\n\nSourceTree\n\n\nBitBucket\n\n\n\n\nAcceptance Criteria\n\n\nThe acceptance criteria for this test plan extends itself to only surface-level interaction with the application and its main views.\n\n\nThe below epics and stories should pass in the all browsers and webkits defined.\n\n\nStudents\n\n\nEpic(s)\n\n\n\n\nI want to use the home page\n\n\nI want to use the home page with Recommended Reading List\n\n\n\n\nStories\n\n\n\n\nI want to see Scholastic Branding and Logo\n\n\nI want to see the SDM widget\n\n\nI want to see the Navigation Bar\n\n\nI want to see the Welcome Message\n\n\nI want to see My Guided Reading Level\n\n\nI want to see Reading Interests messages\n\n\nI want to see Reading Interests icons\n\n\nI want to see Create My Reading List button\n\n\n\n\nScenarios\n\n\nI want to use the home page\n\n\nAs a student\nI want to use the home page\nSo that I can access tools and applications\n\n\n\n\nI want to see Scholastic Branding and Logo\n\n\nGiven I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see the Scholastic Logo\nAnd it should be in the upper left corner\n\n\n\n\nI want to see the SDM widget\n\n\nGiven I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see the SMD widget\nWhen I mouse over my name\nThen I should see the log out link\nWhen I mouse over the widget grid\nThen I should see:\n    The name of the school\n    Scholastic Digital Manager Logo\n    Other Products\nWhen I click Scholastic Digital Manager Logo\nThen I should be on SDM Portal Page\nWhen I click on another product\nThen the other application should open\n\n\n\n\nI want to see the Navigation Bar\n\n\nGiven I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see Home\nAnd I should see Search\nAnd I should see My Results\nAnd if class has been set by teacher\nAnd I should see Reading Pro Test\n\n\n\n\nI want to see the Welcome Message\n\n\nGiven I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see 'Hi, ${studentFirstName}!'\n\n\n\n\nI want to see My Guided Reading Level\n\n\nGiven I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see My Guided Reading Level\nAnd if this is my first time in this view\nThen My Guided Reading Level should be blank\n\n\n\n\nI want to see Reading Interests messages\n\n\nGiven I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nAnd if this is my first time in this view\nThen I should see ${message}\nAnd it should be below student welcome message\n\n\n\n\nI want to see Reading Interests icons\n\n\nGiven I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see upto 20 Reading Interest icons\nWhen I click on an icon\nThen the icon should be checked\nWhen I click a checked icon\nThen the icon should be un-cheecked\nIf I clicked an icon more than 3 times\nThen I should not see any checks\n\n\n\n\nI want to see Create My Reading List button\n\n\nGiven I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see Create My Reading List button\nAnd it should be below Reading Icons\n\n\n\n\nI want to use the home page with Recommended Reading List\n\n\nAs a student\nI want to use the Recommended Reading List\nSo that I can access recommended content\n\n\n\n\nSchedule\n\n\n\n\n\n\n\n\nTask Name\n\n\nDuration (days)\n\n\nStart\n\n\nFinish\n\n\n\n\n\n\n\n\n\n\nApplication Name\n\n\n36\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nDevelopment\n\n\n22\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nQA Review #1 - Theta Testing\n\n\n2\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nDevelopment (Revisions)\n\n\n2\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nDeployment to QA Environment\n\n\n2\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nQA Review #2 - Beta Testing\n\n\n1\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nDeployment to Stage or Alpha Environment\n\n\n2\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nFinal QA - Alpha Testing\n\n\n5\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY", 
+            "title": "Reading Pro"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#user-acceptance-tests", 
+            "text": "For  Reading Pro", 
+            "title": "User Acceptance Tests"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#overview", 
+            "text": "", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#authors", 
+            "text": "Name  Email      Grace Clifford  gclifford@scholastic.com    Sajjad Hossain  shossain@scholastic.com", 
+            "title": "Authors"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#vesions", 
+            "text": "Date  Version      03/26/17  1.0    04/09/17  1.1", 
+            "title": "Vesions"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#scope", 
+            "text": "The scope of this test plan only extends extends itself to User Acceptance Testing for Production Promotion. If these tests fail, then there are major, critical bugs to resolve for Reading Pro.", 
+            "title": "Scope"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#abstract", 
+            "text": "Scholastic Reading Pro Library is a browser-based eBook reader for students. Reading Pro Libraryallows students to select eBooks from the online library collection and read them in an eBook Viewer. Students keep their eBooks in their own custom bookshelf area. Studentsalso havean online profile showing their Lexile measure, books read, and other important reading data.", 
+            "title": "Abstract"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#requirements", 
+            "text": "", 
+            "title": "Requirements"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#software", 
+            "text": "", 
+            "title": "Software"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#operating-systems", 
+            "text": "Mac OS  Linux OS  or Windows OS", 
+            "title": "Operating Systems"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#browserswebkits", 
+            "text": "Browser/Webkit  Minimum Version", 
+            "title": "Browsers/Webkits"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#environments", 
+            "text": "LOCAL (DEV)  DEV  QA  PRODUCTION", 
+            "title": "Environments"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#personnel", 
+            "text": "Grace Clifford  Chanda Chaudhary  Srisha Vuppu  Sajjad Hossain", 
+            "title": "Personnel"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#tools", 
+            "text": "Eclipse  Java 8  Widefly  MySQL  MySQL Workbench  SourceTree  BitBucket", 
+            "title": "Tools"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#acceptance-criteria", 
+            "text": "The acceptance criteria for this test plan extends itself to only surface-level interaction with the application and its main views.  The below epics and stories should pass in the all browsers and webkits defined.", 
+            "title": "Acceptance Criteria"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#students", 
+            "text": "", 
+            "title": "Students"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#epics", 
+            "text": "I want to use the home page  I want to use the home page with Recommended Reading List", 
+            "title": "Epic(s)"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#stories", 
+            "text": "I want to see Scholastic Branding and Logo  I want to see the SDM widget  I want to see the Navigation Bar  I want to see the Welcome Message  I want to see My Guided Reading Level  I want to see Reading Interests messages  I want to see Reading Interests icons  I want to see Create My Reading List button", 
+            "title": "Stories"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#scenarios", 
+            "text": "", 
+            "title": "Scenarios"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-use-the-home-page", 
+            "text": "As a student\nI want to use the home page\nSo that I can access tools and applications", 
+            "title": "I want to use the home page"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-scholastic-branding-and-logo", 
+            "text": "Given I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see the Scholastic Logo\nAnd it should be in the upper left corner", 
+            "title": "I want to see Scholastic Branding and Logo"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-the-sdm-widget", 
+            "text": "Given I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see the SMD widget\nWhen I mouse over my name\nThen I should see the log out link\nWhen I mouse over the widget grid\nThen I should see:\n    The name of the school\n    Scholastic Digital Manager Logo\n    Other Products\nWhen I click Scholastic Digital Manager Logo\nThen I should be on SDM Portal Page\nWhen I click on another product\nThen the other application should open", 
+            "title": "I want to see the SDM widget"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-the-navigation-bar", 
+            "text": "Given I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see Home\nAnd I should see Search\nAnd I should see My Results\nAnd if class has been set by teacher\nAnd I should see Reading Pro Test", 
+            "title": "I want to see the Navigation Bar"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-the-welcome-message", 
+            "text": "Given I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see 'Hi, ${studentFirstName}!'", 
+            "title": "I want to see the Welcome Message"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-my-guided-reading-level", 
+            "text": "Given I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see My Guided Reading Level\nAnd if this is my first time in this view\nThen My Guided Reading Level should be blank", 
+            "title": "I want to see My Guided Reading Level"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-reading-interests-messages", 
+            "text": "Given I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nAnd if this is my first time in this view\nThen I should see ${message}\nAnd it should be below student welcome message", 
+            "title": "I want to see Reading Interests messages"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-reading-interests-icons", 
+            "text": "Given I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see upto 20 Reading Interest icons\nWhen I click on an icon\nThen the icon should be checked\nWhen I click a checked icon\nThen the icon should be un-cheecked\nIf I clicked an icon more than 3 times\nThen I should not see any checks", 
+            "title": "I want to see Reading Interests icons"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-create-my-reading-list-button", 
+            "text": "Given I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see Create My Reading List button\nAnd it should be below Reading Icons", 
+            "title": "I want to see Create My Reading List button"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-use-the-home-page-with-recommended-reading-list", 
+            "text": "As a student\nI want to use the Recommended Reading List\nSo that I can access recommended content", 
+            "title": "I want to use the home page with Recommended Reading List"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#schedule", 
+            "text": "Task Name  Duration (days)  Start  Finish      Application Name  36  MM/DD/YYYY  MM/DD/YYYY    Development  22  MM/DD/YYYY  MM/DD/YYYY    QA Review #1 - Theta Testing  2  MM/DD/YYYY  MM/DD/YYYY    Development (Revisions)  2  MM/DD/YYYY  MM/DD/YYYY    Deployment to QA Environment  2  MM/DD/YYYY  MM/DD/YYYY    QA Review #2 - Beta Testing  1  MM/DD/YYYY  MM/DD/YYYY    Deployment to Stage or Alpha Environment  2  MM/DD/YYYY  MM/DD/YYYY    Final QA - Alpha Testing  5  MM/DD/YYYY  MM/DD/YYYY", 
+            "title": "Schedule"
+        }, 
+        {
+            "location": "/guides/reading_pro_installation_guide/", 
+            "text": "Reading Pro Installation Guide\n\n\nTable of Contents\n\n\n\n\nInstallation\n\n\nClone Project\n\n\nJava 8\n\n\nIDE\n\n\n\n\n\n\n\n\nInstallation\n\n\nClone Project\n\n\ngit clone https://smhossain@bitbucket.org/scholastic/intl-litpro.git\n\n\n\n\nJava 8\n\n\nInstall Java 8 from \nhttp://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8\u00addownloads\u00ad2133151.html\n \n\n\nOn OSX, the JDK is located at \n/Library/Java/JavaVirtualMachines/jdk1.8.0.111.jdk/Contents\n\n\nIDE\n\n\nInstall Eclipse, based on your operating system, from \nhttp://www.eclipse.org/downloads/packages/eclipse\u00adide\u00adjava\u00adee\u00addevelopers/neon2", 
+            "title": "Reading Pro"
+        }, 
+        {
+            "location": "/guides/reading_pro_installation_guide/#reading-pro-installation-guide", 
+            "text": "", 
+            "title": "Reading Pro Installation Guide"
+        }, 
+        {
+            "location": "/guides/reading_pro_installation_guide/#table-of-contents", 
+            "text": "Installation  Clone Project  Java 8  IDE", 
+            "title": "Table of Contents"
+        }, 
+        {
+            "location": "/guides/reading_pro_installation_guide/#installation", 
+            "text": "", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/guides/reading_pro_installation_guide/#clone-project", 
+            "text": "git clone https://smhossain@bitbucket.org/scholastic/intl-litpro.git", 
+            "title": "Clone Project"
+        }, 
+        {
+            "location": "/guides/reading_pro_installation_guide/#java-8", 
+            "text": "Install Java 8 from  http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8\u00addownloads\u00ad2133151.html    On OSX, the JDK is located at  /Library/Java/JavaVirtualMachines/jdk1.8.0.111.jdk/Contents", 
+            "title": "Java 8"
+        }, 
+        {
+            "location": "/guides/reading_pro_installation_guide/#ide", 
+            "text": "Install Eclipse, based on your operating system, from  http://www.eclipse.org/downloads/packages/eclipse\u00adide\u00adjava\u00adee\u00addevelopers/neon2", 
+            "title": "IDE"
+        }, 
+        {
+            "location": "/diagrams/environment_promotion/", 
+            "text": "Environment Promotion\n\n\nSee original document \nhere\n.\n\n\nAdditions", 
+            "title": "Environment Promotion"
+        }, 
+        {
+            "location": "/diagrams/environment_promotion/#environment-promotion", 
+            "text": "See original document  here .", 
+            "title": "Environment Promotion"
+        }, 
+        {
+            "location": "/diagrams/environment_promotion/#additions", 
+            "text": "", 
+            "title": "Additions"
+        }, 
+        {
+            "location": "/tools/charles/", 
+            "text": "Charles (for Blackbox Testing)\n\n\nIf prefferred, download \nCharles\n. This tool, like JMeter, is powerful tool that tells you what exactly is going on when using a website. It can even be used to sniff iOS and Android http/https requests, let alone API's.  \n\n\nAs soon as you open Charles and play around outside the app, you'll notice data being collected in the left-tab. Every HTTP/HTTPS request being made is monitored. The data obtained will help test and make API/URI/URL requests.\n\n\nAUT\n = Application Under Test\n\n\n\n\n\n\n\n\nStep\n\n\nDescription\n\n\nScreenshot\n\n\n\n\n\n\n\n\n\n\n1\n\n\nOpen the AUT in your browser of choice. For this example, lets use Chrome on Mac OS X.\n\n\n\n\n\n\n\n\n2\n\n\nOpen \nCharles\n.\n\n\n\n\n\n\n\n\n3\n\n\nFrom the toolbar, select \nSettings\n.\n\n\n\n\n\n\n\n\n4\n\n\nFrom Settings, select \nRecorder Settings\n.\n\n\n\n\n\n\n\n\n5\n\n\nFrom Recorder Settings, select \nInclude\n tab.\n\n\n\n\n\n\n\n\n6\n\n\nFrom Include Tab, press \nAdd\n tab.\n\n\n\n\n\n\n\n\n7\n\n\nIn the \"Include\" section, limit the recorder to sniff only requests made from \nScholastic\n servers. This is called whitelisting.\n\n\n\n\n\n\n\n\n\n\nYour recording settings should reflect as follows. Be sure to include the server of the click-through. Refresh the AUT.\n\n\nUntil now your requests log should've been either empty or full of other requests from your computer. You should see requests being populated from \nScholastic\n servers.", 
             "title": "Charles"
         }, 
         {
-            "location": "/charles/#charles-for-blackbox-testing", 
-            "text": "If prefferred, download  Charles . This tool, like JMeter, is powerful tool that tells you what exactly is going on when using a website. It can even be used to sniff iOS and Android http/https requests, let alone API's.    As soon as you open Charles and play around outside the app, you'll notice data being collected in the left-tab. Every HTTP/HTTPS request being made is monitored. The data obtained will help test and make API/URI/URL requests.   AUT  = Application Under Test     Step  Description  Screenshot      1  Open the AUT in your browser of choice. For this example, lets use Chrome on Mac OS X.     2  Open  Charles .     3  From the toolbar, select  Settings .     4  From Settings, select  Recorder Settings .     5  From Recorder Settings, select  Include  tab.     6  From Include Tab, press  Add  tab.     7  In the \"Include\" section, limit the recorder to sniff only requests made from  Scholastic  servers. This is called whitelisting.      Your recording settings should reflect as follows. Be sure to include the server of the click-through. Refresh the AUT.  Until now your requests log should've been either empty or full of other requests from your computer. You should see requests being populated from  Scholastic  servers.", 
+            "location": "/tools/charles/#charles-for-blackbox-testing", 
+            "text": "If prefferred, download  Charles . This tool, like JMeter, is powerful tool that tells you what exactly is going on when using a website. It can even be used to sniff iOS and Android http/https requests, let alone API's.    As soon as you open Charles and play around outside the app, you'll notice data being collected in the left-tab. Every HTTP/HTTPS request being made is monitored. The data obtained will help test and make API/URI/URL requests.  AUT  = Application Under Test     Step  Description  Screenshot      1  Open the AUT in your browser of choice. For this example, lets use Chrome on Mac OS X.     2  Open  Charles .     3  From the toolbar, select  Settings .     4  From Settings, select  Recorder Settings .     5  From Recorder Settings, select  Include  tab.     6  From Include Tab, press  Add  tab.     7  In the \"Include\" section, limit the recorder to sniff only requests made from  Scholastic  servers. This is called whitelisting.      Your recording settings should reflect as follows. Be sure to include the server of the click-through. Refresh the AUT.  Until now your requests log should've been either empty or full of other requests from your computer. You should see requests being populated from  Scholastic  servers.", 
             "title": "Charles (for Blackbox Testing)"
         }, 
         {
