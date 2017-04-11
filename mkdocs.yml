@@ -3,8 +3,8 @@ pages:
     - Home: index.md
     - Methodology: methodology.md
     - Bugs: bugs.md
-    - Strategies:
-      - 'Reading Pro': 'strategies/reading_pro_uat_strategy.md'
+    - Checklists:
+      - 'Reading Pro': 'checklists/reading_pro.md'
     - Plans:
       - User Acceptance Tests:
         - 'Reading Pro': 'plans/uat/reading_pro_uat_plan.md'
