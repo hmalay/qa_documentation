@@ -137,7 +137,7 @@ The below epics and stories should pass in the all browsers and webkits defined.
 ## `${preconditions}` 
 
 ```
-Given I am on using Reading Pro
+Given I am on Reading Pro
 And I am a Student
 And I have my assessments
 And I go to my school
