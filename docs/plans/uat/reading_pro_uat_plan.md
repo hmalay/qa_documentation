@@ -139,6 +139,7 @@ The below epics and stories should pass in the all browsers and webkits defined.
 ```
 Given I am on Reading Pro
 And I am a Student
+And I am GRL Student
 And I have my assessments
 And I go to my school
 And I have my products
@@ -237,9 +238,10 @@ Then I should see upto 20 Reading Interest icons
 When I click on an icon
 Then the icon should be checked
 When I click a checked icon
-Then the icon should be un-cheecked
-If I clicked an icon more than 3 times
-Then I should not see any checks
+Then the icon should be un-checked
+When I have 3 icons checked
+And I check another icon 
+Then the fourth icon should not be checked
 ```
 
 ##### I want to see Create My Reading List button

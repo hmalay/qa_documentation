@@ -8,6 +8,8 @@ pages:
     - Plans:
       - User Acceptance Tests:
         - 'Reading Pro': 'plans/uat/reading_pro_uat_plan.md'
+      - Performance Tests:
+        - 'Leveled Bookroom Accelerator': 'plans/uat/leveled_bookroom_accelerator_performance_test_plan.md'
     - Guides:
         - Installation:
           - 'Reading Pro': 'guides/reading_pro_installation_guide.md'
