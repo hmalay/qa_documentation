@@ -13,6 +13,7 @@
 | Date | Version |
 | --- | --- |
 | 06/12/17 | 1.0 |
+| 06/22/17 | 1.1 |
 
 ### Scope
 
@@ -83,30 +84,46 @@ The tests do not meet pass criteria if:
 
 | JIRA | Notes |
 | --- | --- |
-| [EXAMPLE-88]() | Example: User's without admin assessments cannot sign in |
+|  |  |
 
 ### Risks
 
-1. Schedule is not finalized
+1. Known defects are not identified
+
+
+### Load Model
+
+| Application | User | Scenario | User Agent | Page Visits |
+| --- | --- | --- | --- | --- |
+| BookFlix | Teacher | I want to see the Watch the Story Page | Browser | 6500 |
+| "" | "" | I want to see the Read the Book Page | "" | "" |
+| "" | "" | I want to see the Puzzlers Page | "" | "" |
+| "" | "" | I want to play the Word Match puzzle game  | "" | "" |
+| "" | "" | I want to play the Fact or Fiction puzzle game  | "" | "" |
+| "" | "" | I want to play the Which Came First puzzle game  | "" | "" |
+| "" | "" | I want to see Meet the Author Page  | "" | "" |
+| "" | "" | I want to see Explore the Web Page  | "" | "" |
+| "" | "" | I want to see the Help Page  | "" | "" |
+| "" | "" | I want to see the Resources Page  | "" | "" |
+
 
 ### Schedule
 
-
 | Task Name | Duration (days) | Start | Finish |
 | --- | --- | --- | --- |
-| Review and Finalize Plan | 2 | 06/12/2017 | 06/14/2017 |
-| Dress Rehearsal | 1 | 06/14/2017 | 06/14/2017 |
-| Test Scripting | 3 | 06/13/2017 | 06/15/2017 |
-| 1x Testing | 1 | 06/15/2017 | 06/15/2015 |
-| 2x Testing | 1 | 06/15/2017 | 06/15/2017 |
-| Endurance Testing | 1.5 | 06/16/2017 | 06/17/2017 |
-| Alpha Testing | 1 | TBD | TBD |
+| Review and Finalize Plan | 2 | 15.1 | 15.4 |
+| Dress Rehearsal | 1 | 15.1 | 15.4 |
+| Test Scripting | 3 | 15.1 | 15.4 |
+| 1x Testing | 1 | 15.1 | 15.4 |
+| 2x Testing | 1 | 15.1 | 15.4 |
+| Endurance Testing | 1.5 | 15.1 | 15.4 |
+| Alpha Testing | 1 | 15.1 | 15.4 |
 
 ### Tests
 
 | Test Name | Description |
 | --- | --- |
-| Dress Rehearsal | This will test the JMeter installation and make sure that requests sent from JMeter is properly recieved by the system under test |
+| Dress Rehearsal | This will test the JMeter installation and make sure that requests sent from JMeter is properly received by the system under test |
 | 1x Testing | These tests will be executed as a baseline for up to an hour.  |
 | 2x Testing | These tests will stress test the system with 150% - 300% of our Peak Load. |
 | Endurance Testing | These tests will stress test the system for about 36 hours with a moderate size load. |

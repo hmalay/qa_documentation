@@ -13,6 +13,7 @@
 | Date | Version |
 | --- | --- |
 | 05/25/17 | 1.0 |
+| 06/22/17 | 1.1 |
 
 ### Scope
 
@@ -24,14 +25,16 @@ The scope of this test plan only extends extends itself to Performance Testing f
 Next Step Guided Reading Assessment provides teachers with an easy-to-use online resource designed to compile valuable student reading assessment data—the information teachers need to group students, select texts, and plan and teach guided reading lessons, and interpret and organize it into printable reports for teachers.
 
 NSGRA Features include:
-Assessment Tools
-Reporting
-Lesson Plans
-PDF Resources
-Product Usage Videos
+
+* Assessment Tools
+* Reporting
+* Lesson Plans
+* PDF Resources
+* Product Usage Videos
 
 
-* **Application Development**: Features and experiences meant to enhance the content or experience of using nsgra.  
+**Application Development**: Features and experiences meant to enhance the content or experience of using NSGRA.  
+
 * Initial launch is limited to Educator roles, not students or parents.
 * User Profile, Registration, and License details would all be managed via Scholastic Digital Manager
 * Content and data served in NSGRA could be integrated with Scholastic’s ecosystem and tools; including but not limited to:
@@ -88,6 +91,7 @@ Product Usage Videos
 * [SourceTree](https://www.sourcetreeapp.com/)
 * [BitBucket](https://bitbucket.org)
 
+
 ### Acceptance Criteria
 
 The acceptance criteria for this test plan extends itself to only performance-level interaction with the application and its' endpoints and requests made under-the-hood.
@@ -111,35 +115,46 @@ The tests do not meet pass criteria if:
 
 | JIRA | Notes |
 | --- | --- |
-| [EXAMPLE-88]() | Example: User's without admin assessments cannot sign in |
+| | |
 
 ### Risks
 
-1. Known defects are not listed
-2. Schedule is not finalized
-3. Stories tested under UAT do not include functional tests
+1. Known defects are not identified
+
+### Load Model
+
+| Application | User | Scenario | User Agent | Page Visits |
+| --- | --- | --- | --- | --- |
+| NSGRA | Teacher | I want to assess Development Word Knowledge | Browser | 5000 |
+| "" | "" | I want to assess Reading Interest Survey | "" | "" |
+| "" | "" | I want to assess Listening Comprehension | "" | "" |
+| "" | "" | I want to assess Reading Assessment Conference  | "" | "" |
+| "" | "" | I want to see Resources  | "" | "" |
+| "" | "" | I want to see Admin Report Page  | "" | "" |
+| "" | "" | I want to see the Admin Summary Progress Report Page  | "" | "" |
+| "" | "" | I want to see the Admin Reading Benchmark Report Page  | "" | "" |
 
 ### Schedule
 
 | Task Name | Duration (days) | Start | Finish |
 | --- | --- | --- | --- |
-| Review and Finalize Plan | 3 | 05/23/2017 | 05/25/2017 |
-| Delta Testing | 1 | 05/02/2017 | 05/02/2017 |
-| Test Scripting SDM | ? | 05/25/2017 | MM/DD/YYYY|
-| Theta Testing | 1 | MM/DD/YYYY | MM/DD/YYYY |
-| Beta Testing | 1 | MM/DD/YYYY | MM/DD/YYYY |
-| Alpha Testing | 1 | MM/DD/YYYY | MM/DD/YYYY |
+| Review and Finalize Plan | 2 | 15.1 | 15.4 |
+| Dress Rehearsal | 1 | 15.1 | 15.4 |
+| Test Scripting | 3 | 15.1 | 15.4 |
+| 1x Testing | 1 | 15.1 | 15.4 |
+| 2x Testing | 1 | 15.1 | 15.4 |
+| Endurance Testing | 1.5 | 15.1 | 15.4 |
+| Alpha Testing | 1 | 15.1 | 15.4 |
 
 ### Tests
 
 | Test Name | Description |
 | --- | --- |
-| Dress Rehearsal | This will test the JMeter installation and make sure that requests sent from JMeter is properly recieved by the system under test |
-| Delta Testing | These tests will be executed as a baseline for up to an hour. |
-| Theta Testing | Similar to the theta tests, these tests will use the same scrips but repeat for a longer duration and if needed with higher concurrency. |
-| Beta Testing | Again, similar to theta and beta testing, these tests will stress test the system with 150% - 300% of our Peak Load. |
-| Alpha Testing Round 1 | Again, similar to theta and beta testing, these tests will stress test the system with 150% - 300% of our Peak Load. |
-| Alpha Testing Round 2 | Re-run Alpha Tests |
+| Dress Rehearsal | This will test the JMeter installation and make sure that requests sent from JMeter is properly received by the system under test |
+| 1x Testing | These tests will be executed as a baseline for up to an hour.  |
+| 2x Testing | These tests will stress test the system with 150% - 300% of our Peak Load. |
+| Endurance Testing | These tests will stress test the system for about 36 hours with a moderate size load. |
+| Alpha Testing | Re-run any tests that need to be ran again |
 
 ### Epics
 

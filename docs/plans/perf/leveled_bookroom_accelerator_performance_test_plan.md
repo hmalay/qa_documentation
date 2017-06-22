@@ -13,6 +13,7 @@
 | Date | Version |
 | --- | --- |
 | 05/25/17 | 1.0 |
+| 06/22/17 | 1.1 |
 
 ### Scope
 
@@ -116,36 +117,48 @@ The tests do not meet pass criteria if:
 
 | JIRA | Notes |
 | --- | --- |
-| [EXAMPLE-88]() | Example: User's without admin assessments cannot sign in |
+| | |
 
 ### Risks
 
-1. Known defects are not listed
-2. Schedule is not finalized
-3. Stories tested under UAT do not include functional tests
+1. Known defects are not identified
+
+### Load Model
+
+| Application | User | Scenario | User Agent | Page Visits |
+| --- | --- | --- | --- | --- |
+| LBA | Teacher | I want to see Reserved Titles | Browser | 5000 |
+| "" | "" | I want to see Bookmarked Titles | "" | "" |
+| "" | "" | I want to see Similar Titles | "" | "" |
+| "" | "" | I want to see a Teaching Card for my title  | "" | "" |
+| "" | "" | I want to see a Teaching Card for my title  | "" | "" |
+| "" | "" | I want to see Resources  | "" | "" |
+| "" | "" | I want to see a new book added to My Set  | "" | "" |
+| "" | "" | I want to go Back To The Search after logging out  | "" | "" |
+| "" | Admin | I want to log in as an Admin and go to Bookroom Manager  | "" | 1000 |
+
 
 ### Schedule
 
 | Task Name | Duration (days) | Start | Finish |
 | --- | --- | --- | --- |
-| Review and Finalize Plan | 3 | 05/23/2017 | 05/25/2017 |
-| Dress Rehearsal | 1 | 05/23/2017 | 05/25/2017 |
-| Test Scripting | 3 | 05/25/2017 | MM/DD/YYYY |
-| Delta Testing | 1 | MM/DD/YYYY | MM/DD/YYYY |
-| Theta Testing | 1 | MM/DD/YYYY | MM/DD/YYYY |
-| Beta Testing | 1 | MM/DD/YYYY | MM/DD/YYYY |
-| Alpha Testing | 1 | MM/DD/YYYY | MM/DD/YYYY |
+| Review and Finalize Plan | 2 | 15.1 | 15.4 |
+| Dress Rehearsal | 1 | 15.1 | 15.4 |
+| Test Scripting | 3 | 15.1 | 15.4 |
+| 1x Testing | 1 | 15.1 | 15.4 |
+| 2x Testing | 1 | 15.1 | 15.4 |
+| Endurance Testing | 1.5 | 15.1 | 15.4 |
+| Alpha Testing | 1 | 15.1 | 15.4 |
 
 ### Tests
 
 | Test Name | Description |
 | --- | --- |
-| Dress Rehearsal | This will test the JMeter installation and make sure that requests sent from JMeter is properly recieved by the system under test |
-| Delta Testing | These tests will be executed as a baseline for up to an hour. |
-| Theta Testing | Similar to the theta tests, these tests will use the same scrips but repeat for a longer duration and if needed with higher concurrency. |
-| Beta Testing | Again, similar to theta and beta testing, these tests will stress test the system with 150% - 300% of our Peak Load. |
-| Alpha Testing Round 1 | Again, similar to theta and beta testing, these tests will stress test the system with 150% - 300% of our Peak Load. |
-| Alpha Testing Round 2 | Re-run Alpha Tests |
+| Dress Rehearsal | This will test the JMeter installation and make sure that requests sent from JMeter is properly received by the system under test |
+| 1x Testing | These tests will be executed as a baseline for up to an hour.  |
+| 2x Testing | These tests will stress test the system with 150% - 300% of our Peak Load. |
+| Endurance Testing | These tests will stress test the system for about 36 hours with a moderate size load. |
+| Alpha Testing | Re-run any tests that need to be ran again |
 
 ### Epics
 
