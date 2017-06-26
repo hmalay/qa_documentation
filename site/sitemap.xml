@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2017-04-10</lastmod>
+     <lastmod>2017-06-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
      <loc>/methodology/</loc>
-     <lastmod>2017-04-10</lastmod>
+     <lastmod>2017-06-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -20,7 +20,7 @@
     
     <url>
      <loc>/bugs/</loc>
-     <lastmod>2017-04-10</lastmod>
+     <lastmod>2017-06-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -28,14 +28,26 @@
     
         
     <url>
-     <loc>/strategies/reading_pro_uat_strategy/</loc>
-     <lastmod>2017-04-10</lastmod>
+     <loc>/checklists/reading_pro/</loc>
+     <lastmod>2017-06-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     
 
     
+        
+    <url>
+     <loc></loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc></loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
         
     <url>
      <loc></loc>
@@ -59,7 +71,7 @@
         
     <url>
      <loc>/diagrams/environment_promotion/</loc>
-     <lastmod>2017-04-10</lastmod>
+     <lastmod>2017-06-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -68,7 +80,7 @@
     
     <url>
      <loc>/tools/charles/</loc>
-     <lastmod>2017-04-10</lastmod>
+     <lastmod>2017-06-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -76,7 +88,7 @@
     
     <url>
      <loc>/about/</loc>
-     <lastmod>2017-04-10</lastmod>
+     <lastmod>2017-06-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     

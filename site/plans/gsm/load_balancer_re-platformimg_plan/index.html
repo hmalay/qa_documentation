@@ -1,0 +1,1525 @@
+
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      
+      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.5.2">
+    
+    
+      
+        <title>Load Balancer Replatforming - Scholastic Testing</title>
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr-56ade86843.js"></script>
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application-e71521a2a2.css">
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+    
+  </head>
+  
+  
+  
+  
+    <body>
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <a href="../../.." title="Scholastic Testing" class="md-icon md-icon--home md-header-nav__button">
+          </a>
+        
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
+          
+            
+              
+                <span class="md-header-nav__parent">
+                  Plans
+                </span>
+              
+                <span class="md-header-nav__parent">
+                  Go Server Migration
+                </span>
+              
+            
+            Load Balancer Replatforming
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+          
+<div class="md-search" data-md-component="search">
+  <div class="md-search__overlay"></div>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">close</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <div class="md-header-nav__source">
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    
+      <i class="md-icon md-icon--home md-nav__button"></i>
+    
+    Scholastic Testing
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../methodology/" title="Methodology" class="md-nav__link">
+      Methodology
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../bugs/" title="Bugs" class="md-nav__link">
+      Bugs
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Checklists
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Checklists
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../checklists/reading_pro/" title="Reading Pro" class="md-nav__link">
+      Reading Pro
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+    
+    <label class="md-nav__link" for="nav-5">
+      Plans
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Plans
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-1" type="checkbox" id="nav-5-1">
+    
+    <label class="md-nav__link" for="nav-5-1">
+      User Acceptance Tests
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-1">
+        User Acceptance Tests
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../uat/reading_pro_uat_plan/" title="Reading Pro" class="md-nav__link">
+      Reading Pro
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-2" type="checkbox" id="nav-5-2">
+    
+    <label class="md-nav__link" for="nav-5-2">
+      Performance Tests
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-2">
+        Performance Tests
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../perf/leveled_bookroom_accelerator_performance_test_plan/" title="LBA" class="md-nav__link">
+      LBA
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../perf/nsgra_performance_test_plan/" title="NSGRA" class="md-nav__link">
+      NSGRA
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../perf/bookflix_performance_test_plan/" title="Bookflix" class="md-nav__link">
+      Bookflix
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-3" type="checkbox" id="nav-5-3" checked>
+    
+    <label class="md-nav__link" for="nav-5-3">
+      Go Server Migration
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-3">
+        Go Server Migration
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Load Balancer Replatforming
+      </label>
+    
+    <a href="./" title="Load Balancer Replatforming" class="md-nav__link md-nav__link--active">
+      Load Balancer Replatforming
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#document" title="Document" class="md-nav__link">
+    Document
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#author" title="Author" class="md-nav__link">
+    Author
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#history" title="History" class="md-nav__link">
+    History
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abstract" title="Abstract" class="md-nav__link">
+    Abstract
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scope" title="Scope" class="md-nav__link">
+    Scope
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#applications-load-balanced-by-machines" title="Applications load balanced by machines" class="md-nav__link">
+    Applications load balanced by machines
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#personnel" title="Personnel" class="md-nav__link">
+    Personnel
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stakeholders-and-affected-parties" title="Stakeholders and affected parties" class="md-nav__link">
+    Stakeholders and affected parties
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#load-balancers" title="Load Balancers" class="md-nav__link">
+    Load Balancers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clusters" title="Clusters" class="md-nav__link">
+    Clusters
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epics" title="Epics" class="md-nav__link">
+    Epics
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#load-balancers-re-platforming" title="Load Balancers Re-platforming" class="md-nav__link">
+    Load Balancers Re-platforming
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stories" title="Stories" class="md-nav__link">
+    Stories
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definition-of-done" title="Definition of done" class="md-nav__link">
+    Definition of done
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#keep-alive" title="Keep Alive" class="md-nav__link">
+    Keep Alive
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acceptance-criteria" title="Acceptance Criteria" class="md-nav__link">
+    Acceptance Criteria
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criteria-for-proof-of-concept" title="Criteria for Proof of Concept" class="md-nav__link">
+    Criteria for Proof of Concept
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criteria-for-re-platforming" title="Criteria for Re-Platforming" class="md-nav__link">
+    Criteria for Re-Platforming
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strategy" title="Strategy" class="md-nav__link">
+    Strategy
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-set-up-netscaler-solution" title="1. Set up NetScaler solution" class="md-nav__link">
+    1. Set up NetScaler solution
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-shut-down-one-application-virtual-machine" title="2. Shut down one application virtual machine" class="md-nav__link">
+    2. Shut down one application virtual machine
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-point-the-load-for-a-single-port-to-the-citrix-load-balancer" title="3. Point the load for a single port to the Citrix load balancer" class="md-nav__link">
+    3. Point the load for a single port to the Citrix load balancer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-add-rule-in-netscaler-to-redirect-traffic-from-external-nat-to-the-new-port" title="4. Add rule in NetScaler to redirect traffic from External NAT to the new port" class="md-nav__link">
+    4. Add rule in NetScaler to redirect traffic from External NAT to the new port
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-cutover-attach-the-new-external-nat-to-dns" title="5. Cutover. Attach the new External NAT to DNS" class="md-nav__link">
+    5. Cutover. Attach the new External NAT to DNS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-final-cutover" title="6. Final cutover" class="md-nav__link">
+    6. Final cutover
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rollback" title="Rollback" class="md-nav__link">
+    Rollback
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#release-notes" title="Release Notes" class="md-nav__link">
+    Release Notes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#improvements" title="Improvements" class="md-nav__link">
+    Improvements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#monitoring" title="Monitoring" class="md-nav__link">
+    Monitoring
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schedule" title="Schedule" class="md-nav__link">
+    Schedule
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#risks" title="Risks" class="md-nav__link">
+    Risks
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Guides
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Guides
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-1" type="checkbox" id="nav-6-1">
+    
+    <label class="md-nav__link" for="nav-6-1">
+      Installation
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-1">
+        Installation
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../guides/reading_pro_installation_guide/" title="Reading Pro" class="md-nav__link">
+      Reading Pro
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      UML(s)
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        UML(s)
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../diagrams/environment_promotion/" title="Environment Promotion" class="md-nav__link">
+      Environment Promotion
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../tools/charles/" title="Charles" class="md-nav__link">
+      Charles
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../about/" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#document" title="Document" class="md-nav__link">
+    Document
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#author" title="Author" class="md-nav__link">
+    Author
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#history" title="History" class="md-nav__link">
+    History
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abstract" title="Abstract" class="md-nav__link">
+    Abstract
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scope" title="Scope" class="md-nav__link">
+    Scope
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#applications-load-balanced-by-machines" title="Applications load balanced by machines" class="md-nav__link">
+    Applications load balanced by machines
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#personnel" title="Personnel" class="md-nav__link">
+    Personnel
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stakeholders-and-affected-parties" title="Stakeholders and affected parties" class="md-nav__link">
+    Stakeholders and affected parties
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#load-balancers" title="Load Balancers" class="md-nav__link">
+    Load Balancers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clusters" title="Clusters" class="md-nav__link">
+    Clusters
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epics" title="Epics" class="md-nav__link">
+    Epics
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#load-balancers-re-platforming" title="Load Balancers Re-platforming" class="md-nav__link">
+    Load Balancers Re-platforming
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stories" title="Stories" class="md-nav__link">
+    Stories
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definition-of-done" title="Definition of done" class="md-nav__link">
+    Definition of done
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#keep-alive" title="Keep Alive" class="md-nav__link">
+    Keep Alive
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acceptance-criteria" title="Acceptance Criteria" class="md-nav__link">
+    Acceptance Criteria
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criteria-for-proof-of-concept" title="Criteria for Proof of Concept" class="md-nav__link">
+    Criteria for Proof of Concept
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criteria-for-re-platforming" title="Criteria for Re-Platforming" class="md-nav__link">
+    Criteria for Re-Platforming
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strategy" title="Strategy" class="md-nav__link">
+    Strategy
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-set-up-netscaler-solution" title="1. Set up NetScaler solution" class="md-nav__link">
+    1. Set up NetScaler solution
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-shut-down-one-application-virtual-machine" title="2. Shut down one application virtual machine" class="md-nav__link">
+    2. Shut down one application virtual machine
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-point-the-load-for-a-single-port-to-the-citrix-load-balancer" title="3. Point the load for a single port to the Citrix load balancer" class="md-nav__link">
+    3. Point the load for a single port to the Citrix load balancer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-add-rule-in-netscaler-to-redirect-traffic-from-external-nat-to-the-new-port" title="4. Add rule in NetScaler to redirect traffic from External NAT to the new port" class="md-nav__link">
+    4. Add rule in NetScaler to redirect traffic from External NAT to the new port
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-cutover-attach-the-new-external-nat-to-dns" title="5. Cutover. Attach the new External NAT to DNS" class="md-nav__link">
+    5. Cutover. Attach the new External NAT to DNS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-final-cutover" title="6. Final cutover" class="md-nav__link">
+    6. Final cutover
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rollback" title="Rollback" class="md-nav__link">
+    Rollback
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#release-notes" title="Release Notes" class="md-nav__link">
+    Release Notes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#improvements" title="Improvements" class="md-nav__link">
+    Improvements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#monitoring" title="Monitoring" class="md-nav__link">
+    Monitoring
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schedule" title="Schedule" class="md-nav__link">
+    Schedule
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#risks" title="Risks" class="md-nav__link">
+    Risks
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="load-balancer-re-platforming-plan">Load Balancer Re-Platforming Plan</h1>
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>JIRA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go Server Migration</td>
+<td><a href="https://jira.sts.scholastic.com/secure/RapidBoard.jspa?rapidView=933">Agile Board</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="document">Document</h2>
+<h3 id="author">Author</h3>
+<p><strong>Sajjad Hossain</strong><br />
+<strong>E:</strong> <a href="../shossain@scholastic.com">shossain@scholastic.com</a><br />
+<strong>C:</strong> 347-661-3441 <br />
+1271 Avenue of America,<br />
+New York, NY  10020, 
+United States,<br />
+32-414B  </p>
+<h3 id="history">History</h3>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Author</th>
+<th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.0.1</td>
+<td>Sajjad Hossain</td>
+<td>June 19, 2017</td>
+</tr>
+<tr>
+<td>0.1.0</td>
+<td>Sajjad Hossain</td>
+<td>June 20, 2017</td>
+</tr>
+<tr>
+<td>1.0.0</td>
+<td>Sajjad Hossain</td>
+<td>June 20, 2017</td>
+</tr>
+</tbody>
+</table>
+<h2 id="abstract">Abstract</h2>
+<p>We are re-platforming all of our application load balancers to use Citrix, a load balancing solution. We will switch these servers after conducting a Proof of Concept (POC). After the POC passes testing and acceptance criteria. </p>
+<h2 id="scope">Scope</h2>
+<p>The scope of work covered by this load balancer re-platforming plan ensures that all load balancers in the <a href="#loadbalancers">load balancers</a> section of this plan is analyzed, and re-platformed to Citrix NetScaler solution and kept alive (with accruing costs) in the Scholastic virtual machine space. </p>
+<h3 id="applications-load-balanced-by-machines">Applications load balanced by machines</h3>
+<p>| Name |
+| --- |
+| Encyclopedia Americana |
+| EBSCO |
+| Grolier Multimedia Encyclopedia |
+| Grolier Online |
+| Lands and People |
+| New Book of Popular Science |
+| Nueva Encyclopedia Cumbre |</p>
+<h2 id="personnel">Personnel</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Role</th>
+<th>Sprint Commitment to GSM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../shossain@scholastic.com">Sajjad Hossain</a></td>
+<td>Project Owner</td>
+<td>100%</td>
+</tr>
+<tr>
+<td><a href="../SDabhi@Scholastic.com">Sanjay Dabhi</a></td>
+<td>Overseeing 557 Shutdown</td>
+<td>~ 2.5%</td>
+</tr>
+<tr>
+<td><a href="../WChristie-Vendor@Scholastic.com">Wayne Christie</a></td>
+<td>Network Resource</td>
+<td>~ 2.5%</td>
+</tr>
+<tr>
+<td><a href="../MAzad-Vendor@Scholastic.com">Mohammed Azad</a></td>
+<td>Data Center Resource</td>
+<td>~ 2.5%</td>
+</tr>
+<tr>
+<td><a href="../PKalevala-consultant@Scholastic.com">Praveen Kalevala</a></td>
+<td>Server Configuration Resource</td>
+<td>~ 2.5%</td>
+</tr>
+</tbody>
+</table>
+<h3 id="stakeholders-and-affected-parties">Stakeholders and affected parties</h3>
+<table>
+<thead>
+<tr>
+<th>Application Space</th>
+<th>Stakeholder</th>
+<th>Escalation Lead</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Encyclopedia Americana</td>
+<td><a href="../AHenderson@ScholasticLibrary.com">Allison Henderson</a></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td>EBSCO</td>
+<td><a href="../AHenderson@ScholasticLibrary.com">Allison Henderson</a></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td>Grolier Multimedia Encyclopedia</td>
+<td><a href="../AHenderson@ScholasticLibrary.com">Allison Henderson</a></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td>Grolier Online</td>
+<td><a href="../AHenderson@ScholasticLibrary.com">Allison Henderson</a></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td>Lands and People</td>
+<td><a href="../AHenderson@ScholasticLibrary.com">Allison Henderson</a></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td>New Book of Popular Science</td>
+<td><a href="../AHenderson@ScholasticLibrary.com">Allison Henderson</a></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td>Nueva Cumbre Encyclopedia</td>
+<td><a href="../AHenderson@ScholasticLibrary.com">Allison Henderson</a></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="load-balancers">Load Balancers</h2>
+<ul>
+<li>All servers are identified <a href="https://docs.google.com/spreadsheets/d/1GmL_qVQtMtzl2Us7eQlcVobOVAeEVe8UvH3wmxnj-yU/edit#gid=71094125">here</a>.</li>
+<li>There are a total of <strong>6</strong> load balancers that fall under the scope of this plan. </li>
+<li>They are:<ol>
+<li>lb-ea-557</li>
+<li>lb-ebsco-dby-557</li>
+<li>lb-gme-557</li>
+<li>lb-go-557</li>
+<li>lb-lp-dby-557</li>
+<li>lb-nbps-dby-557</li>
+</ol>
+</li>
+</ul>
+<h2 id="clusters">Clusters</h2>
+<p>The load balancers included in these clusters are the <strong>6</strong> that fall within the scope of the <strong>Re-Platforming Plan</strong>. </p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Cluster Name</th>
+<th># of Machines</th>
+<th>Products/Services</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12</td>
+<td>Danbury Loadbalancers</td>
+<td>7</td>
+<td>Content, GME, GO, LP, NBPS, EA, EBSCO, GME</td>
+</tr>
+</tbody>
+</table>
+<h2 id="epics">Epics</h2>
+<h3 id="load-balancers-re-platforming">Load Balancers Re-platforming</h3>
+<pre><code class="gherkin">As a lead
+I want to use the NetScaler Citrix solution
+So that I can retire the load balancers in 557
+</code></pre>
+
+<h4 id="stories">Stories</h4>
+<ol>
+<li><a href="https://jira.sts.scholastic.com/browse/GSM-160">GSM-160</a></li>
+<li><a href="https://jira.sts.scholastic.com/browse/GSM-155">GSM-155</a></li>
+<li><a href="https://jira.sts.scholastic.com/browse/GSM-150">GSM-150</a></li>
+<li><a href="https://jira.sts.scholastic.com/browse/GSM-145">GSM-145</a></li>
+<li><a href="https://jira.sts.scholastic.com/browse/GSM-185">GSM-185</a></li>
+<li><a href="https://jira.sts.scholastic.com/browse/GSM-196">GSM-196</a></li>
+</ol>
+<h2 id="definition-of-done">Definition of done</h2>
+<p>There is <strong>1</strong> state of completion, outcome of planning, analysis and execution for all Load balancers.</p>
+<h3 id="keep-alive">Keep Alive</h3>
+<p>These load balancers will be kept alive in new virtual machines, the load balancers will be <code>Retired</code>.  The new virtual machines will occupy less space in another data center using the <code>NetScaler: Citrix</code> solution after it has completed a POC in lower environments.</p>
+<h2 id="acceptance-criteria">Acceptance Criteria</h2>
+<h3 id="criteria-for-proof-of-concept">Criteria for Proof of Concept</h3>
+<pre><code class="gherkin">GIVEN I am a lead
+AND I have implemented my solution in a lower environment
+AND I have tested my new system
+AND I have tested my application in the new system
+AND I have tested my internal IP access
+AND I have tested my external IP access
+THEN I can approve my proof of concept
+</code></pre>
+
+<h4 id="criteria-for-re-platforming">Criteria for Re-Platforming</h4>
+<pre><code class="gherkin">GIVEN I am a developer
+AND I identified the DNS
+AND I identified the external IP
+AND I identified internal IP
+THEN I can configure a Citrix scale solution
+AND I notified affected teams and stakeholders of outages or downtimes
+AND I provided a rollback strategy
+WHEN I switch the external NAT to the new IP
+THEN my load balancer is re-platformed
+WHEN I test all my identified applications
+THEN they should pass request load balancing tests
+</code></pre>
+
+<h2 id="strategy">Strategy</h2>
+<p>For all of our load balancers being re-platformed, the strategy remains the same. </p>
+<h3 id="1-set-up-netscaler-solution">1. Set up NetScaler solution</h3>
+<p>Set up a NetScaler Citrix load balancer, using the same configurations, rules and ports as our current load balancers. <strong>The Citrix solution is shown below in teal.</strong> </p>
+<p><img alt="Step 1" src="../images/LB_step1.png" /></p>
+<h3 id="2-shut-down-one-application-virtual-machine">2. Shut down one application virtual machine</h3>
+<p>Shut down one virtual machine in the original load balancing cluster.</p>
+<p><img alt="Step 2" src="../images/LB_step2.png" /></p>
+<h3 id="3-point-the-load-for-a-single-port-to-the-citrix-load-balancer">3. Point the load for a single port to the Citrix load balancer</h3>
+<p>Redirect all request for a single port on the virtual machine load balancer, to the 10.x.x.x series. This would direct all traffic made to an identified port, to our new Citrix solution, making it available for testing. During this step, we will test that our requests to the specified port are being redirected as needed.</p>
+<p><img alt="Step 3" src="../images/LB_step3.png" /></p>
+<h3 id="4-add-rule-in-netscaler-to-redirect-traffic-from-external-nat-to-the-new-port">4. Add rule in NetScaler to redirect traffic from External NAT to the new port</h3>
+<p>Here, we expect a short downtime. The rule in NetScaler would direct all requests to the External NAT, from within Scholastic network to the Citrix load balancer. This would allow us to test requests made directly to the External NAT to test that traffic is directed as needed.</p>
+<p><img alt="Step 4" src="../images/LB_step4.png" /></p>
+<h3 id="5-cutover-attach-the-new-external-nat-to-dns">5. Cutover. Attach the new External NAT to DNS</h3>
+<p>Here, we expect a short outage time while the DNS is being routed to the one load balancer. Teams affected should be aware. During this step we will test requests made from outside the Scholastic network, directly to the DNS. <strong>All requests should be directed to the same Citrix load balancing instance.</strong></p>
+<p><img alt="Step 5" src="../images/LB_step5.png" /></p>
+<h3 id="6-final-cutover">6. Final cutover</h3>
+<p>During this step, we repeat steps 2 to 5 for all of our remaining load balancers within the cluster for the given application. All requests, internal or external, with or without ports, will be directed to the new Citrix load balancing solution.</p>
+<p><img alt="Step 6" src="../images/LB_step6.png" /></p>
+<h2 id="rollback">Rollback</h2>
+<p>Rolling back our proposed solution is much simpler for this plan. Steps 2 to 5 require editing values to match the new parameters for certain configuration files. Given that during time of cutover, these machines will remain available and not in use, rollback requires editing the configurations to the their previous values. The downtimes and outages will remain minimal, and upon refresh, requests would return to their normal load balancing methodology.</p>
+<h2 id="release-notes">Release Notes</h2>
+<h3 id="improvements">Improvements</h3>
+<ol>
+<li>Currently we use <a href="http://www.haproxy.org/">HAProxy</a>. This service does not provide service discovery. If there are downtimes or outages for any applications load balanced, then the requests made would fail. <a href="https://www.citrix.com/products/netscaler-adc/netscaler-data-sheet.html">Citrix</a> provides service discovery so that if there are downtimes or outages, requests would be <strong>automatically</strong> directed to an endpoint that is up. </li>
+<li>In addition, HAProxy requires heavy manual configuration. When executing requests to implement a load balancer or separate instance, Citrix allows simple configuration to complete the task. The new systems via Citrix are better isolated and manipulatable. </li>
+<li>Lastly, our current load balancing for certain applications with higher load, i.e. GO!, we can spin and tear load balancers from the cluster with minimal work and <strong>no</strong> downtime. This means we can re-platform and migrate to the new data center, while consuming less virtual machine disk space as we wouldn't start with 6 instances for the example of GO!.</li>
+</ol>
+<h3 id="monitoring">Monitoring</h3>
+<p>At the request of Jenhau Chen, we need to implement monitoring to better prepare for outages and downtimes. After speaking with Sanjay, it is simple to implement and we have multiple solutions available. </p>
+<ul>
+<li><a href="https://sensuapp.org/">Sensu</a></li>
+<li><a href="https://newrelic.com/">New Relic</a></li>
+<li><a href="https://www.nagios.org/">Nagios</a></li>
+</ul>
+<p>To implement monitoring there are <strong>3</strong> requirements needed by Sanjay's team. They are:</p>
+<ol>
+<li><strong>Distribution List</strong>: Who will be informed of downtimes, outages, etc.</li>
+<li><strong>Budget Approval</strong>: This will require additional costs to implement as there is no monitoring in place for these load balancers.</li>
+<li><strong>Metrics and Benchmarks</strong>: We need to identify, for each application being load balanced:<ol>
+<li>What is the maximum memory allotted for these services/products?</li>
+<li>What is the maximum disk space allotted for these services/products?</li>
+<li>What qualifies these as downtime for for these services/products?</li>
+<li><em>More to be defined when approved...</em></li>
+</ol>
+</li>
+</ol>
+<h2 id="schedule">Schedule</h2>
+<p>These stories will be completed as apart of the <strong>Velociraptor</strong> sprints.</p>
+<table>
+<thead>
+<tr>
+<th>Stories</th>
+<th>JIRA</th>
+<th>Start Sprint</th>
+<th>End Sprint</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Implement NetScaler for NBPS</td>
+<td><a href="https://jira.sts.scholastic.com/browse/GSM-160">GSM-160</a></td>
+<td>15.3 (June 14, 2017)</td>
+<td>15.3 (June 28, 2017)</td>
+</tr>
+<tr>
+<td>Implement NetScaler for NEC</td>
+<td><a href="https://jira.sts.scholastic.com/browse/GSM-155">GSM-155</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Implement NetScaler for LP</td>
+<td><a href="https://jira.sts.scholastic.com/browse/GSM-150">GSM-150</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Implement NetScaler for GO</td>
+<td><a href="https://jira.sts.scholastic.com/browse/GSM-165">GSM-165</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Implement NetScaler for GME</td>
+<td><a href="https://jira.sts.scholastic.com/browse/GSM-185">GSM-185</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Implement NetScaler for EA</td>
+<td><a href="https://jira.sts.scholastic.com/browse/GSM-145">GSM-145</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Implement NetScaler for EBSCO</td>
+<td><a href="https://jira.sts.scholastic.com/browse/GSM-196">GSM-196</a></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="risks">Risks</h2>
+<ol>
+<li>Unknown -- Unknown</li>
+</ol>
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../perf/bookflix_performance_test_plan/" title="Bookflix" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Bookflix
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../../guides/reading_pro_installation_guide/" title="Reading Pro" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Reading Pro
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        and
+        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application-c6f9af8d0c.js"></script>
+      <script>app.initialize({url:{base:"../../.."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>

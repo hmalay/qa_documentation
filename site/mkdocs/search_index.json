@@ -141,18 +141,68 @@
             "title": "JIRA"
         }, 
         {
-            "location": "/strategies/reading_pro_uat_strategy/", 
-            "text": "", 
+            "location": "/checklists/reading_pro/", 
+            "text": "UAT Checklist\n\n\nOverview\n\n\nAuthors\n\n\n\n\n\n\n\n\nName\n\n\nEmail\n\n\n\n\n\n\n\n\n\n\nGrace Clifford\n\n\n\n\n\n\n\n\nSajjad Hossain\n\n\n\n\n\n\n\n\n\n\nVesions\n\n\n\n\n\n\n\n\nDate\n\n\nVersion\n\n\n\n\n\n\n\n\n\n\n03/26/17\n\n\n1.0\n\n\n\n\n\n\n04/09/17\n\n\n1.1\n\n\n\n\n\n\n\n\nDocuments\n\n\nSee the \nUser Acceptance Test Document\n for Reading Pro.\n\n\nStories\n\n\nTeacher\n\n\n\n\n\n\n\n\nFeature\n\n\nStatus\n\n\nEpic\n\n\nTicket\n\n\n\n\n\n\n\n\n\n\nI want to Log In as a Teacher\n\n\n\n\n\n\n\n\n\n\n\n\nI want to create a GRL Class\n\n\n\n\n\n\n\n\n\n\n\n\nI want to create a Lexile Class\n\n\n\n\n\n\n\n\n\n\n\n\nI want to create 5-10 students\n\n\n\n\n\n\n\n\n\n\n\n\nI want to enroll my students in my classes\n\n\n\n\n\n\n\n\n\n\n\n\nI want to use Reading Pro\n\n\n\n\n\n\n\n\n\n\n\n\nI want to set a class to use GRL\n\n\n\n\n\n\n\n\n\n\n\n\nI want to set a class to use Lexile\n\n\n\n\n\n\n\n\n\n\n\n\nI want to modify maximum quiz attempts allowed\n\n\n\n\n\n\n\n\n\n\n\n\nI want to modify quiz pass score\n\n\n\n\n\n\n\n\n\n\n\n\nI want to check reports\n\n\n\n\n\n\n\n\n\n\n\n\nI want to use teacher functionality\n\n\n\n\n\n\n\n\n\n\n\n\nI want to send feedback to my students\n\n\n\n\n\n\n\n\n\n\n\n\nI want to Log Out from Teacher\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStudent\n\n\n\n\n\n\n\n\nFeature\n\n\nStatus\n\n\nEpic\n\n\nTicket\n\n\n\n\n\n\n\n\n\n\nI want to Log In as a GRL Student\n\n\n\n\n\n\n\n\n\n\n\n\nI want to use Search\n\n\n\n\n\n\n\n\n\n\n\n\nI want to take a Book Quiz\n\n\n\n\n\n\n\n\n\n\n\n\nI want Log Out from GRL Student\n\n\n\n\n\n\n\n\n\n\n\n\nI want to Log In as a Lexile Student\n\n\n\n\n\n\n\n\n\n\n\n\nI want to use Search\n\n\n\n\n\n\n\n\n\n\n\n\nI want to take a Book Quiz\n\n\n\n\n\n\n\n\n\n\n\n\nI want to take a Reading Test\n\n\n\n\n\n\n\n\n\n\n\n\nI want Log Out from Lexile Student\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdmin\n\n\n\n\n\n\n\n\nFeature\n\n\nStatus\n\n\nEpic\n\n\nTicket\n\n\n\n\n\n\n\n\n\n\nI want to Log In as an Admin\n\n\n\n\n\n\n\n\n\n\n\n\nI want to check reports, per class and school level\n\n\n\n\n\n\n\n\n\n\n\n\nI want to use admin functionality\n\n\n\n\n\n\n\n\n\n\n\n\nI want to Log Out from Admin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistrict Admin\n\n\n\n\n\n\n\n\nFeature\n\n\nStatus\n\n\nEpic\n\n\nTicket\n\n\n\n\n\n\n\n\n\n\nI want to Log In as a District Admin\n\n\n\n\n\n\n\n\n\n\n\n\nI want to check reports, per school and district level\n\n\n\n\n\n\n\n\n\n\n\n\nI want to use admin functionality\n\n\n\n\n\n\n\n\n\n\n\n\nI want to Log Out from  District Admin", 
             "title": "Reading Pro"
         }, 
         {
+            "location": "/checklists/reading_pro/#uat-checklist", 
+            "text": "", 
+            "title": "UAT Checklist"
+        }, 
+        {
+            "location": "/checklists/reading_pro/#overview", 
+            "text": "", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/checklists/reading_pro/#authors", 
+            "text": "Name  Email      Grace Clifford     Sajjad Hossain", 
+            "title": "Authors"
+        }, 
+        {
+            "location": "/checklists/reading_pro/#vesions", 
+            "text": "Date  Version      03/26/17  1.0    04/09/17  1.1", 
+            "title": "Vesions"
+        }, 
+        {
+            "location": "/checklists/reading_pro/#documents", 
+            "text": "See the  User Acceptance Test Document  for Reading Pro.", 
+            "title": "Documents"
+        }, 
+        {
+            "location": "/checklists/reading_pro/#stories", 
+            "text": "", 
+            "title": "Stories"
+        }, 
+        {
+            "location": "/checklists/reading_pro/#teacher", 
+            "text": "Feature  Status  Epic  Ticket      I want to Log In as a Teacher       I want to create a GRL Class       I want to create a Lexile Class       I want to create 5-10 students       I want to enroll my students in my classes       I want to use Reading Pro       I want to set a class to use GRL       I want to set a class to use Lexile       I want to modify maximum quiz attempts allowed       I want to modify quiz pass score       I want to check reports       I want to use teacher functionality       I want to send feedback to my students       I want to Log Out from Teacher", 
+            "title": "Teacher"
+        }, 
+        {
+            "location": "/checklists/reading_pro/#student", 
+            "text": "Feature  Status  Epic  Ticket      I want to Log In as a GRL Student       I want to use Search       I want to take a Book Quiz       I want Log Out from GRL Student       I want to Log In as a Lexile Student       I want to use Search       I want to take a Book Quiz       I want to take a Reading Test       I want Log Out from Lexile Student", 
+            "title": "Student"
+        }, 
+        {
+            "location": "/checklists/reading_pro/#admin", 
+            "text": "Feature  Status  Epic  Ticket      I want to Log In as an Admin       I want to check reports, per class and school level       I want to use admin functionality       I want to Log Out from Admin", 
+            "title": "Admin"
+        }, 
+        {
+            "location": "/checklists/reading_pro/#district-admin", 
+            "text": "Feature  Status  Epic  Ticket      I want to Log In as a District Admin       I want to check reports, per school and district level       I want to use admin functionality       I want to Log Out from  District Admin", 
+            "title": "District Admin"
+        }, 
+        {
             "location": "/plans/uat/reading_pro_uat_plan/", 
-            "text": "User Acceptance Tests\n\n\nFor \nReading Pro\n\n\nOverview\n\n\nAuthors\n\n\n\n\n\n\n\n\nName\n\n\nEmail\n\n\n\n\n\n\n\n\n\n\nGrace Clifford\n\n\ngclifford@scholastic.com\n\n\n\n\n\n\nSajjad Hossain\n\n\nshossain@scholastic.com\n\n\n\n\n\n\n\n\nVesions\n\n\n\n\n\n\n\n\nDate\n\n\nVersion\n\n\n\n\n\n\n\n\n\n\n03/26/17\n\n\n1.0\n\n\n\n\n\n\n04/09/17\n\n\n1.1\n\n\n\n\n\n\n\n\nScope\n\n\nThe scope of this test plan only extends extends itself to User Acceptance Testing for Production Promotion. If these tests fail, then there are major, critical bugs to resolve for Reading Pro.\n\n\nAbstract\n\n\nScholastic Reading Pro Library is a browser-based eBook reader for students. Reading Pro Libraryallows students to select eBooks from the online library collection and read them in an eBook Viewer. Students keep their eBooks in their own custom bookshelf area. Studentsalso havean online profile showing their Lexile measure, books read, and other important reading data.\n\n\nRequirements\n\n\nSoftware\n\n\nOperating Systems\n\n\n\n\nMac OS\n\n\nLinux OS\n\n\nor Windows OS\n\n\n\n\nBrowsers/Webkits\n\n\n\n\n\n\n\n\nBrowser/Webkit\n\n\nMinimum Version\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnvironments\n\n\n\n\nLOCAL (DEV)\n\n\nDEV\n\n\nQA\n\n\nPRODUCTION\n\n\n\n\nPersonnel\n\n\n\n\nGrace Clifford\n\n\nChanda Chaudhary\n\n\nSrisha Vuppu\n\n\nSajjad Hossain\n\n\n\n\nTools\n\n\n\n\nEclipse\n\n\nJava 8\n\n\nWidefly\n\n\nMySQL\n\n\nMySQL Workbench\n\n\nSourceTree\n\n\nBitBucket\n\n\n\n\nAcceptance Criteria\n\n\nThe acceptance criteria for this test plan extends itself to only surface-level interaction with the application and its main views.\n\n\nThe below epics and stories should pass in the all browsers and webkits defined.\n\n\nStudents\n\n\nEpic(s)\n\n\n\n\nI want to use the home page\n\n\nI want to use the home page with Recommended Reading List\n\n\n\n\nStories\n\n\n\n\nI want to see Scholastic Branding and Logo\n\n\nI want to see the SDM widget\n\n\nI want to see the Navigation Bar\n\n\nI want to see the Welcome Message\n\n\nI want to see My Guided Reading Level\n\n\nI want to see Reading Interests messages\n\n\nI want to see Reading Interests icons\n\n\nI want to see Create My Reading List button\n\n\n\n\nScenarios\n\n\nI want to use the home page\n\n\nAs a student\nI want to use the home page\nSo that I can access tools and applications\n\n\n\n\nI want to see Scholastic Branding and Logo\n\n\nGiven I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see the Scholastic Logo\nAnd it should be in the upper left corner\n\n\n\n\nI want to see the SDM widget\n\n\nGiven I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see the SMD widget\nWhen I mouse over my name\nThen I should see the log out link\nWhen I mouse over the widget grid\nThen I should see:\n    The name of the school\n    Scholastic Digital Manager Logo\n    Other Products\nWhen I click Scholastic Digital Manager Logo\nThen I should be on SDM Portal Page\nWhen I click on another product\nThen the other application should open\n\n\n\n\nI want to see the Navigation Bar\n\n\nGiven I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see Home\nAnd I should see Search\nAnd I should see My Results\nAnd if class has been set by teacher\nAnd I should see Reading Pro Test\n\n\n\n\nI want to see the Welcome Message\n\n\nGiven I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see 'Hi, ${studentFirstName}!'\n\n\n\n\nI want to see My Guided Reading Level\n\n\nGiven I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see My Guided Reading Level\nAnd if this is my first time in this view\nThen My Guided Reading Level should be blank\n\n\n\n\nI want to see Reading Interests messages\n\n\nGiven I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nAnd if this is my first time in this view\nThen I should see ${message}\nAnd it should be below student welcome message\n\n\n\n\nI want to see Reading Interests icons\n\n\nGiven I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see upto 20 Reading Interest icons\nWhen I click on an icon\nThen the icon should be checked\nWhen I click a checked icon\nThen the icon should be un-cheecked\nIf I clicked an icon more than 3 times\nThen I should not see any checks\n\n\n\n\nI want to see Create My Reading List button\n\n\nGiven I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see Create My Reading List button\nAnd it should be below Reading Icons\n\n\n\n\nI want to use the home page with Recommended Reading List\n\n\nAs a student\nI want to use the Recommended Reading List\nSo that I can access recommended content\n\n\n\n\nSchedule\n\n\n\n\n\n\n\n\nTask Name\n\n\nDuration (days)\n\n\nStart\n\n\nFinish\n\n\n\n\n\n\n\n\n\n\nApplication Name\n\n\n36\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nDevelopment\n\n\n22\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nQA Review #1 - Theta Testing\n\n\n2\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nDevelopment (Revisions)\n\n\n2\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nDeployment to QA Environment\n\n\n2\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nQA Review #2 - Beta Testing\n\n\n1\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nDeployment to Stage or Alpha Environment\n\n\n2\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nFinal QA - Alpha Testing\n\n\n5\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY", 
+            "text": "User Acceptance Tests\n\n\nOverview\n\n\nAuthors\n\n\n\n\n\n\n\n\nName\n\n\nEmail\n\n\n\n\n\n\n\n\n\n\nGrace Clifford\n\n\n\n\n\n\n\n\nSajjad Hossain\n\n\n\n\n\n\n\n\n\n\nVesions\n\n\n\n\n\n\n\n\nDate\n\n\nVersion\n\n\n\n\n\n\n\n\n\n\n03/26/17\n\n\n1.0\n\n\n\n\n\n\n04/09/17\n\n\n1.1\n\n\n\n\n\n\n\n\nScope\n\n\nThe scope of this test plan only extends extends itself to User Acceptance Testing for Production Promotion. If these tests fail, then there are major, critical bugs to resolve for Reading Pro.\n\n\nAbstract\n\n\nScholastic Reading Pro Library is a browser-based eBook reader for students. Reading Pro Libraryallows students to select eBooks from the online library collection and read them in an eBook Viewer. Students keep their eBooks in their own custom bookshelf area. Studentsalso havean online profile showing their Lexile measure, books read, and other important reading data.\n\n\nRequirements\n\n\nCompatibility\n\n\n\n\n\n\n\n\nOperating System\n\n\nOS Version\n\n\nWebkit(s)\n\n\nSupported Version(s)\n\n\n\n\n\n\n\n\n\n\nMac OS X\n\n\n10.9.x +\n\n\nSafari\n\n\nLatest 3 versions\n\n\n\n\n\n\n\n\n\n\nChrome\n\n\nLatest 3 versions\n\n\n\n\n\n\niOS\n\n\n7.x.x +\n\n\nSafari\n\n\nLatest 3 versions\n\n\n\n\n\n\n\n\n\n\nChrome\n\n\nLatest 3 versions\n\n\n\n\n\n\nWindows\n\n\n7.x.x +\n\n\nChrome\n\n\nLatest 3 versions\n\n\n\n\n\n\n\n\n\n\nFirefox\n\n\nLatest 3 versions\n\n\n\n\n\n\n\n\n\n\nInternet Explorer\n\n\nVersion 11.x.x +\n\n\n\n\n\n\n\n\n\n\nEdge\n\n\nVersion 12.x.x +\n\n\n\n\n\n\n\n\nEnvironments\n\n\n\n\nLOCAL (DEV)\n\n\nBUILD\n\n\nDEV\n\n\nQA\n\n\nPRODUCTION\n\n\n\n\nPersonnel\n\n\n\n\n\n\n\n\nName\n\n\nEmail\n\n\n\n\n\n\n\n\n\n\nLytton, Alison\n\n\n\n\n\n\n\n\nChaudhary, Chanda\n\n\n\n\n\n\n\n\nMane, Dattaram\n\n\n\n\n\n\n\n\nNadgar, DJ\n\n\n\n\n\n\n\n\nStoltze, Emma\n\n\n\n\n\n\n\n\nKrangel, Eric\n\n\n\n\n\n\n\n\nClifford, Grace\n\n\n\n\n\n\n\n\nVaidya, Jeanny\n\n\n\n\n\n\n\n\nYing, Jiayi\n\n\n\n\n\n\n\n\nPalmer, John\n\n\n\n\n\n\n\n\nCaicedo, Linda\n\n\n\n\n\n\n\n\nJain, Palak\n\n\n\n\n\n\n\n\nHossain, Sajjad\n\n\n\n\n\n\n\n\nVuppu, Sirisha\n\n\n\n\n\n\n\n\nMorgan, Tucker\n\n\n\n\n\n\n\n\nLolla, Vamsidhar\n\n\n\n\n\n\n\n\nEfremovski, Velimir\n\n\n\n\n\n\n\n\nReddy, Rajender\n\n\n\n\n\n\n\n\nPalmer, Diane\n\n\n\n\n\n\n\n\nChen, Jenhau\n\n\n\n\n\n\n\n\nArtin, Megan\n\n\n\n\n\n\n\n\nNarala, Sivarami\n\n\n\n\n\n\n\n\nKumar, Udesh\n\n\n\n\n\n\n\n\nAthrey, Vinod\n\n\n\n\n\n\n\n\nNagaraju, Bhagirathi\n\n\n\n\n\n\n\n\nCherrington, Janelle\n\n\n\n\n\n\n\n\nSchoss, Josepha\n\n\n\n\n\n\n\n\nRajendran, Kausthubh\n\n\n\n\n\n\n\n\nClaiborne, Mike\n\n\n\n\n\n\n\n\nKrants, Paul\n\n\n\n\n\n\n\n\n\n\nTools\n\n\n\n\nEclipse\n\n\nJava 8\n\n\nWidefly\n\n\nMySQL\n\n\nMySQL Workbench\n\n\nSourceTree\n\n\nBitBucket\n\n\n\n\nAcceptance Criteria\n\n\nThe acceptance criteria for this test plan extends itself to only surface-level interaction with the application and its main views.\n\n\nThe below epics and stories should pass in the all browsers and webkits defined.\n\n\nKnown Defects\n\n\n\n\n\n\n\n\nJIRA\n\n\nNotes\n\n\n\n\n\n\n\n\n\n\nEXAMPLE-88\n\n\nUser's without admin assessments cannot sign in\n\n\n\n\n\n\n\n\nRisks\n\n\n\n\nKnown defects are not listed\n\n\nSchedule is not finalized\n\n\nStories tested under UAT do not include functional tests\n\n\n\n\nSchedule\n\n\n\n\n\n\n\n\nTask Name\n\n\nDuration (days)\n\n\nStart\n\n\nFinish\n\n\n\n\n\n\n\n\n\n\nApplication Name\n\n\n36\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nDevelopment\n\n\n22\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nQA Review #1 - Theta Testing\n\n\n2\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nDevelopment (Revisions)\n\n\n2\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nDeployment to QA Environment\n\n\n2\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nQA Review #2 - Beta Testing\n\n\n1\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nDeployment to Stage or Alpha Environment\n\n\n2\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\nFinal QA - Alpha Testing\n\n\n5\n\n\nMM/DD/YYYY\n\n\nMM/DD/YYYY\n\n\n\n\n\n\n\n\nEpics\n\n\n\n\nI want to use the home page\n\n\nI want to use the Recommended Reading List\n\n\nI want to use Search and Search Results\n\n\nI want to use My Results\n\n\nI want to take a Reading Pro test\n\n\nI want to take a Book Quiz\n\n\n\n\nTest Cases\n\n\n${preconditions}\n\n\nGiven I am on Reading Pro\nAnd I am a Student\nAnd I am GRL Student\nAnd I have my assessments\nAnd I go to my school\nAnd I have my products\n\n\n\n\nI want to use the home page\n\n\nAs a student\nI want to use the home page\nSo that I can access tools and applications\n\n\n\n\nScenarios\n\n\n\n\nI want to see Scholastic Branding and Logo\n\n\nI want to see the SDM widget\n\n\nI want to see the Navigation Bar\n\n\nI want to see the Welcome Message\n\n\nI want to see My Guided Reading Level\n\n\nI want to see Reading Interests messages\n\n\nI want to see Reading Interests icons\n\n\nI want to see Create My Reading List button\n\n\n\n\nStories\n\n\nI want to see Scholastic Branding and Logo\n\n\n${preconditions}\nThen I should see the Scholastic Logo\nAnd it should be in the upper left corner\nAnd I should see the \n\n\n\n\nI want to see the SDM widget\n\n\n${preconditions}\nThen I should see the SMD widget\nWhen I mouse over my name\nThen I should see the log out link\nWhen I mouse over the widget grid\nThen I should see:\n    The name of the school\n    Scholastic Digital Manager Logo\n    Other Products\nWhen I click Scholastic Digital Manager Logo\nThen I should be on SDM Portal Page\nWhen I click on another product\nThen the other application should open\n\n\n\n\nI want to see the Navigation Bar\n\n\n${preconditions}\nThen I should see Home\nAnd I should see Search\nAnd I should see My Results\nAnd if class has been set by teacher\nAnd I should see Reading Pro Test\n\n\n\n\nI want to see the Welcome Message\n\n\n${preconditions}\nThen I should see 'Hi, ${studentFirstName}!'\n\n\n\n\nI want to see My Guided Reading Level\n\n\n${preconditions}\nThen I should see My Guided Reading Level\nAnd if this is my first time in this view\nThen My Guided Reading Level should be blank\n\n\n\n\nI want to see Reading Interests messages\n\n\n${preconditions}\nAnd if this is my first time in this view\nThen I should see ${message}\nAnd it should be below student welcome message\n\n\n\n\nI want to see Reading Interests icons\n\n\n${preconditions}\nThen I should see upto 20 Reading Interest icons\nWhen I click on an icon\nThen the icon should be checked\nWhen I click a checked icon\nThen the icon should be un-checked\nWhen I have 3 icons checked\nAnd I check another icon \nThen the fourth icon should not be checked\n\n\n\n\nI want to see Create My Reading List button\n\n\n${preconditions}\nThen I should see Create My Reading List button\nAnd it should be below Reading Icons\n\n\n\n\nI want to use the Recommended Reading List\n\n\nAs a student\nI want to use the Recommended Reading List\nSo that I can access recommended content\n\n\n\n\nScenarios\n\n\n\n\nI want to see My Guided Reading Level\n\n\nI want to see Certificate Level\n\n\nI want to see Quizzes Passed\n\n\nI want to see Words Read\n\n\nI want to see Average Quiz Score\n\n\nI want to see My Reading Interests\n\n\nI want to edit My Reading Interests\n\n\nI want to see My Reading List\n\n\n\n\nStories\n\n\nI want to see My Guided Reading Level\n\n\n${preconditions}\nThen I should see My Lexile\nAnd it should be empty by default\n\n\n\n\nI want to see Certificate Level\n\n\n${preconditions}\nThen I should see My Lexile\nAnd I should see Certificate Level\nAnd it should display a hyphen by default\n\n\n\n\nI want to see Quizzes Passed\n\n\n${preconditions}\nThen I should see My Lexile\nAnd I should see Quizzes Passed\nAnd it should be 0 by default\nWhen I take a quiz\nAnd I pass my quiz\nThen I should see my grade\n\n\n\n\nI want to see Words Read\n\n\n${preconditions}\nAnd I've read ${books}\nThen I should see My Lexile\nAnd I should see Words Read\nAnd it should be 0 by default\nWhen I read a book\nThen I should see number of words read\n\n\n\n\nI want to see Average Quiz Score\n\n\n${preconditions}\nThen I should see My Lexile\nAnd I should see Average Quiz Score\nAnd it should be 0% by default\nWhen I take a quiz\nThen I should the average of all my tests scored\n\n\n\n\nI want to see My Reading Interests\n\n\n${preconditions}\nThen I should see My Lexile\nAnd I should see My Reading Interests\nAnd I should see up to 3 icons\n\n\n\n\nI want to edit My Reading Interests\n\n\n${preconditions}\nAnd I chose my ${readingInterests}\nThen I should see My Lexile\nAnd I should see My Reading Interests\nAnd I should see up to 3 icons\nWhen I choose 3 new icons\nAnd I press Update My Reading List\nThen I should see my new Reading List\n\n\n\n\nI want to see My Reading List\n\n\n${preconditions}\nAnd I chose my ${readingInterests}\nThen I should see My Lexile\nAnd I should see 'Here are some books you might like to read'\nAnd I should see 'Recommended'\nAnd I should see 'Fast Find'\nAnd I should see 'What's New'\nWhen I mouse over information buttion\nThen the information modal apperars\nWhen I click a tab\nThen I should see ${books}\nAnd I should see ${bookCovers}\nAnd I should see ${bookTitles}\nAnd I should see ${bookSummaries}\nAnd I should see ${bookAuthors}\nIf there is a Guided Reading Level or Lexile for ${book}\nThen I should see it below the authors name\nAnd I should see ${wordCount} below Lexile\nAnd I should see ${readingInterestCategories} below summary\nAnd I should see Take Quiz button\nWhen I click Take Quiz\nThen I should see a modal with a quiz for that title\nWhen I close the modal\nAnd I click List View icon\nThen I should see a table of books\nAnd I should see ${columnHeaders}\nWhen I click ${columnHeader}\nThen the table should be sorted by the column values descending\nWhen I click ${columnHeader}\nThen the table should be sorted by the column values ascending\n\n\n\n\nI want to use Search and Search Results\n\n\nAs a student\nI want to use Search\nSo that I can filter content by custom search criteria\n\n\n\n\nScenarios\n\n\n\n\nI want to see the Search Bar\n\n\nI want to see Search filter options\n\n\nI want to use Search filter options\n\n\nI want to use Search\n\n\nI want to Search by Reading Interests\n\n\n\n\nStories\n\n\nI want to see the Search Bar\n\n\n${preconditions}\nThen I should see the search bar\nAnd I should see the search button\nAnd I should see search filters\n\n\n\n\nI want to see Search filter options\n\n\nGiven I am on '/'\nAnd I have my assessments\nAnd I go to my school\nAnd I have my products\nThen I should see the search bar\nAnd I should see search filters\nAnd I should see 'Books with Quizzes Only'\nAnd I should see 'At My Reading Level'\nAnd I should see 'In My School Library'\nAnd I should see 'eBooks Only'\n\n\n\n\nI want to use Search filter options\n\n\n${preconditions}\nThen I should see the search bar\nAnd I should see search filters\nWhen I click ${searchFilter}\nThen I should see results filtered by ${filter}\n\n\n\n\nI want to use Search\n\n\n${preconditions}\nThen I should see the search bar\nAnd I should see search filters\nWhen I fill in search with ${searchTerm}\nThen I should see ${results}\nAnd I should see ${books}\nAnd I should see ${bookCovers}\nAnd I should see ${bookTitles}\nAnd I should see ${bookSummaries}\nAnd I should see ${bookAuthors}\nIf there is a Guided Reading Level or Lexile for ${book}\nThen I should see it to the right of the book title\nAnd I should see ${wordCount} to the right of Lexile\nAnd I should see Take Quiz button\nWhen I click List View icon\nThen I should see a table of books\nAnd I should see ${columnHeaders}\nWhen I click ${columnHeader}\nThen the table should be sorted by the column values descending\nWhen I click ${columnHeader}\nThen the table should be sorted by the column values ascending\n\n\n\n\nI want to Search by Reading Interests\n\n\n${preconditions}\nThen I should see the search bar\nAnd I should see the Reading Interests link\nWhen I follow Reading Interests\nThen I should see upto 20 Reading Interest icons\nAnd I should see Search button\nWhen I click on an icon\nThen the icon should be checked\nWhen I click a checked icon\nThen the icon should be un-cheecked\nWhen I select my ${readingInterests}\nAnd I press the Search Button \nThen I should be on the Search Results page\nAnd I should see 'Selected reading interests'\nAnd I should see my ${readingInterests} at the top of my results\nAnd I should see search ordered ${byReadingInterests}\nAnd I should see ${books}\nAnd I should see ${bookCovers}\nAnd I should see ${bookTitles}\nAnd I should see ${bookSummaries}\nAnd I should see ${bookAuthors}\nIf there is a Guided Reading Level or Lexile for ${book}\nThen I should see it to the right of the book title\nAnd I should see ${wordCount} to the right of Lexile\nAnd I should see Take Quiz button\nWhen I click List View icon\nThen I should see a table of books\nAnd I should see ${columnHeaders}\nWhen I click ${columnHeader}\nThen the table should be sorted by the column values descending\nWhen I click ${columnHeader}\nThen the table should be sorted by the column values ascending\n\n\n\n\nI want to use My Results\n\n\nAs a student\nI want to use My Results\nSo that I can view results filtered by search criteria\n\n\n\n\nScenarios\n\n\n\n\nI want to see my statistics\n\n\nI want to view a list of books I've read\n\n\n\n\nStories\n\n\nI want to see my statistics\n\n\n${preconditions}\nThen I should see my statistics\nAnd I should see My Guided Reading\nAnd I should see Certificate Level\nAnd I should see Quizzes Passed\nAnd I should see Words Read\nAnd I should see Average Quiz Score\n\n\n\n\nI want to view a list of books I've read\n\n\n${preconditions}\nThen I should see List of Books I've Read\nAnd I should see ${books}\nAnd I should see ${bookCovers}\nAnd I should see ${bookTitles}\nAnd I should see ${bookSummaries}\nAnd I should see ${bookAuthors}\nAnd I should see ${bookWordCount}\nAnd I should see ${bookPoints}\nAnd I should see ${bookDate}\n\n\n\n\nI want to take a Reading Pro test\n\n\nAs a student\nI want to take a Reading Pro test\nSo that my reading level can be assessed and graded\n\n\n\n\nScenarios\n\n\n\n\nI want to see a welcome message\n\n\nI want to start and pause the test\n\n\nI want to practice a test\n\n\nI want to skip a question\n\n\nI want to complete a test\n\n\n\n\nStories\n\n\nI want to see a welcome message\n\n\n${preconditions}\nThen I should see Let's Get Started button\nWhen I press Let's Get Started\nThen I should see a modal\nAnd I should see my first name\nAnd I should see instructions\nAnd I should see a close button\nWhen I press close button\nThen I should not see the modal\n\n\n\n\nI want to start and pause the test\n\n\n${preconditions}\nThen I should see Let's Get Started button\nWhen I press Let's Get Started\nThen I should see a multiple choice question\nAnd I should see a Next button \nAnd the Next button should be disabled\nWhen I select an answer\nThen the Next button should not be disabled\nWhen I click Next\nThen I should be on another question\nWhen I press close\nThen I should see a confirm dialog\nAnd I should see 'Your test will be paused so you can resume later'\nWhen I confirm the pop-up\nThen I should not see the modal\n\n\n\n\nI want to practice a test\n\n\n${preconditions}\nAnd the teacher required a practice test for the class\nWhen I answer both questions\nThen I should see 'You have completed the practice test. All questions you answer from now on will be counted toward your Lexile measure.'\nWhen I press Go On\nThen I should be on another question\n\n\n\n\nI want to skip a question\n\n\n${preconditions}\nAnd I am on a Reading Pro Test\nThen I should see Skip button\nAnd I should see the maximum amount of skips allowed\nWhen I press Skip\nThen I should be on the next question\nWhen I reachg the maximum amount of skips\nThen the Skip button should be disabled\n\n\n\n\nI want to complete a test\n\n\n${preconditions}\nAnd the teacher chose to share Lexile results\nAnd I am on a Reading Pro Test\nAnd I answered all the questions\nThen I should see a completion message\nAnd I should see an exit button\nAnd I should see Create Reading List button\nAnd I should see my Lexile updated with my score(s)\n\n\n\n\nI want to take a Book Quiz\n\n\nAs a student\nI want to take a Book Quiz\nSo that my reading comprehension for that title can be assessed\n\n\n\n\nScenarios\n\n\n\n\nI want to take a Book Quiz\n\n\nI want to press Next\n\n\nI want to Finish a Book Quiz\n\n\nI want to view statistics based on my quiz results\n\n\n\n\nStories\n\n\nI want to take a Book Quiz\n\n\n${preconditions}\nThen I should see Take Quiz button\nAnd I should see ${quizzes}\nAnd I should see 'Quizzes for ' + ${bookTitle}\nAnd I should see close button\nAnd I should see ${bookTitle}\nWhen I press Take Quiz\nThen I should see my first name\nAnd I should see 'This is the quiz for ' + ${bookTitle}\nAnd I should see multiple choice questions\nAnd I should see short answer questions\nAnd I should see Exit Quiz button\nWhen I press Exit Quiz\nThen I should see a warning dialog\nAnd I should see 'Exiting a quiz will be counted as an attempt. Are you sure you want to exit?' \nWhen I confirm the dialog\nThen I should see ${tryAgainLaterMessage}\nAnd I should see ${bookTitle}\nAnd I should see ${bookAuthor}\nAnd I should see my grade\nAnd I should see right:wrong ratio\nAnd I should see View Incorrect Answers button\nAnd I should see Done button\nWhen I press Done\nThen I should not see the modal\n\n\n\n\nI want to press Next\n\n\nGiven I am on a book quiz\nThen I should see my first name\nAnd I should see 'This is the quiz for ' + ${bookTitle}\nAnd I should see multiple choice questions\nAnd I should see short answer questions\nAnd I should see Exit Quiz button\nAnd the Next button should be disabled\nWhen I select an answer\nThen the Next button should not be disabled\nWhen I click Next\nThen I should be on another question\n\n\n\n\nI want to Finish a Book Quiz\n\n\nGiven I am on a book quiz\nAnd I am on the second to last question\nThen I should see the Next button\nAnd the Next button should be disabled\nWhen I select an answer\nThen the Next button should not be disabled\nWhen I click Next\nThen I should see ${completionMessage}\nAnd I should see ${tryAgainLaterMessage}\nAnd I should see ${bookTitle}\nAnd I should see ${bookAuthor}\nAnd I should see my grade\nAnd I should see right:wrong ratio\nAnd I should see View Incorrect Answers button\nAnd I should see the feedback section\nAnd I should see 'Loved It!'\nAnd I should see 'Liked It!'\nAnd I should see 'Okay'\nAnd I should see 'Not Great'\nAnd I should see 'Leave It'\nWhen I click ${feedbackOption}\nThen the button should be green\nAnd I should see a comment field\nWhen I fill in comment with ${comment}\nThen I should see ${comment}\nAnd I should see Done button\nWhen I press Done\nThen I should not see the modal\n\n\n\n\nI want to view statistics based on my quiz results\n\n\n${preconditions}\nAnd I finished ${bookQuiz}\nWhen I close the modal\nThen I should see my statistics and quiz results\nAnd I should see my Lexile updated with my score(s)", 
             "title": "Reading Pro"
         }, 
         {
             "location": "/plans/uat/reading_pro_uat_plan/#user-acceptance-tests", 
-            "text": "For  Reading Pro", 
+            "text": "", 
             "title": "User Acceptance Tests"
         }, 
         {
@@ -162,7 +212,7 @@
         }, 
         {
             "location": "/plans/uat/reading_pro_uat_plan/#authors", 
-            "text": "Name  Email      Grace Clifford  gclifford@scholastic.com    Sajjad Hossain  shossain@scholastic.com", 
+            "text": "Name  Email      Grace Clifford     Sajjad Hossain", 
             "title": "Authors"
         }, 
         {
@@ -186,28 +236,18 @@
             "title": "Requirements"
         }, 
         {
-            "location": "/plans/uat/reading_pro_uat_plan/#software", 
-            "text": "", 
-            "title": "Software"
-        }, 
-        {
-            "location": "/plans/uat/reading_pro_uat_plan/#operating-systems", 
-            "text": "Mac OS  Linux OS  or Windows OS", 
-            "title": "Operating Systems"
-        }, 
-        {
-            "location": "/plans/uat/reading_pro_uat_plan/#browserswebkits", 
-            "text": "Browser/Webkit  Minimum Version", 
-            "title": "Browsers/Webkits"
+            "location": "/plans/uat/reading_pro_uat_plan/#compatibility", 
+            "text": "Operating System  OS Version  Webkit(s)  Supported Version(s)      Mac OS X  10.9.x +  Safari  Latest 3 versions      Chrome  Latest 3 versions    iOS  7.x.x +  Safari  Latest 3 versions      Chrome  Latest 3 versions    Windows  7.x.x +  Chrome  Latest 3 versions      Firefox  Latest 3 versions      Internet Explorer  Version 11.x.x +      Edge  Version 12.x.x +", 
+            "title": "Compatibility"
         }, 
         {
             "location": "/plans/uat/reading_pro_uat_plan/#environments", 
-            "text": "LOCAL (DEV)  DEV  QA  PRODUCTION", 
+            "text": "LOCAL (DEV)  BUILD  DEV  QA  PRODUCTION", 
             "title": "Environments"
         }, 
         {
             "location": "/plans/uat/reading_pro_uat_plan/#personnel", 
-            "text": "Grace Clifford  Chanda Chaudhary  Srisha Vuppu  Sajjad Hossain", 
+            "text": "Name  Email      Lytton, Alison     Chaudhary, Chanda     Mane, Dattaram     Nadgar, DJ     Stoltze, Emma     Krangel, Eric     Clifford, Grace     Vaidya, Jeanny     Ying, Jiayi     Palmer, John     Caicedo, Linda     Jain, Palak     Hossain, Sajjad     Vuppu, Sirisha     Morgan, Tucker     Lolla, Vamsidhar     Efremovski, Velimir     Reddy, Rajender     Palmer, Diane     Chen, Jenhau     Artin, Megan     Narala, Sivarami     Kumar, Udesh     Athrey, Vinod     Nagaraju, Bhagirathi     Cherrington, Janelle     Schoss, Josepha     Rajendran, Kausthubh     Claiborne, Mike     Krants, Paul", 
             "title": "Personnel"
         }, 
         {
@@ -221,24 +261,34 @@
             "title": "Acceptance Criteria"
         }, 
         {
-            "location": "/plans/uat/reading_pro_uat_plan/#students", 
-            "text": "", 
-            "title": "Students"
+            "location": "/plans/uat/reading_pro_uat_plan/#known-defects", 
+            "text": "JIRA  Notes      EXAMPLE-88  User's without admin assessments cannot sign in", 
+            "title": "Known Defects"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#risks", 
+            "text": "Known defects are not listed  Schedule is not finalized  Stories tested under UAT do not include functional tests", 
+            "title": "Risks"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#schedule", 
+            "text": "Task Name  Duration (days)  Start  Finish      Application Name  36  MM/DD/YYYY  MM/DD/YYYY    Development  22  MM/DD/YYYY  MM/DD/YYYY    QA Review #1 - Theta Testing  2  MM/DD/YYYY  MM/DD/YYYY    Development (Revisions)  2  MM/DD/YYYY  MM/DD/YYYY    Deployment to QA Environment  2  MM/DD/YYYY  MM/DD/YYYY    QA Review #2 - Beta Testing  1  MM/DD/YYYY  MM/DD/YYYY    Deployment to Stage or Alpha Environment  2  MM/DD/YYYY  MM/DD/YYYY    Final QA - Alpha Testing  5  MM/DD/YYYY  MM/DD/YYYY", 
+            "title": "Schedule"
         }, 
         {
             "location": "/plans/uat/reading_pro_uat_plan/#epics", 
-            "text": "I want to use the home page  I want to use the home page with Recommended Reading List", 
-            "title": "Epic(s)"
+            "text": "I want to use the home page  I want to use the Recommended Reading List  I want to use Search and Search Results  I want to use My Results  I want to take a Reading Pro test  I want to take a Book Quiz", 
+            "title": "Epics"
         }, 
         {
-            "location": "/plans/uat/reading_pro_uat_plan/#stories", 
-            "text": "I want to see Scholastic Branding and Logo  I want to see the SDM widget  I want to see the Navigation Bar  I want to see the Welcome Message  I want to see My Guided Reading Level  I want to see Reading Interests messages  I want to see Reading Interests icons  I want to see Create My Reading List button", 
-            "title": "Stories"
-        }, 
-        {
-            "location": "/plans/uat/reading_pro_uat_plan/#scenarios", 
+            "location": "/plans/uat/reading_pro_uat_plan/#test-cases", 
             "text": "", 
-            "title": "Scenarios"
+            "title": "Test Cases"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#preconditions", 
+            "text": "Given I am on Reading Pro\nAnd I am a Student\nAnd I am GRL Student\nAnd I have my assessments\nAnd I go to my school\nAnd I have my products", 
+            "title": "${preconditions}"
         }, 
         {
             "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-use-the-home-page", 
@@ -246,54 +296,929 @@
             "title": "I want to use the home page"
         }, 
         {
+            "location": "/plans/uat/reading_pro_uat_plan/#scenarios", 
+            "text": "I want to see Scholastic Branding and Logo  I want to see the SDM widget  I want to see the Navigation Bar  I want to see the Welcome Message  I want to see My Guided Reading Level  I want to see Reading Interests messages  I want to see Reading Interests icons  I want to see Create My Reading List button", 
+            "title": "Scenarios"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#stories", 
+            "text": "", 
+            "title": "Stories"
+        }, 
+        {
             "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-scholastic-branding-and-logo", 
-            "text": "Given I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see the Scholastic Logo\nAnd it should be in the upper left corner", 
+            "text": "${preconditions}\nThen I should see the Scholastic Logo\nAnd it should be in the upper left corner\nAnd I should see the", 
             "title": "I want to see Scholastic Branding and Logo"
         }, 
         {
             "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-the-sdm-widget", 
-            "text": "Given I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see the SMD widget\nWhen I mouse over my name\nThen I should see the log out link\nWhen I mouse over the widget grid\nThen I should see:\n    The name of the school\n    Scholastic Digital Manager Logo\n    Other Products\nWhen I click Scholastic Digital Manager Logo\nThen I should be on SDM Portal Page\nWhen I click on another product\nThen the other application should open", 
+            "text": "${preconditions}\nThen I should see the SMD widget\nWhen I mouse over my name\nThen I should see the log out link\nWhen I mouse over the widget grid\nThen I should see:\n    The name of the school\n    Scholastic Digital Manager Logo\n    Other Products\nWhen I click Scholastic Digital Manager Logo\nThen I should be on SDM Portal Page\nWhen I click on another product\nThen the other application should open", 
             "title": "I want to see the SDM widget"
         }, 
         {
             "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-the-navigation-bar", 
-            "text": "Given I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see Home\nAnd I should see Search\nAnd I should see My Results\nAnd if class has been set by teacher\nAnd I should see Reading Pro Test", 
+            "text": "${preconditions}\nThen I should see Home\nAnd I should see Search\nAnd I should see My Results\nAnd if class has been set by teacher\nAnd I should see Reading Pro Test", 
             "title": "I want to see the Navigation Bar"
         }, 
         {
             "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-the-welcome-message", 
-            "text": "Given I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see 'Hi, ${studentFirstName}!'", 
+            "text": "${preconditions}\nThen I should see 'Hi, ${studentFirstName}!'", 
             "title": "I want to see the Welcome Message"
         }, 
         {
             "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-my-guided-reading-level", 
-            "text": "Given I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see My Guided Reading Level\nAnd if this is my first time in this view\nThen My Guided Reading Level should be blank", 
+            "text": "${preconditions}\nThen I should see My Guided Reading Level\nAnd if this is my first time in this view\nThen My Guided Reading Level should be blank", 
             "title": "I want to see My Guided Reading Level"
         }, 
         {
             "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-reading-interests-messages", 
-            "text": "Given I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nAnd if this is my first time in this view\nThen I should see ${message}\nAnd it should be below student welcome message", 
+            "text": "${preconditions}\nAnd if this is my first time in this view\nThen I should see ${message}\nAnd it should be below student welcome message", 
             "title": "I want to see Reading Interests messages"
         }, 
         {
             "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-reading-interests-icons", 
-            "text": "Given I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see upto 20 Reading Interest icons\nWhen I click on an icon\nThen the icon should be checked\nWhen I click a checked icon\nThen the icon should be un-cheecked\nIf I clicked an icon more than 3 times\nThen I should not see any checks", 
+            "text": "${preconditions}\nThen I should see upto 20 Reading Interest icons\nWhen I click on an icon\nThen the icon should be checked\nWhen I click a checked icon\nThen the icon should be un-checked\nWhen I have 3 icons checked\nAnd I check another icon \nThen the fourth icon should not be checked", 
             "title": "I want to see Reading Interests icons"
         }, 
         {
             "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-create-my-reading-list-button", 
-            "text": "Given I am on '/'\nAnd I have my permissions\nAnd I go to my school\nAnd I have my products\nThen I should see Create My Reading List button\nAnd it should be below Reading Icons", 
+            "text": "${preconditions}\nThen I should see Create My Reading List button\nAnd it should be below Reading Icons", 
             "title": "I want to see Create My Reading List button"
         }, 
         {
-            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-use-the-home-page-with-recommended-reading-list", 
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-use-the-recommended-reading-list", 
             "text": "As a student\nI want to use the Recommended Reading List\nSo that I can access recommended content", 
-            "title": "I want to use the home page with Recommended Reading List"
+            "title": "I want to use the Recommended Reading List"
         }, 
         {
-            "location": "/plans/uat/reading_pro_uat_plan/#schedule", 
-            "text": "Task Name  Duration (days)  Start  Finish      Application Name  36  MM/DD/YYYY  MM/DD/YYYY    Development  22  MM/DD/YYYY  MM/DD/YYYY    QA Review #1 - Theta Testing  2  MM/DD/YYYY  MM/DD/YYYY    Development (Revisions)  2  MM/DD/YYYY  MM/DD/YYYY    Deployment to QA Environment  2  MM/DD/YYYY  MM/DD/YYYY    QA Review #2 - Beta Testing  1  MM/DD/YYYY  MM/DD/YYYY    Deployment to Stage or Alpha Environment  2  MM/DD/YYYY  MM/DD/YYYY    Final QA - Alpha Testing  5  MM/DD/YYYY  MM/DD/YYYY", 
+            "location": "/plans/uat/reading_pro_uat_plan/#scenarios_1", 
+            "text": "I want to see My Guided Reading Level  I want to see Certificate Level  I want to see Quizzes Passed  I want to see Words Read  I want to see Average Quiz Score  I want to see My Reading Interests  I want to edit My Reading Interests  I want to see My Reading List", 
+            "title": "Scenarios"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#stories_1", 
+            "text": "", 
+            "title": "Stories"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-my-guided-reading-level_1", 
+            "text": "${preconditions}\nThen I should see My Lexile\nAnd it should be empty by default", 
+            "title": "I want to see My Guided Reading Level"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-certificate-level", 
+            "text": "${preconditions}\nThen I should see My Lexile\nAnd I should see Certificate Level\nAnd it should display a hyphen by default", 
+            "title": "I want to see Certificate Level"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-quizzes-passed", 
+            "text": "${preconditions}\nThen I should see My Lexile\nAnd I should see Quizzes Passed\nAnd it should be 0 by default\nWhen I take a quiz\nAnd I pass my quiz\nThen I should see my grade", 
+            "title": "I want to see Quizzes Passed"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-words-read", 
+            "text": "${preconditions}\nAnd I've read ${books}\nThen I should see My Lexile\nAnd I should see Words Read\nAnd it should be 0 by default\nWhen I read a book\nThen I should see number of words read", 
+            "title": "I want to see Words Read"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-average-quiz-score", 
+            "text": "${preconditions}\nThen I should see My Lexile\nAnd I should see Average Quiz Score\nAnd it should be 0% by default\nWhen I take a quiz\nThen I should the average of all my tests scored", 
+            "title": "I want to see Average Quiz Score"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-my-reading-interests", 
+            "text": "${preconditions}\nThen I should see My Lexile\nAnd I should see My Reading Interests\nAnd I should see up to 3 icons", 
+            "title": "I want to see My Reading Interests"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-edit-my-reading-interests", 
+            "text": "${preconditions}\nAnd I chose my ${readingInterests}\nThen I should see My Lexile\nAnd I should see My Reading Interests\nAnd I should see up to 3 icons\nWhen I choose 3 new icons\nAnd I press Update My Reading List\nThen I should see my new Reading List", 
+            "title": "I want to edit My Reading Interests"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-my-reading-list", 
+            "text": "${preconditions}\nAnd I chose my ${readingInterests}\nThen I should see My Lexile\nAnd I should see 'Here are some books you might like to read'\nAnd I should see 'Recommended'\nAnd I should see 'Fast Find'\nAnd I should see 'What's New'\nWhen I mouse over information buttion\nThen the information modal apperars\nWhen I click a tab\nThen I should see ${books}\nAnd I should see ${bookCovers}\nAnd I should see ${bookTitles}\nAnd I should see ${bookSummaries}\nAnd I should see ${bookAuthors}\nIf there is a Guided Reading Level or Lexile for ${book}\nThen I should see it below the authors name\nAnd I should see ${wordCount} below Lexile\nAnd I should see ${readingInterestCategories} below summary\nAnd I should see Take Quiz button\nWhen I click Take Quiz\nThen I should see a modal with a quiz for that title\nWhen I close the modal\nAnd I click List View icon\nThen I should see a table of books\nAnd I should see ${columnHeaders}\nWhen I click ${columnHeader}\nThen the table should be sorted by the column values descending\nWhen I click ${columnHeader}\nThen the table should be sorted by the column values ascending", 
+            "title": "I want to see My Reading List"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-use-search-and-search-results", 
+            "text": "As a student\nI want to use Search\nSo that I can filter content by custom search criteria", 
+            "title": "I want to use Search and Search Results"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#scenarios_2", 
+            "text": "I want to see the Search Bar  I want to see Search filter options  I want to use Search filter options  I want to use Search  I want to Search by Reading Interests", 
+            "title": "Scenarios"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#stories_2", 
+            "text": "", 
+            "title": "Stories"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-the-search-bar", 
+            "text": "${preconditions}\nThen I should see the search bar\nAnd I should see the search button\nAnd I should see search filters", 
+            "title": "I want to see the Search Bar"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-search-filter-options", 
+            "text": "Given I am on '/'\nAnd I have my assessments\nAnd I go to my school\nAnd I have my products\nThen I should see the search bar\nAnd I should see search filters\nAnd I should see 'Books with Quizzes Only'\nAnd I should see 'At My Reading Level'\nAnd I should see 'In My School Library'\nAnd I should see 'eBooks Only'", 
+            "title": "I want to see Search filter options"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-use-search-filter-options", 
+            "text": "${preconditions}\nThen I should see the search bar\nAnd I should see search filters\nWhen I click ${searchFilter}\nThen I should see results filtered by ${filter}", 
+            "title": "I want to use Search filter options"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-use-search", 
+            "text": "${preconditions}\nThen I should see the search bar\nAnd I should see search filters\nWhen I fill in search with ${searchTerm}\nThen I should see ${results}\nAnd I should see ${books}\nAnd I should see ${bookCovers}\nAnd I should see ${bookTitles}\nAnd I should see ${bookSummaries}\nAnd I should see ${bookAuthors}\nIf there is a Guided Reading Level or Lexile for ${book}\nThen I should see it to the right of the book title\nAnd I should see ${wordCount} to the right of Lexile\nAnd I should see Take Quiz button\nWhen I click List View icon\nThen I should see a table of books\nAnd I should see ${columnHeaders}\nWhen I click ${columnHeader}\nThen the table should be sorted by the column values descending\nWhen I click ${columnHeader}\nThen the table should be sorted by the column values ascending", 
+            "title": "I want to use Search"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-search-by-reading-interests", 
+            "text": "${preconditions}\nThen I should see the search bar\nAnd I should see the Reading Interests link\nWhen I follow Reading Interests\nThen I should see upto 20 Reading Interest icons\nAnd I should see Search button\nWhen I click on an icon\nThen the icon should be checked\nWhen I click a checked icon\nThen the icon should be un-cheecked\nWhen I select my ${readingInterests}\nAnd I press the Search Button \nThen I should be on the Search Results page\nAnd I should see 'Selected reading interests'\nAnd I should see my ${readingInterests} at the top of my results\nAnd I should see search ordered ${byReadingInterests}\nAnd I should see ${books}\nAnd I should see ${bookCovers}\nAnd I should see ${bookTitles}\nAnd I should see ${bookSummaries}\nAnd I should see ${bookAuthors}\nIf there is a Guided Reading Level or Lexile for ${book}\nThen I should see it to the right of the book title\nAnd I should see ${wordCount} to the right of Lexile\nAnd I should see Take Quiz button\nWhen I click List View icon\nThen I should see a table of books\nAnd I should see ${columnHeaders}\nWhen I click ${columnHeader}\nThen the table should be sorted by the column values descending\nWhen I click ${columnHeader}\nThen the table should be sorted by the column values ascending", 
+            "title": "I want to Search by Reading Interests"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-use-my-results", 
+            "text": "As a student\nI want to use My Results\nSo that I can view results filtered by search criteria", 
+            "title": "I want to use My Results"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#scenarios_3", 
+            "text": "I want to see my statistics  I want to view a list of books I've read", 
+            "title": "Scenarios"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#stories_3", 
+            "text": "", 
+            "title": "Stories"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-my-statistics", 
+            "text": "${preconditions}\nThen I should see my statistics\nAnd I should see My Guided Reading\nAnd I should see Certificate Level\nAnd I should see Quizzes Passed\nAnd I should see Words Read\nAnd I should see Average Quiz Score", 
+            "title": "I want to see my statistics"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-view-a-list-of-books-ive-read", 
+            "text": "${preconditions}\nThen I should see List of Books I've Read\nAnd I should see ${books}\nAnd I should see ${bookCovers}\nAnd I should see ${bookTitles}\nAnd I should see ${bookSummaries}\nAnd I should see ${bookAuthors}\nAnd I should see ${bookWordCount}\nAnd I should see ${bookPoints}\nAnd I should see ${bookDate}", 
+            "title": "I want to view a list of books I've read"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-take-a-reading-pro-test", 
+            "text": "As a student\nI want to take a Reading Pro test\nSo that my reading level can be assessed and graded", 
+            "title": "I want to take a Reading Pro test"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#scenarios_4", 
+            "text": "I want to see a welcome message  I want to start and pause the test  I want to practice a test  I want to skip a question  I want to complete a test", 
+            "title": "Scenarios"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#stories_4", 
+            "text": "", 
+            "title": "Stories"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-see-a-welcome-message", 
+            "text": "${preconditions}\nThen I should see Let's Get Started button\nWhen I press Let's Get Started\nThen I should see a modal\nAnd I should see my first name\nAnd I should see instructions\nAnd I should see a close button\nWhen I press close button\nThen I should not see the modal", 
+            "title": "I want to see a welcome message"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-start-and-pause-the-test", 
+            "text": "${preconditions}\nThen I should see Let's Get Started button\nWhen I press Let's Get Started\nThen I should see a multiple choice question\nAnd I should see a Next button \nAnd the Next button should be disabled\nWhen I select an answer\nThen the Next button should not be disabled\nWhen I click Next\nThen I should be on another question\nWhen I press close\nThen I should see a confirm dialog\nAnd I should see 'Your test will be paused so you can resume later'\nWhen I confirm the pop-up\nThen I should not see the modal", 
+            "title": "I want to start and pause the test"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-practice-a-test", 
+            "text": "${preconditions}\nAnd the teacher required a practice test for the class\nWhen I answer both questions\nThen I should see 'You have completed the practice test. All questions you answer from now on will be counted toward your Lexile measure.'\nWhen I press Go On\nThen I should be on another question", 
+            "title": "I want to practice a test"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-skip-a-question", 
+            "text": "${preconditions}\nAnd I am on a Reading Pro Test\nThen I should see Skip button\nAnd I should see the maximum amount of skips allowed\nWhen I press Skip\nThen I should be on the next question\nWhen I reachg the maximum amount of skips\nThen the Skip button should be disabled", 
+            "title": "I want to skip a question"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-complete-a-test", 
+            "text": "${preconditions}\nAnd the teacher chose to share Lexile results\nAnd I am on a Reading Pro Test\nAnd I answered all the questions\nThen I should see a completion message\nAnd I should see an exit button\nAnd I should see Create Reading List button\nAnd I should see my Lexile updated with my score(s)", 
+            "title": "I want to complete a test"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-take-a-book-quiz", 
+            "text": "As a student\nI want to take a Book Quiz\nSo that my reading comprehension for that title can be assessed", 
+            "title": "I want to take a Book Quiz"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#scenarios_5", 
+            "text": "I want to take a Book Quiz  I want to press Next  I want to Finish a Book Quiz  I want to view statistics based on my quiz results", 
+            "title": "Scenarios"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#stories_5", 
+            "text": "", 
+            "title": "Stories"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-take-a-book-quiz_1", 
+            "text": "${preconditions}\nThen I should see Take Quiz button\nAnd I should see ${quizzes}\nAnd I should see 'Quizzes for ' + ${bookTitle}\nAnd I should see close button\nAnd I should see ${bookTitle}\nWhen I press Take Quiz\nThen I should see my first name\nAnd I should see 'This is the quiz for ' + ${bookTitle}\nAnd I should see multiple choice questions\nAnd I should see short answer questions\nAnd I should see Exit Quiz button\nWhen I press Exit Quiz\nThen I should see a warning dialog\nAnd I should see 'Exiting a quiz will be counted as an attempt. Are you sure you want to exit?' \nWhen I confirm the dialog\nThen I should see ${tryAgainLaterMessage}\nAnd I should see ${bookTitle}\nAnd I should see ${bookAuthor}\nAnd I should see my grade\nAnd I should see right:wrong ratio\nAnd I should see View Incorrect Answers button\nAnd I should see Done button\nWhen I press Done\nThen I should not see the modal", 
+            "title": "I want to take a Book Quiz"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-press-next", 
+            "text": "Given I am on a book quiz\nThen I should see my first name\nAnd I should see 'This is the quiz for ' + ${bookTitle}\nAnd I should see multiple choice questions\nAnd I should see short answer questions\nAnd I should see Exit Quiz button\nAnd the Next button should be disabled\nWhen I select an answer\nThen the Next button should not be disabled\nWhen I click Next\nThen I should be on another question", 
+            "title": "I want to press Next"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-finish-a-book-quiz", 
+            "text": "Given I am on a book quiz\nAnd I am on the second to last question\nThen I should see the Next button\nAnd the Next button should be disabled\nWhen I select an answer\nThen the Next button should not be disabled\nWhen I click Next\nThen I should see ${completionMessage}\nAnd I should see ${tryAgainLaterMessage}\nAnd I should see ${bookTitle}\nAnd I should see ${bookAuthor}\nAnd I should see my grade\nAnd I should see right:wrong ratio\nAnd I should see View Incorrect Answers button\nAnd I should see the feedback section\nAnd I should see 'Loved It!'\nAnd I should see 'Liked It!'\nAnd I should see 'Okay'\nAnd I should see 'Not Great'\nAnd I should see 'Leave It'\nWhen I click ${feedbackOption}\nThen the button should be green\nAnd I should see a comment field\nWhen I fill in comment with ${comment}\nThen I should see ${comment}\nAnd I should see Done button\nWhen I press Done\nThen I should not see the modal", 
+            "title": "I want to Finish a Book Quiz"
+        }, 
+        {
+            "location": "/plans/uat/reading_pro_uat_plan/#i-want-to-view-statistics-based-on-my-quiz-results", 
+            "text": "${preconditions}\nAnd I finished ${bookQuiz}\nWhen I close the modal\nThen I should see my statistics and quiz results\nAnd I should see my Lexile updated with my score(s)", 
+            "title": "I want to view statistics based on my quiz results"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/", 
+            "text": "Performance Tests\n\n\nOverview\n\n\nAuthors\n\n\n\n\n\n\n\n\nName\n\n\nEmail\n\n\n\n\n\n\n\n\n\n\nNavraj Nat\n\n\n\n\n\n\n\n\nSajjad Hossain\n\n\n\n\n\n\n\n\n\n\nVesions\n\n\n\n\n\n\n\n\nDate\n\n\nVersion\n\n\n\n\n\n\n\n\n\n\n05/25/17\n\n\n1.0\n\n\n\n\n\n\n06/22/17\n\n\n1.1\n\n\n\n\n\n\n\n\nScope\n\n\nThe scope of this test plan only extends extends itself to Performance Testing for Environment Promotion. If these tests fail, then there are major, critical bugs to resolve for performance and system requirements to meet expectations.\n\n\nAbstract\n\n\nLevel Bookroom Accelerator (LBA) is a digital tool to help educators keep bookrooms organized and have access to instructional planning. \n\n\nThe Leveled Bookroom Accelerator is an instructional tool and will be integrated into Scholastic\u2019s core delivery platform, SDM (Scholastic Digital Manager).  While Scholastic will be working with vendors to develop features of the LBA, it will need to be developed via the specifications of Scholastic\u2019s Internal Product Development Teams.\n\n\nProject Process \n tools will need to be agreed to across three core areas: \n\n\n\n\nNew Content Production\n: New instructional content for the program will be developed for both print and digital usage.  Workflows will need to be carefully coordinated across channels to maximize efficiency.\n\n\nDigital Content Conversion\n: We will want to build an enhanced experience for the teacher materials that leverages existing XML content \n metadata as well as enhancements to existing print only materials.  \n\n\nApplication Development\n: Features and experiences meant to enhance the content or experience of using the leveled bookroom accelerator.  \n\n\nSite will be a responsive Angular App that supports select content down to a Phone Aspect Ratio\n\n\nInitial launch is limited to Educator roles, not students or parents, although we may display class information\n\n\nUser Profile, Registration, and License details would all be managed via Scholastic Digital Manager\n\n\nRostering would be managed via Clever\n\n\nContent and data served in LBA could be integrated with Scholastic\u2019s ecosystem and tools; including but not limited to:\n\n\nSDM\n\n\nWoodwing\n\n\nAdobe Suite (Primarily IDD \n IC)\n\n\nPRM (Scholastic\u2019s Digital Delivery Content Management System)\n\n\nAEM\n\n\nClever\n\n\nGIT\n\n\neReader\n\n\nAnalytics\n\n\n\n\n\n\n\n\nRequirements\n\n\nCompatibility\n\n\n\n\n\n\n\n\nOperating System\n\n\nOS Version\n\n\nWebkit(s)\n\n\nSupported Version(s)\n\n\n\n\n\n\n\n\n\n\nMac OS X\n\n\n10.9.x +\n\n\nSafari\n\n\nLatest 3 versions\n\n\n\n\n\n\n\n\n\n\nChrome\n\n\nLatest 3 versions\n\n\n\n\n\n\niOS\n\n\n7.x.x +\n\n\nSafari\n\n\nLatest 3 versions\n\n\n\n\n\n\n\n\n\n\nChrome\n\n\nLatest 3 versions\n\n\n\n\n\n\nWindows\n\n\n7.x.x +\n\n\nChrome\n\n\nLatest 3 versions\n\n\n\n\n\n\n\n\n\n\nFirefox\n\n\nLatest 3 versions\n\n\n\n\n\n\n\n\n\n\nInternet Explorer\n\n\nVersion 11.x.x +\n\n\n\n\n\n\n\n\n\n\nEdge\n\n\nVersion 12.x.x +\n\n\n\n\n\n\n\n\nEnvironments\n\n\n\n\nLOCAL (DEV)\n\n\nBUILD\n\n\nDEV\n\n\nQA\n\n\nPRODUCTION\n\n\n\n\nPersonnel\n\n\n\n\n\n\n\n\nName\n\n\nEmail\n\n\n\n\n\n\n\n\n\n\nMegan Artin\n\n\n\n\n\n\n\n\nDeanna Rullan\n\n\n\n\n\n\n\n\nAdam Young\n\n\n\n\n\n\n\n\nAlex (Oleksiy) Deverishchev\n\n\n\n\n\n\n\n\nJessie Dib\n\n\n\n\n\n\n\n\nCaitlin Endyke\n\n\n\n\n\n\n\n\nMiriam Kasell\n\n\n\n\n\n\n\n\nSean Oakes\n\n\n\n\n\n\n\n\nDavid Langendoen\n\n\n\n\n\n\n\n\n\n\nTools\n\n\n\n\nEclipse\n\n\nJava 8\n\n\nWidefly\n\n\nMySQL\n\n\nMySQL Workbench\n\n\nSourceTree\n\n\nBitBucket\n\n\n\n\nAcceptance Criteria\n\n\nThe acceptance criteria for this test plan extends itself to only performance-level interaction with the application and its' endpoints and requests made under-the-hood.\n\n\n\n\nThe systems' performance during the performance \n stress tests should be greater or equal to server conditions during baseline system performance test.\n\n\nApplication should have a reasonable response time:\n\n\nUser Interface requests should resolve under 6 seconds with no delays presented to the user\n\n\nBackground requests should timeout or resolve in 30 seconds with no impacts presented to the user\n\n\n\n\n\n\nServer resource allocation should handle redirects and loadbalancing to serve performance and stress conditions\n\n\nLoad balancers should be identified and tested\n\n\nCDNs, and other content delivery systems should be identified and tested\n\n\n\n\n\n\n\n\nThe tests do not meet pass criteria if:\n\n\n\n\nSystem crashes during test\n\n\nSystem becomes momentarily unresponsive\n\n\nSystem performance during tests is worse than baseline test conditions\n\n\n\n\nKnown Defects\n\n\n\n\n\n\n\n\nJIRA\n\n\nNotes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRisks\n\n\n\n\nKnown defects are not identified\n\n\n\n\nLoad Model\n\n\n\n\n\n\n\n\nApplication\n\n\nUser\n\n\nScenario\n\n\nUser Agent\n\n\nPage Visits\n\n\n\n\n\n\n\n\n\n\nLBA\n\n\nTeacher\n\n\nI want to see Reserved Titles\n\n\nBrowser\n\n\n5000\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to see Bookmarked Titles\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to see Similar Titles\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to see a Teaching Card for my title\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to see a Teaching Card for my title\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to see Resources\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to see a new book added to My Set\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to go Back To The Search after logging out\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\nAdmin\n\n\nI want to log in as an Admin and go to Bookroom Manager\n\n\n\"\"\n\n\n1000\n\n\n\n\n\n\n\n\nSchedule\n\n\n\n\n\n\n\n\nTask Name\n\n\nDuration (days)\n\n\nStart\n\n\nFinish\n\n\n\n\n\n\n\n\n\n\nReview and Finalize Plan\n\n\n2\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\nDress Rehearsal\n\n\n1\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\nTest Scripting\n\n\n3\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\n1x Testing\n\n\n1\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\n2x Testing\n\n\n1\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\nEndurance Testing\n\n\n1.5\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\nAlpha Testing\n\n\n1\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\n\n\nTests\n\n\n\n\n\n\n\n\nTest Name\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nDress Rehearsal\n\n\nThis will test the JMeter installation and make sure that requests sent from JMeter is properly received by the system under test\n\n\n\n\n\n\n1x Testing\n\n\nThese tests will be executed as a baseline for up to an hour.\n\n\n\n\n\n\n2x Testing\n\n\nThese tests will stress test the system with 150% - 300% of our Peak Load.\n\n\n\n\n\n\nEndurance Testing\n\n\nThese tests will stress test the system for about 36 hours with a moderate size load.\n\n\n\n\n\n\nAlpha Testing\n\n\nRe-run any tests that need to be ran again\n\n\n\n\n\n\n\n\nEpics\n\n\n\n\nI want to benchmark the system under the highest load possible\n\n\nI want to make sure scholastic resources are resolved within 2 seconds\n\n\nI want to make sure server requests are load balanced\n\n\nI want to make sure content is delivered from a content delivery network\n\n\nI want to test the system under the highest expected load conditions\n\n\nI want to stress test the system under high concurrent usage conditions\n\n\nI want to test the views with the most unique page views from Google Analytics\n\n\n\n\nTest Cases\n\n\n${preconditions}\n\n\nGiven I am on Leveled Bookroom Accelerator\nAnd I am a ${userType}\nThen I should be on Scholastic Digital Manager\nAnd I should see the log in form\nWhen I fill in the log in form with ${credentials}\nAnd I submit the log in form\nThen I should see the Leveled Bookroom Accelerator icon\nWhen I launch Leveled Bookroom Accelerator\n\n\n\n\nI want to benchmark the system under the highest load possible\n\n\nAs a quality engineer\nI want to benchmark the system under the highest load possible\nSo that I can benchmark the systems maximum load\n\n\n\n\nI want to test the system under the highest expected load conditions\n\n\nAs a quality engineer\nI want to test the system under the highest expected load conditions\nSo that I can performance test our system according to benchmarks\n\n\n\n\nI want to stress test the system under high concurrent usage conditions\n\n\nAs a quality engineer\nI want to stress test the system under high concurrent usage conditions\nSo that I can stress test our system under unusually high traffic\n\n\n\n\nScenarios\n\n\n\n\nI want to see Reserved Titles\n\n\nI want to see Bookmarked Titles\n\n\nI want to see Similar Titles\n\n\nI want to see a Teaching Card for my title\n\n\nI want to see Resources\n\n\nI want to see a new book added to My Set\n\n\nI want to go Back To The Search after logging out\n\n\nI want to log in as an Admin and go to Bookroom Manager\n\n\n\n\nStories\n\n\nI want to see Reserved Titles\n\n\n${preconditions}\nAnd I fill in the search input with ${bookTitle}\nAnd I submit my search query\nThen I should be on search results page\nAnd I should see my search results\nWhen I follow ${bookTitle}\nThen I should see teaching card pop-up\nAnd I should see reserve button\nWhen I reserve ${bookTitle}\nAnd I close the teaching card pop-up\nAnd I follow My Sets\nAnd I follow Reserved Titles\nThen I should see My Reserved Titles\n\nExamples:\n    | userType  | credentials            | bookTitle    |\n    | Teacher   | { username, password } | Harry Potter |\n\n\n\n\nI want to see Bookmarked Titles\n\n\n${preconditions}\nAnd I fill in the search input with ${bookTitle}\nAnd I submit my search query\nThen I should be on search results page\nAnd I should see my search results\nWhen I follow ${bookTitle}\nThen I should see teaching card pop-up\nAnd I should see bookmark button\nWhen I bookmark ${bookTitle}\nAnd I close the teaching card pop-up\nAnd I follow My Sets\nAnd I follow Bookmarked Titles\nThen I should see My Bookmarked Titles\n\nExamples:\n    | userType  | credentials            | bookTitle    |\n    | Teacher   | { username, password } | Harry Potter |\n\n\n\n\nI want to see Similar Titles\n\n\n${preconditions}\nAnd I fill in the search input with ${bookTitle}\nAnd I submit my search query\nThen I should be on search results page\nAnd I should see my search results\nWhen I follow ${bookTitle}\nThen I should see teaching card pop-up\nAnd I should see search for similar button\nWhen I search for books similar to ${bookTitle}\nAnd I follow ${similarBookTitle}\n\nExamples:\n    | userType  | credentials            | bookTitle    | similarBookTitle |\n    | Teacher   | { username, password } | Harry Potter | Lemony Snicket   |\n\n\n\n\nI want to see a Teaching Card for my title\n\n\n${preconditions}\nAnd I fill in the search input with ${bookTitle}\nAnd I submit my search query\nThen I should be on search results page\nAnd I should see my search results\nWhen I follow ${bookTitle}\nThen I should see teaching card pop-up\nAnd I should see teaching card pop-up elements\n\nExamples:\n    | userType  | credentials            | bookTitle    |\n    | Teacher   | { username, password } | Harry Potter |\n\n\n\n\nI want to see a new book added to My Set\n\n\n${preconditions}\nAnd I fill in the search input with ${bookTitle}\nAnd I submit my search query\nThen I should be on search results page\nAnd I should see my search results\nWhen I follow ${bookTitle}\nThen I should see teaching card pop-up\nAnd I should see add to set button\nWhen I press add to set button\nAnd I select my set from the dropdown\nAnd I close the teaching card pop-up\nAnd I follow My Sets\nAnd I follow Bookmarked Titles\nThen I should see ${bookTitle} in My Set\n\nExamples:\n    | userType  | credentials            | bookTitle    |\n    | Teacher   | { username, password } | Harry Potter |\n\n\n\n\nI want to go Back To The Search after logging out\n\n\n${preconditions}\nAnd I fill in the search input with ${bookTitle}\nAnd I submit my search query\nThen I should be on search results page\nAnd I should see my search results\nWhen I follow ${bookTitle}\nThen I should see teaching card pop-up\nWhen I log out via the header\nThen I should be on Scholastic Digital Manager\nAnd I should see the log in form\nWhen I fill in the log in form with ${credentials}\nAnd I submit the log in form\nThen I should be on the home page\nAnd I should see jump back in button\nWhen I press jump back in button\nThen I should be returned to my previous search\n\nExamples:\n    | userType  | credentials            | bookTitle    |\n    | Teacher   | { username, password } | Harry Potter |\n\n\n\n\nI want to log in as an Admin and go to Bookroom Manager\n\n\n${preconditions}\nThen I should be on Bookroom Manager\n\nExamples:\n    | userType | credentials            |\n    | Admin    | { username, password } |", 
+            "title": "LBA"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#performance-tests", 
+            "text": "", 
+            "title": "Performance Tests"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#overview", 
+            "text": "", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#authors", 
+            "text": "Name  Email      Navraj Nat     Sajjad Hossain", 
+            "title": "Authors"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#vesions", 
+            "text": "Date  Version      05/25/17  1.0    06/22/17  1.1", 
+            "title": "Vesions"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#scope", 
+            "text": "The scope of this test plan only extends extends itself to Performance Testing for Environment Promotion. If these tests fail, then there are major, critical bugs to resolve for performance and system requirements to meet expectations.", 
+            "title": "Scope"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#abstract", 
+            "text": "Level Bookroom Accelerator (LBA) is a digital tool to help educators keep bookrooms organized and have access to instructional planning.   The Leveled Bookroom Accelerator is an instructional tool and will be integrated into Scholastic\u2019s core delivery platform, SDM (Scholastic Digital Manager).  While Scholastic will be working with vendors to develop features of the LBA, it will need to be developed via the specifications of Scholastic\u2019s Internal Product Development Teams.  Project Process   tools will need to be agreed to across three core areas:    New Content Production : New instructional content for the program will be developed for both print and digital usage.  Workflows will need to be carefully coordinated across channels to maximize efficiency.  Digital Content Conversion : We will want to build an enhanced experience for the teacher materials that leverages existing XML content   metadata as well as enhancements to existing print only materials.    Application Development : Features and experiences meant to enhance the content or experience of using the leveled bookroom accelerator.    Site will be a responsive Angular App that supports select content down to a Phone Aspect Ratio  Initial launch is limited to Educator roles, not students or parents, although we may display class information  User Profile, Registration, and License details would all be managed via Scholastic Digital Manager  Rostering would be managed via Clever  Content and data served in LBA could be integrated with Scholastic\u2019s ecosystem and tools; including but not limited to:  SDM  Woodwing  Adobe Suite (Primarily IDD   IC)  PRM (Scholastic\u2019s Digital Delivery Content Management System)  AEM  Clever  GIT  eReader  Analytics", 
+            "title": "Abstract"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#requirements", 
+            "text": "", 
+            "title": "Requirements"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#compatibility", 
+            "text": "Operating System  OS Version  Webkit(s)  Supported Version(s)      Mac OS X  10.9.x +  Safari  Latest 3 versions      Chrome  Latest 3 versions    iOS  7.x.x +  Safari  Latest 3 versions      Chrome  Latest 3 versions    Windows  7.x.x +  Chrome  Latest 3 versions      Firefox  Latest 3 versions      Internet Explorer  Version 11.x.x +      Edge  Version 12.x.x +", 
+            "title": "Compatibility"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#environments", 
+            "text": "LOCAL (DEV)  BUILD  DEV  QA  PRODUCTION", 
+            "title": "Environments"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#personnel", 
+            "text": "Name  Email      Megan Artin     Deanna Rullan     Adam Young     Alex (Oleksiy) Deverishchev     Jessie Dib     Caitlin Endyke     Miriam Kasell     Sean Oakes     David Langendoen", 
+            "title": "Personnel"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#tools", 
+            "text": "Eclipse  Java 8  Widefly  MySQL  MySQL Workbench  SourceTree  BitBucket", 
+            "title": "Tools"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#acceptance-criteria", 
+            "text": "The acceptance criteria for this test plan extends itself to only performance-level interaction with the application and its' endpoints and requests made under-the-hood.   The systems' performance during the performance   stress tests should be greater or equal to server conditions during baseline system performance test.  Application should have a reasonable response time:  User Interface requests should resolve under 6 seconds with no delays presented to the user  Background requests should timeout or resolve in 30 seconds with no impacts presented to the user    Server resource allocation should handle redirects and loadbalancing to serve performance and stress conditions  Load balancers should be identified and tested  CDNs, and other content delivery systems should be identified and tested     The tests do not meet pass criteria if:   System crashes during test  System becomes momentarily unresponsive  System performance during tests is worse than baseline test conditions", 
+            "title": "Acceptance Criteria"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#known-defects", 
+            "text": "JIRA  Notes", 
+            "title": "Known Defects"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#risks", 
+            "text": "Known defects are not identified", 
+            "title": "Risks"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#load-model", 
+            "text": "Application  User  Scenario  User Agent  Page Visits      LBA  Teacher  I want to see Reserved Titles  Browser  5000    \"\"  \"\"  I want to see Bookmarked Titles  \"\"  \"\"    \"\"  \"\"  I want to see Similar Titles  \"\"  \"\"    \"\"  \"\"  I want to see a Teaching Card for my title  \"\"  \"\"    \"\"  \"\"  I want to see a Teaching Card for my title  \"\"  \"\"    \"\"  \"\"  I want to see Resources  \"\"  \"\"    \"\"  \"\"  I want to see a new book added to My Set  \"\"  \"\"    \"\"  \"\"  I want to go Back To The Search after logging out  \"\"  \"\"    \"\"  Admin  I want to log in as an Admin and go to Bookroom Manager  \"\"  1000", 
+            "title": "Load Model"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#schedule", 
+            "text": "Task Name  Duration (days)  Start  Finish      Review and Finalize Plan  2  15.1  15.4    Dress Rehearsal  1  15.1  15.4    Test Scripting  3  15.1  15.4    1x Testing  1  15.1  15.4    2x Testing  1  15.1  15.4    Endurance Testing  1.5  15.1  15.4    Alpha Testing  1  15.1  15.4", 
             "title": "Schedule"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#tests", 
+            "text": "Test Name  Description      Dress Rehearsal  This will test the JMeter installation and make sure that requests sent from JMeter is properly received by the system under test    1x Testing  These tests will be executed as a baseline for up to an hour.    2x Testing  These tests will stress test the system with 150% - 300% of our Peak Load.    Endurance Testing  These tests will stress test the system for about 36 hours with a moderate size load.    Alpha Testing  Re-run any tests that need to be ran again", 
+            "title": "Tests"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#epics", 
+            "text": "I want to benchmark the system under the highest load possible  I want to make sure scholastic resources are resolved within 2 seconds  I want to make sure server requests are load balanced  I want to make sure content is delivered from a content delivery network  I want to test the system under the highest expected load conditions  I want to stress test the system under high concurrent usage conditions  I want to test the views with the most unique page views from Google Analytics", 
+            "title": "Epics"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#test-cases", 
+            "text": "", 
+            "title": "Test Cases"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#preconditions", 
+            "text": "Given I am on Leveled Bookroom Accelerator\nAnd I am a ${userType}\nThen I should be on Scholastic Digital Manager\nAnd I should see the log in form\nWhen I fill in the log in form with ${credentials}\nAnd I submit the log in form\nThen I should see the Leveled Bookroom Accelerator icon\nWhen I launch Leveled Bookroom Accelerator", 
+            "title": "${preconditions}"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#i-want-to-benchmark-the-system-under-the-highest-load-possible", 
+            "text": "As a quality engineer\nI want to benchmark the system under the highest load possible\nSo that I can benchmark the systems maximum load", 
+            "title": "I want to benchmark the system under the highest load possible"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#i-want-to-test-the-system-under-the-highest-expected-load-conditions", 
+            "text": "As a quality engineer\nI want to test the system under the highest expected load conditions\nSo that I can performance test our system according to benchmarks", 
+            "title": "I want to test the system under the highest expected load conditions"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#i-want-to-stress-test-the-system-under-high-concurrent-usage-conditions", 
+            "text": "As a quality engineer\nI want to stress test the system under high concurrent usage conditions\nSo that I can stress test our system under unusually high traffic", 
+            "title": "I want to stress test the system under high concurrent usage conditions"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#scenarios", 
+            "text": "I want to see Reserved Titles  I want to see Bookmarked Titles  I want to see Similar Titles  I want to see a Teaching Card for my title  I want to see Resources  I want to see a new book added to My Set  I want to go Back To The Search after logging out  I want to log in as an Admin and go to Bookroom Manager", 
+            "title": "Scenarios"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#stories", 
+            "text": "", 
+            "title": "Stories"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#i-want-to-see-reserved-titles", 
+            "text": "${preconditions}\nAnd I fill in the search input with ${bookTitle}\nAnd I submit my search query\nThen I should be on search results page\nAnd I should see my search results\nWhen I follow ${bookTitle}\nThen I should see teaching card pop-up\nAnd I should see reserve button\nWhen I reserve ${bookTitle}\nAnd I close the teaching card pop-up\nAnd I follow My Sets\nAnd I follow Reserved Titles\nThen I should see My Reserved Titles\n\nExamples:\n    | userType  | credentials            | bookTitle    |\n    | Teacher   | { username, password } | Harry Potter |", 
+            "title": "I want to see Reserved Titles"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#i-want-to-see-bookmarked-titles", 
+            "text": "${preconditions}\nAnd I fill in the search input with ${bookTitle}\nAnd I submit my search query\nThen I should be on search results page\nAnd I should see my search results\nWhen I follow ${bookTitle}\nThen I should see teaching card pop-up\nAnd I should see bookmark button\nWhen I bookmark ${bookTitle}\nAnd I close the teaching card pop-up\nAnd I follow My Sets\nAnd I follow Bookmarked Titles\nThen I should see My Bookmarked Titles\n\nExamples:\n    | userType  | credentials            | bookTitle    |\n    | Teacher   | { username, password } | Harry Potter |", 
+            "title": "I want to see Bookmarked Titles"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#i-want-to-see-similar-titles", 
+            "text": "${preconditions}\nAnd I fill in the search input with ${bookTitle}\nAnd I submit my search query\nThen I should be on search results page\nAnd I should see my search results\nWhen I follow ${bookTitle}\nThen I should see teaching card pop-up\nAnd I should see search for similar button\nWhen I search for books similar to ${bookTitle}\nAnd I follow ${similarBookTitle}\n\nExamples:\n    | userType  | credentials            | bookTitle    | similarBookTitle |\n    | Teacher   | { username, password } | Harry Potter | Lemony Snicket   |", 
+            "title": "I want to see Similar Titles"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#i-want-to-see-a-teaching-card-for-my-title", 
+            "text": "${preconditions}\nAnd I fill in the search input with ${bookTitle}\nAnd I submit my search query\nThen I should be on search results page\nAnd I should see my search results\nWhen I follow ${bookTitle}\nThen I should see teaching card pop-up\nAnd I should see teaching card pop-up elements\n\nExamples:\n    | userType  | credentials            | bookTitle    |\n    | Teacher   | { username, password } | Harry Potter |", 
+            "title": "I want to see a Teaching Card for my title"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#i-want-to-see-a-new-book-added-to-my-set", 
+            "text": "${preconditions}\nAnd I fill in the search input with ${bookTitle}\nAnd I submit my search query\nThen I should be on search results page\nAnd I should see my search results\nWhen I follow ${bookTitle}\nThen I should see teaching card pop-up\nAnd I should see add to set button\nWhen I press add to set button\nAnd I select my set from the dropdown\nAnd I close the teaching card pop-up\nAnd I follow My Sets\nAnd I follow Bookmarked Titles\nThen I should see ${bookTitle} in My Set\n\nExamples:\n    | userType  | credentials            | bookTitle    |\n    | Teacher   | { username, password } | Harry Potter |", 
+            "title": "I want to see a new book added to My Set"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#i-want-to-go-back-to-the-search-after-logging-out", 
+            "text": "${preconditions}\nAnd I fill in the search input with ${bookTitle}\nAnd I submit my search query\nThen I should be on search results page\nAnd I should see my search results\nWhen I follow ${bookTitle}\nThen I should see teaching card pop-up\nWhen I log out via the header\nThen I should be on Scholastic Digital Manager\nAnd I should see the log in form\nWhen I fill in the log in form with ${credentials}\nAnd I submit the log in form\nThen I should be on the home page\nAnd I should see jump back in button\nWhen I press jump back in button\nThen I should be returned to my previous search\n\nExamples:\n    | userType  | credentials            | bookTitle    |\n    | Teacher   | { username, password } | Harry Potter |", 
+            "title": "I want to go Back To The Search after logging out"
+        }, 
+        {
+            "location": "/plans/perf/leveled_bookroom_accelerator_performance_test_plan/#i-want-to-log-in-as-an-admin-and-go-to-bookroom-manager", 
+            "text": "${preconditions}\nThen I should be on Bookroom Manager\n\nExamples:\n    | userType | credentials            |\n    | Admin    | { username, password } |", 
+            "title": "I want to log in as an Admin and go to Bookroom Manager"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/", 
+            "text": "Performance Tests\n\n\nOverview\n\n\nAuthors\n\n\n\n\n\n\n\n\nName\n\n\nEmail\n\n\n\n\n\n\n\n\n\n\nNavraj Nat\n\n\n\n\n\n\n\n\nSajjad Hossain\n\n\n\n\n\n\n\n\n\n\nVesions\n\n\n\n\n\n\n\n\nDate\n\n\nVersion\n\n\n\n\n\n\n\n\n\n\n05/25/17\n\n\n1.0\n\n\n\n\n\n\n06/22/17\n\n\n1.1\n\n\n\n\n\n\n\n\nScope\n\n\nThe scope of this test plan only extends extends itself to Performance Testing for Environment Promotion. If these tests fail, then there are major, critical bugs to resolve for performance and system requirements to meet expectations.\n\n\nAbstract\n\n\nNext Step Guided Reading Assessment provides teachers with an easy-to-use online resource designed to compile valuable student reading assessment data\u2014the information teachers need to group students, select texts, and plan and teach guided reading lessons, and interpret and organize it into printable reports for teachers.\n\n\nNSGRA Features include:\n\n\n\n\nAssessment Tools\n\n\nReporting\n\n\nLesson Plans\n\n\nPDF Resources\n\n\nProduct Usage Videos\n\n\n\n\nApplication Development\n: Features and experiences meant to enhance the content or experience of using NSGRA.  \n\n\n\n\nInitial launch is limited to Educator roles, not students or parents.\n\n\nUser Profile, Registration, and License details would all be managed via Scholastic Digital Manager\n\n\nContent and data served in NSGRA could be integrated with Scholastic\u2019s ecosystem and tools; including but not limited to:\n\n\nSDM\n\n\nWoodwing\n\n\nAdobe Suite (Primarily IDD \n IC)\n\n\nPRM (Scholastic\u2019s Digital Delivery Content Management System)\n\n\nAEM\n\n\nClever\n\n\nGIT\n\n\neReader\n\n\nAnalytics\n\n\n\n\n\n\n\n\nRequirements\n\n\nCompatibility\n\n\n\n\n\n\n\n\nOperating System\n\n\nOS Version\n\n\nWebkit(s)\n\n\nSupported Version(s)\n\n\n\n\n\n\n\n\n\n\nMac OS X\n\n\n10.9.x +\n\n\nSafari\n\n\nLatest 3 versions\n\n\n\n\n\n\n\n\n\n\nChrome\n\n\nLatest 3 versions\n\n\n\n\n\n\niOS\n\n\n7.x.x +\n\n\nSafari\n\n\nLatest 3 versions\n\n\n\n\n\n\n\n\n\n\nChrome\n\n\nLatest 3 versions\n\n\n\n\n\n\nWindows\n\n\n7.x.x +\n\n\nChrome\n\n\nLatest 3 versions\n\n\n\n\n\n\n\n\n\n\nFirefox\n\n\nLatest 3 versions\n\n\n\n\n\n\n\n\n\n\nInternet Explorer\n\n\nVersion 11.x.x +\n\n\n\n\n\n\n\n\n\n\nEdge\n\n\nVersion 12.x.x +\n\n\n\n\n\n\n\n\nEnvironments\n\n\n\n\nLOCAL (DEV)\n\n\nDEV\n\n\nQA\n\n\nPERF\n\n\nPRODUCTION\n\n\n\n\nPersonnel\n\n\n\n\n\n\n\n\nName\n\n\nEmail\n\n\n\n\n\n\n\n\n\n\nBruce Grogan\n\n\n\n\n\n\n\n\nDeanna Rullan\n\n\n\n\n\n\n\n\nGrace Clifford\n\n\n\n\n\n\n\n\n\n\nTools\n\n\n\n\nEclipse\n\n\nPHP 8\n\n\nWidefly\n\n\nMySQL\n\n\nMySQL Workbench\n\n\nSourceTree\n\n\nBitBucket\n\n\n\n\nAcceptance Criteria\n\n\nThe acceptance criteria for this test plan extends itself to only performance-level interaction with the application and its' endpoints and requests made under-the-hood.\n\n\n\n\nThe systems' performance during the performance \n stress tests should be greater or equal to server conditions during baseline system performance test.\n\n\nApplication should have a reasonable response time:\n\n\nUser Interface requests should resolve under 6 seconds with no delays presented to the user\n\n\nBackground requests should timeout or resolve in 30 seconds with no impacts presented to the user\n\n\n\n\n\n\nServer resource allocation should handle redirects and loadbalancing to serve performance and stress conditions\n\n\nLoad balancers should be identified and tested\n\n\nCDNs, and other content delivery systems should be identified and tested\n\n\n\n\n\n\n\n\nThe tests do not meet pass criteria if:\n\n\n\n\nSystem crashes during test\n\n\nSystem becomes momentarily unresponsive\n\n\nSystem performance during tests is worse than baseline test conditions\n\n\n\n\nKnown Defects\n\n\n\n\n\n\n\n\nJIRA\n\n\nNotes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRisks\n\n\n\n\nKnown defects are not identified\n\n\n\n\nLoad Model\n\n\n\n\n\n\n\n\nApplication\n\n\nUser\n\n\nScenario\n\n\nUser Agent\n\n\nPage Visits\n\n\n\n\n\n\n\n\n\n\nNSGRA\n\n\nTeacher\n\n\nI want to assess Development Word Knowledge\n\n\nBrowser\n\n\n5000\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to assess Reading Interest Survey\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to assess Listening Comprehension\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to assess Reading Assessment Conference\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to see Resources\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to see Admin Report Page\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to see the Admin Summary Progress Report Page\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to see the Admin Reading Benchmark Report Page\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\n\nSchedule\n\n\n\n\n\n\n\n\nTask Name\n\n\nDuration (days)\n\n\nStart\n\n\nFinish\n\n\n\n\n\n\n\n\n\n\nReview and Finalize Plan\n\n\n2\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\nDress Rehearsal\n\n\n1\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\nTest Scripting\n\n\n3\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\n1x Testing\n\n\n1\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\n2x Testing\n\n\n1\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\nEndurance Testing\n\n\n1.5\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\nAlpha Testing\n\n\n1\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\n\n\nTests\n\n\n\n\n\n\n\n\nTest Name\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nDress Rehearsal\n\n\nThis will test the JMeter installation and make sure that requests sent from JMeter is properly received by the system under test\n\n\n\n\n\n\n1x Testing\n\n\nThese tests will be executed as a baseline for up to an hour.\n\n\n\n\n\n\n2x Testing\n\n\nThese tests will stress test the system with 150% - 300% of our Peak Load.\n\n\n\n\n\n\nEndurance Testing\n\n\nThese tests will stress test the system for about 36 hours with a moderate size load.\n\n\n\n\n\n\nAlpha Testing\n\n\nRe-run any tests that need to be ran again\n\n\n\n\n\n\n\n\nEpics\n\n\n\n\nI want to benchmark the system under the highest load possible\n\n\nI want to make sure scholastic resources are resolved within 2 seconds\n\n\nI want to make sure server requests are load balanced\n\n\nI want to make sure content is delivered from a content delivery network\n\n\nI want to test the system under the highest expected load conditions\n\n\nI want to stress test the system under high concurrent usage conditions\n\n\nI want to test the views with the most unique page views from Google Analytics\n\n\n\n\nTest Cases\n\n\n${preconditions}\n\n\nGiven I am on NSGRA\nAnd I am a ${userType}\nThen I should be on Scholastic Digital Manager\nAnd I should see the log in form\nWhen I fill in the log in form with ${credentials}\nAnd I submit the log in form\nThen I should see the NSGRA(K-2 or 3-6) icon\nWhen I launch NSGRA(K-2 or 3-6) icon\n\n\n\n\nI want to benchmark the system under the highest load possible\n\n\nAs a quality engineer\nI want to benchmark the system under the highest load possible\nSo that I can benchmark the systems maximum load\n\n\n\n\nI want to test the system under the highest expected load conditions\n\n\nAs a quality engineer\nI want to test the system under the highest expected load conditions\nSo that I can performance test our system according to benchmarks\n\n\n\n\nI want to stress test the system under high concurrent usage conditions\n\n\nAs a quality engineer\nI want to stress test the system under high concurrent usage conditions\nSo that I can stress test our system under unusually high traffic\n\n\n\n\nScenarios\n\n\n\n\nI want to assess Development Word Knowledge\n\n\nI want to assess Reading Interest Survey\n\n\nI want to assess Listening Comprehension\n\n\nI want to assess Reading Assessment Conference  \n\n\nI want to see Resources\n\n\nI want to see Admin Report Page\n\n\nI want to see the Admin Summary Progress Report Page\n\n\nI want to see the Admin Reading Benchmark Report Page\n\n\n\n\nStories\n\n\nI want to assess Development Word Knowledge\n\n\n${preconditions}\nAnd I click the Assess Card\nAnd I click the Development Word Knowledge Card\nThen I should be on Developmental Word Knowledge page\nAnd I select a ${class} from the class dropdown\nAnd I select a ${time_period} from the time period dropdown\nThen I click the view button\nAnd I click on student ${student_name}\nAnd a popup window for the student should display\nThen I select a value for each of the dropdown\nAnd click the save and close button\nAnd should see the results I saved on the Developmental Word Knowledge page\nThen I assessed Developmental Word Knowledge\n\nExamples:\n|userType|class|time_period| student_name|\n|Teacher|English|Beginning of Year| John Smith |\n\n\n\n\nI want to assess Reading Interest Survey\n\n\n${preconditions}\nAnd I click the Assess Card\nAnd I click the Reading Interest Survey Card\nThen I should be on Reading Interest Survey Card page\nAnd I select a ${class} from the class dropdown\nAnd I select a ${time_period} from the time period dropdown\nThen I click the view button\nAnd I click on student ${student_name}\nAnd a popup window for the student should display\nThen I check off certain check boxes\nAnd click the save button\nAnd should see the results I saved on the Reading Interest Survey page\nThen I assessed the Reading Interest Survey  \n\nExamples:\n|userType|class|time_period|student_name|\n|Teacher|English|Beginning of Year|John Smith|\n\n\n\n\nI want to assess Listening Comprehension\n\n\n${preconditions}\nAnd I click the Assess Card\nAnd I click the Listening Comprehension Card\nThen I should be on Listening Comprehension Card page\nAnd I select a ${class} from the class dropdown\nThen I click the view button\nAnd I click on student ${student_name}\nAnd a popup window for the student should display\nThen I mark the correct and incorrect answers(radio buttons)\nAnd click the save and close button\nAnd should see the results I saved on the Listening Comprehension page\nThen I assessed the Listening Comprehension\n\nExamples:\n|userType|class|student_name|\n|Teacher|English|John Smith|\n\n\n\n\nI want to assess Reading Assessment Conference\n\n\n${preconditions}\nAnd I click the Assess Card\nAnd I click the Reading Assessment Conference Card\nThen I should be on Reading Assessment Conference Card page\nAnd I select a ${class} from the class dropdown\nAnd I select a ${time_period} from the time period dropdown\nThen I click the view button\nAnd I click on student ${student_name}\nAnd a popup window for the student should display\nThen I fill out the input requested\nAnd select the dropdown values requested\nAnd click the save button\nAnd should see the results I saved on the Reading Assessment Conference page\nThen I assessed the Reading Assessment Conference page\n\nExamples:\n|userType|class|time_period|student_name|\n|Teacher|English|Beginning of Year|John Smith|\n\n\n\n\nI want to see Resources\n\n\n${preconditions}\nAnd I click the Resources Card\nThen I should be on Resources page\nAnd click the title ${title_name} of a given resource\nAnd confirm the title has been downloaded\nThen I have been on the Resources page\n\n\nExamples:\n|userType|title_name|\n|Teacher|Animal Homes Answer Key|\n\n\n\n\nI want to see the Admin Report Page\n\n\n${preconditions}\nAnd I click the Admin Reports Card\nThen I should be on Admin Reports page\nAnd click the Reports link on header\nThen I have been on the Report Page\n\nExamples:\n|userType|credentials|\n|Admin|{ username, password } |\n\n\n\n\nI want to see the Admin Summary Progress Report Page\n\n\n${preconditions}\nAnd I click the Admin Reports Card\nThen I should be on Admin Reports page\nAnd I click the Summary Progress Report Card\nThen I should be on Summary Progress Report page\nAnd select the year ${year_value} from the year dropdown\nAnd select the school ${school_value} from the school dropdown\nAnd select the teacher ${teacher_value} from the teacher dropdown\nAnd select the class ${class_value} from the class dropdown\nAnd click the view button\nAnd can confirm the data I selected is displaying what I picked\nThen I have been on the Admin Summary Progress Report Page\n\n\nExamples:\n|userType|credentials|year_value|school_value|teacher_value| class_value|\n|Admin|{ username, password }|2016-2017|All Schools|All Teachers| All Classes|\n\n\n\n\nI want to see the Admin Reading Benchmark Report Page\n\n\n${preconditions}\nAnd I click the Admin Reports Card\nThen I should be on Admin Reports page\nAnd I click the Reading Benchmark Report Card\nThen I should be on Reading Benchmark Report page\nAnd select the year ${year_value} from the year dropdown\nAnd select the school ${school_value} from the school dropdown\nAnd select the teacher ${teacher_value} from the teacher dropdown\nAnd select the class ${class_value} from the class dropdown\nAnd click the view button\nAnd can confirm the data I selected is displaying what I picked\nThen I have been on the Reading Benchmark Report Page\n\n\nExamples:\n|userType|credentials|year_value|school_value|teacher_value| class_value|\n|Admin|{ username, password }|2016-2017|All Schools|All Teachers| All Classes|", 
+            "title": "NSGRA"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#performance-tests", 
+            "text": "", 
+            "title": "Performance Tests"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#overview", 
+            "text": "", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#authors", 
+            "text": "Name  Email      Navraj Nat     Sajjad Hossain", 
+            "title": "Authors"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#vesions", 
+            "text": "Date  Version      05/25/17  1.0    06/22/17  1.1", 
+            "title": "Vesions"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#scope", 
+            "text": "The scope of this test plan only extends extends itself to Performance Testing for Environment Promotion. If these tests fail, then there are major, critical bugs to resolve for performance and system requirements to meet expectations.", 
+            "title": "Scope"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#abstract", 
+            "text": "Next Step Guided Reading Assessment provides teachers with an easy-to-use online resource designed to compile valuable student reading assessment data\u2014the information teachers need to group students, select texts, and plan and teach guided reading lessons, and interpret and organize it into printable reports for teachers.  NSGRA Features include:   Assessment Tools  Reporting  Lesson Plans  PDF Resources  Product Usage Videos   Application Development : Features and experiences meant to enhance the content or experience of using NSGRA.     Initial launch is limited to Educator roles, not students or parents.  User Profile, Registration, and License details would all be managed via Scholastic Digital Manager  Content and data served in NSGRA could be integrated with Scholastic\u2019s ecosystem and tools; including but not limited to:  SDM  Woodwing  Adobe Suite (Primarily IDD   IC)  PRM (Scholastic\u2019s Digital Delivery Content Management System)  AEM  Clever  GIT  eReader  Analytics", 
+            "title": "Abstract"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#requirements", 
+            "text": "", 
+            "title": "Requirements"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#compatibility", 
+            "text": "Operating System  OS Version  Webkit(s)  Supported Version(s)      Mac OS X  10.9.x +  Safari  Latest 3 versions      Chrome  Latest 3 versions    iOS  7.x.x +  Safari  Latest 3 versions      Chrome  Latest 3 versions    Windows  7.x.x +  Chrome  Latest 3 versions      Firefox  Latest 3 versions      Internet Explorer  Version 11.x.x +      Edge  Version 12.x.x +", 
+            "title": "Compatibility"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#environments", 
+            "text": "LOCAL (DEV)  DEV  QA  PERF  PRODUCTION", 
+            "title": "Environments"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#personnel", 
+            "text": "Name  Email      Bruce Grogan     Deanna Rullan     Grace Clifford", 
+            "title": "Personnel"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#tools", 
+            "text": "Eclipse  PHP 8  Widefly  MySQL  MySQL Workbench  SourceTree  BitBucket", 
+            "title": "Tools"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#acceptance-criteria", 
+            "text": "The acceptance criteria for this test plan extends itself to only performance-level interaction with the application and its' endpoints and requests made under-the-hood.   The systems' performance during the performance   stress tests should be greater or equal to server conditions during baseline system performance test.  Application should have a reasonable response time:  User Interface requests should resolve under 6 seconds with no delays presented to the user  Background requests should timeout or resolve in 30 seconds with no impacts presented to the user    Server resource allocation should handle redirects and loadbalancing to serve performance and stress conditions  Load balancers should be identified and tested  CDNs, and other content delivery systems should be identified and tested     The tests do not meet pass criteria if:   System crashes during test  System becomes momentarily unresponsive  System performance during tests is worse than baseline test conditions", 
+            "title": "Acceptance Criteria"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#known-defects", 
+            "text": "JIRA  Notes", 
+            "title": "Known Defects"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#risks", 
+            "text": "Known defects are not identified", 
+            "title": "Risks"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#load-model", 
+            "text": "Application  User  Scenario  User Agent  Page Visits      NSGRA  Teacher  I want to assess Development Word Knowledge  Browser  5000    \"\"  \"\"  I want to assess Reading Interest Survey  \"\"  \"\"    \"\"  \"\"  I want to assess Listening Comprehension  \"\"  \"\"    \"\"  \"\"  I want to assess Reading Assessment Conference  \"\"  \"\"    \"\"  \"\"  I want to see Resources  \"\"  \"\"    \"\"  \"\"  I want to see Admin Report Page  \"\"  \"\"    \"\"  \"\"  I want to see the Admin Summary Progress Report Page  \"\"  \"\"    \"\"  \"\"  I want to see the Admin Reading Benchmark Report Page  \"\"  \"\"", 
+            "title": "Load Model"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#schedule", 
+            "text": "Task Name  Duration (days)  Start  Finish      Review and Finalize Plan  2  15.1  15.4    Dress Rehearsal  1  15.1  15.4    Test Scripting  3  15.1  15.4    1x Testing  1  15.1  15.4    2x Testing  1  15.1  15.4    Endurance Testing  1.5  15.1  15.4    Alpha Testing  1  15.1  15.4", 
+            "title": "Schedule"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#tests", 
+            "text": "Test Name  Description      Dress Rehearsal  This will test the JMeter installation and make sure that requests sent from JMeter is properly received by the system under test    1x Testing  These tests will be executed as a baseline for up to an hour.    2x Testing  These tests will stress test the system with 150% - 300% of our Peak Load.    Endurance Testing  These tests will stress test the system for about 36 hours with a moderate size load.    Alpha Testing  Re-run any tests that need to be ran again", 
+            "title": "Tests"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#epics", 
+            "text": "I want to benchmark the system under the highest load possible  I want to make sure scholastic resources are resolved within 2 seconds  I want to make sure server requests are load balanced  I want to make sure content is delivered from a content delivery network  I want to test the system under the highest expected load conditions  I want to stress test the system under high concurrent usage conditions  I want to test the views with the most unique page views from Google Analytics", 
+            "title": "Epics"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#test-cases", 
+            "text": "", 
+            "title": "Test Cases"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#preconditions", 
+            "text": "Given I am on NSGRA\nAnd I am a ${userType}\nThen I should be on Scholastic Digital Manager\nAnd I should see the log in form\nWhen I fill in the log in form with ${credentials}\nAnd I submit the log in form\nThen I should see the NSGRA(K-2 or 3-6) icon\nWhen I launch NSGRA(K-2 or 3-6) icon", 
+            "title": "${preconditions}"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#i-want-to-benchmark-the-system-under-the-highest-load-possible", 
+            "text": "As a quality engineer\nI want to benchmark the system under the highest load possible\nSo that I can benchmark the systems maximum load", 
+            "title": "I want to benchmark the system under the highest load possible"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#i-want-to-test-the-system-under-the-highest-expected-load-conditions", 
+            "text": "As a quality engineer\nI want to test the system under the highest expected load conditions\nSo that I can performance test our system according to benchmarks", 
+            "title": "I want to test the system under the highest expected load conditions"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#i-want-to-stress-test-the-system-under-high-concurrent-usage-conditions", 
+            "text": "As a quality engineer\nI want to stress test the system under high concurrent usage conditions\nSo that I can stress test our system under unusually high traffic", 
+            "title": "I want to stress test the system under high concurrent usage conditions"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#scenarios", 
+            "text": "I want to assess Development Word Knowledge  I want to assess Reading Interest Survey  I want to assess Listening Comprehension  I want to assess Reading Assessment Conference    I want to see Resources  I want to see Admin Report Page  I want to see the Admin Summary Progress Report Page  I want to see the Admin Reading Benchmark Report Page", 
+            "title": "Scenarios"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#stories", 
+            "text": "", 
+            "title": "Stories"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#i-want-to-assess-development-word-knowledge", 
+            "text": "${preconditions}\nAnd I click the Assess Card\nAnd I click the Development Word Knowledge Card\nThen I should be on Developmental Word Knowledge page\nAnd I select a ${class} from the class dropdown\nAnd I select a ${time_period} from the time period dropdown\nThen I click the view button\nAnd I click on student ${student_name}\nAnd a popup window for the student should display\nThen I select a value for each of the dropdown\nAnd click the save and close button\nAnd should see the results I saved on the Developmental Word Knowledge page\nThen I assessed Developmental Word Knowledge\n\nExamples:\n|userType|class|time_period| student_name|\n|Teacher|English|Beginning of Year| John Smith |", 
+            "title": "I want to assess Development Word Knowledge"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#i-want-to-assess-reading-interest-survey", 
+            "text": "${preconditions}\nAnd I click the Assess Card\nAnd I click the Reading Interest Survey Card\nThen I should be on Reading Interest Survey Card page\nAnd I select a ${class} from the class dropdown\nAnd I select a ${time_period} from the time period dropdown\nThen I click the view button\nAnd I click on student ${student_name}\nAnd a popup window for the student should display\nThen I check off certain check boxes\nAnd click the save button\nAnd should see the results I saved on the Reading Interest Survey page\nThen I assessed the Reading Interest Survey  \n\nExamples:\n|userType|class|time_period|student_name|\n|Teacher|English|Beginning of Year|John Smith|", 
+            "title": "I want to assess Reading Interest Survey"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#i-want-to-assess-listening-comprehension", 
+            "text": "${preconditions}\nAnd I click the Assess Card\nAnd I click the Listening Comprehension Card\nThen I should be on Listening Comprehension Card page\nAnd I select a ${class} from the class dropdown\nThen I click the view button\nAnd I click on student ${student_name}\nAnd a popup window for the student should display\nThen I mark the correct and incorrect answers(radio buttons)\nAnd click the save and close button\nAnd should see the results I saved on the Listening Comprehension page\nThen I assessed the Listening Comprehension\n\nExamples:\n|userType|class|student_name|\n|Teacher|English|John Smith|", 
+            "title": "I want to assess Listening Comprehension"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#i-want-to-assess-reading-assessment-conference", 
+            "text": "${preconditions}\nAnd I click the Assess Card\nAnd I click the Reading Assessment Conference Card\nThen I should be on Reading Assessment Conference Card page\nAnd I select a ${class} from the class dropdown\nAnd I select a ${time_period} from the time period dropdown\nThen I click the view button\nAnd I click on student ${student_name}\nAnd a popup window for the student should display\nThen I fill out the input requested\nAnd select the dropdown values requested\nAnd click the save button\nAnd should see the results I saved on the Reading Assessment Conference page\nThen I assessed the Reading Assessment Conference page\n\nExamples:\n|userType|class|time_period|student_name|\n|Teacher|English|Beginning of Year|John Smith|", 
+            "title": "I want to assess Reading Assessment Conference"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#i-want-to-see-resources", 
+            "text": "${preconditions}\nAnd I click the Resources Card\nThen I should be on Resources page\nAnd click the title ${title_name} of a given resource\nAnd confirm the title has been downloaded\nThen I have been on the Resources page\n\n\nExamples:\n|userType|title_name|\n|Teacher|Animal Homes Answer Key|", 
+            "title": "I want to see Resources"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#i-want-to-see-the-admin-report-page", 
+            "text": "${preconditions}\nAnd I click the Admin Reports Card\nThen I should be on Admin Reports page\nAnd click the Reports link on header\nThen I have been on the Report Page\n\nExamples:\n|userType|credentials|\n|Admin|{ username, password } |", 
+            "title": "I want to see the Admin Report Page"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#i-want-to-see-the-admin-summary-progress-report-page", 
+            "text": "${preconditions}\nAnd I click the Admin Reports Card\nThen I should be on Admin Reports page\nAnd I click the Summary Progress Report Card\nThen I should be on Summary Progress Report page\nAnd select the year ${year_value} from the year dropdown\nAnd select the school ${school_value} from the school dropdown\nAnd select the teacher ${teacher_value} from the teacher dropdown\nAnd select the class ${class_value} from the class dropdown\nAnd click the view button\nAnd can confirm the data I selected is displaying what I picked\nThen I have been on the Admin Summary Progress Report Page\n\n\nExamples:\n|userType|credentials|year_value|school_value|teacher_value| class_value|\n|Admin|{ username, password }|2016-2017|All Schools|All Teachers| All Classes|", 
+            "title": "I want to see the Admin Summary Progress Report Page"
+        }, 
+        {
+            "location": "/plans/perf/nsgra_performance_test_plan/#i-want-to-see-the-admin-reading-benchmark-report-page", 
+            "text": "${preconditions}\nAnd I click the Admin Reports Card\nThen I should be on Admin Reports page\nAnd I click the Reading Benchmark Report Card\nThen I should be on Reading Benchmark Report page\nAnd select the year ${year_value} from the year dropdown\nAnd select the school ${school_value} from the school dropdown\nAnd select the teacher ${teacher_value} from the teacher dropdown\nAnd select the class ${class_value} from the class dropdown\nAnd click the view button\nAnd can confirm the data I selected is displaying what I picked\nThen I have been on the Reading Benchmark Report Page\n\n\nExamples:\n|userType|credentials|year_value|school_value|teacher_value| class_value|\n|Admin|{ username, password }|2016-2017|All Schools|All Teachers| All Classes|", 
+            "title": "I want to see the Admin Reading Benchmark Report Page"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/", 
+            "text": "Performance Tests\n\n\nOverview\n\n\nAuthors\n\n\n\n\n\n\n\n\nName\n\n\nEmail\n\n\n\n\n\n\n\n\n\n\nNavraj Nat\n\n\n\n\n\n\n\n\nSajjad Hossain\n\n\n\n\n\n\n\n\n\n\nVesions\n\n\n\n\n\n\n\n\nDate\n\n\nVersion\n\n\n\n\n\n\n\n\n\n\n06/12/17\n\n\n1.0\n\n\n\n\n\n\n06/22/17\n\n\n1.1\n\n\n\n\n\n\n\n\nScope\n\n\nThe scope of this test plan only extends extends itself to Performance Testing for Environment Promotion. If these tests fail, then there are major, critical bugs to resolve for performance and system requirements to meet expectations.\n\n\nAbstract\n\n\nBookFlix is an online literacy resource that pairs classic video storybooks from Weston Woods with related nonfiction eBooks from Scholastic to build a love of reading and learning. An engaging way to link fact and fiction, BookFlix reinforces early reading skills and introduces children to a world of knowledge and exploration.\n\n\nRequirements\n\n\nCompatibility\n\n\n\n\n\n\n\n\nOperating System\n\n\nOS Version\n\n\nWebkit(s)\n\n\nSupported Version(s)\n\n\n\n\n\n\n\n\n\n\nMac OS X\n\n\n10.9.x +\n\n\nSafari\n\n\nLatest 3 versions\n\n\n\n\n\n\n\n\n\n\nChrome\n\n\nLatest 3 versions\n\n\n\n\n\n\niOS\n\n\n7.x.x +\n\n\nSafari\n\n\nLatest 3 versions\n\n\n\n\n\n\n\n\n\n\nChrome\n\n\nLatest 3 versions\n\n\n\n\n\n\nWindows\n\n\n7.x.x +\n\n\nChrome\n\n\nLatest 3 versions\n\n\n\n\n\n\n\n\n\n\nFirefox\n\n\nLatest 3 versions\n\n\n\n\n\n\n\n\n\n\nInternet Explorer\n\n\nVersion 11.x.x +\n\n\n\n\n\n\n\n\n\n\nEdge\n\n\nVersion 12.x.x +\n\n\n\n\n\n\n\n\nEnvironments\n\n\n\n\nLOCAL (DEV)\n\n\nBUILD\n\n\nDEV\n\n\nQA\n\n\nPRODUCTION\n\n\n\n\nPersonnel\n\n\n\n\n\n\n\n\nName\n\n\nEmail\n\n\n\n\n\n\n\n\n\n\nBruce Grogan\n\n\n\n\n\n\n\n\nDeanna Rullan\n\n\n\n\n\n\n\n\n\n\nTools\n\n\n\n\nMySQL\n\n\nBitBucket\n\n\nPHP 8\n\n\n\n\nAcceptance Criteria\n\n\nThe acceptance criteria for this test plan extends itself to only performance-level interaction with the application and its' endpoints and requests made under-the-hood.\n\n\n\n\nThe systems' performance during the performance \n stress tests should be greater or equal to server conditions during baseline system performance test.\n\n\nApplication should have a reasonable response time:\n\n\nUser Interface requests should resolve under 6 seconds with no delays presented to the user\n\n\nBackground requests should timeout or resolve in 30 seconds with no impacts presented to the user\n\n\n\n\n\n\nServer resource allocation should handle redirects and loadbalancing to serve performance and stress conditions\n\n\nLoad balancers should be identified and tested\n\n\nCDNs, and other content delivery systems should be identified and tested\n\n\n\n\n\n\n\n\nThe tests do not meet pass criteria if:\n\n\n\n\nSystem crashes during test\n\n\nSystem becomes momentarily unresponsive\n\n\nSystem performance during tests is worse than baseline test conditions\n\n\n\n\nKnown Defects\n\n\n\n\n\n\n\n\nJIRA\n\n\nNotes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRisks\n\n\n\n\nKnown defects are not identified\n\n\n\n\nLoad Model\n\n\n\n\n\n\n\n\nApplication\n\n\nUser\n\n\nScenario\n\n\nUser Agent\n\n\nPage Visits\n\n\n\n\n\n\n\n\n\n\nBookFlix\n\n\nTeacher\n\n\nI want to see the Watch the Story Page\n\n\nBrowser\n\n\n6500\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to see the Read the Book Page\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to see the Puzzlers Page\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to play the Word Match puzzle game\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to play the Fact or Fiction puzzle game\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to play the Which Came First puzzle game\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to see Meet the Author Page\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to see Explore the Web Page\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to see the Help Page\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\"\"\n\n\n\"\"\n\n\nI want to see the Resources Page\n\n\n\"\"\n\n\n\"\"\n\n\n\n\n\n\n\n\nSchedule\n\n\n\n\n\n\n\n\nTask Name\n\n\nDuration (days)\n\n\nStart\n\n\nFinish\n\n\n\n\n\n\n\n\n\n\nReview and Finalize Plan\n\n\n2\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\nDress Rehearsal\n\n\n1\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\nTest Scripting\n\n\n3\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\n1x Testing\n\n\n1\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\n2x Testing\n\n\n1\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\nEndurance Testing\n\n\n1.5\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\nAlpha Testing\n\n\n1\n\n\n15.1\n\n\n15.4\n\n\n\n\n\n\n\n\nTests\n\n\n\n\n\n\n\n\nTest Name\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nDress Rehearsal\n\n\nThis will test the JMeter installation and make sure that requests sent from JMeter is properly received by the system under test\n\n\n\n\n\n\n1x Testing\n\n\nThese tests will be executed as a baseline for up to an hour.\n\n\n\n\n\n\n2x Testing\n\n\nThese tests will stress test the system with 150% - 300% of our Peak Load.\n\n\n\n\n\n\nEndurance Testing\n\n\nThese tests will stress test the system for about 36 hours with a moderate size load.\n\n\n\n\n\n\nAlpha Testing\n\n\nRe-run any tests that need to be ran again\n\n\n\n\n\n\n\n\nEpics\n\n\n\n\nI want to benchmark the system under the highest load possible\n\n\nI want to make sure scholastic resources are resolved within 2 seconds\n\n\nI want to make sure server requests are load balanced\n\n\nI want to make sure content is delivered from a content delivery network\n\n\nI want to test the system under the highest expected load conditions\n\n\nI want to stress test the system under high concurrent usage conditions\n\n\nI want to test the views with the most unique page views from Google Analytics\n\n\n\n\nTest Cases\n\n\n${preconditions}\n\n\nGiven I am on Bookflix\nAnd I am a ${userType}\nThen I should be on Scholastic Digital Manager\nAnd I should see the log in form\nWhen I fill in the log in form with ${credentials}\nAnd I submit the log in form\nThen I should see the Bookflix icon\nWhen I launch Bookflix\n\n\n\n\nI want to benchmark the system under the highest load possible\n\n\nAs a quality engineer\nI want to benchmark the system under the highest load possible\nSo that I can benchmark the systems maximum load\n\n\n\n\nI want to test the system under the highest expected load conditions\n\n\nAs a quality engineer\nI want to test the system under the highest expected load conditions\nSo that I can performance test our system according to benchmarks\n\n\n\n\nI want to stress test the system under high concurrent usage conditions\n\n\nAs a quality engineer\nI want to stress test the system under high concurrent usage conditions\nSo that I can stress test our system under unusually high traffic\n\n\n\n\nScenarios\n\n\n\n\nI want to see the Watch the Story Page\n\n\nI want to see the Read the Book Page\n\n\nI want to see the Puzzlers Page\n\n\nI want to play the Word Match puzzle game\n\n\nI want to play the Fact or Fiction puzzle game \n\n\nI want to play the Which Came First puzzle game \n\n\nI want to see Meet the Author Page\n\n\nI want to see Explore the Web Page\n\n\nI want to see the Help Page \n\n\nI want to see the Resources Page \n\n\n\n\nStories\n\n\nI want to see the Watch the Story Page\n\n\n${preconditions}\nAnd I click the feature pair logo on the home page \nThen I click the Watch the Story link on the left nav \nAnd I should see a video playing \nThen I can confirm the Watch The Story page is functioning correctly \n\nExamples:\n| userType  | credentials| \n| Teacher   | { username, password } |\n\n\n\n\nI want to see the Read the Book page\n\n\n${preconditions}\nAnd I click the feature pair logo on the home page\nThen I click the Read the Book link on the left nav \nAnd I click through the book preseneted on the page \nThen I can confirm the Read The Book page is functioning correctly \n\nExamples:\n| userType  | credentials|\n| Teacher   | { username, password } |\n\n\n\n\nI want to see the Puzzlers page\n\n\n${preconditions}\nAnd I click the feature pair logo on the home page \nThen I click the Puzzlers link on the left nav \nAnd I should be on the Puzzlers page \nAnd I should see three links named Word Match, Fact or Fiction or Which Came First\nAnd I click each one \nAnd determine if they took me to the correct puzzle page\nThen I can confirm the Puzzlers page is functioning correctly \n\nExamples:\n| userType  | credentials| \n| Teacher   | { username, password } |\n\n\n\n\nI want to play the Word Match puzzle game\n\n\n${preconditions}\nAnd I click the feature pair logo on the home page \nThen I click the Puzzlers link on the left nav \nWhen I click the Word Match link \nThen I should be on the Word Match puzzle page \nAnd I start playing the Word Match puzzle game \nThen I can confirm the Word Match puzzle game is functioning correctly\n\nExamples:\n| userType  | credentials|\n| Teacher   | { username, password } | \n\n\n\n\nI want to play the Fact or Fiction puzzle game\n\n\n${preconditions}\nAnd I click the feature pair logo on the home page \nThen I click the Puzzlers link on the left nav \nWhen I click the Fact or Fiction link \nThen I should be on the Fact or Ficition puzzle page \nAnd I start playing the Fact or Fiction puzzle game \nThen I can confirm the Fact or Fiction puzzle game is functioning correctly\n\nExamples:\n| userType  | credentials| \n| Teacher   | { username, password } |\n\n\n\n\nI want to play the Which Came First puzzle game\n\n\n${preconditions}\nAnd I click the feature pair logo on the home page \nThen I click the Puzzlers link on the left nav \nWhen I click the Which Came First link \nThen I should be on the Which Came First puzzle page \nAnd I start playing the Which Came First puzzle game \nThen I can confirm the Which Came First puzzle game is functioning correctly\n\nExamples:\n| userType  | credentials| \n| Teacher   | { username, password } | \n\n\n\n\nI want to see the Meet the Author Page\n\n\n${preconditions}\nAnd I click the feature pair logo on the home page \nThen I click the Meet the Author link on the left nav \nAnd I should see text about the author for the specific book \nThen I can confirm the Meet the Author page is functioning correctly \n\nExamples:\n| userType | credentials|\n| Teacher    | { username, password } |\n\n\n\n\nI want to see the Explore the Web Page\n\n\n${preconditions}\nAnd I click the feature pair logo on the home page \nThen I click the Explore the Web link on the left nav \nAnd I should see certain urls/text on the Explore the Web page \nThen I can confirm the Explore the Web page is functioning correctly \n\nExamples:\n| userType | credentials|\n| Teacher  | { username, password } |\n\n\n\n\nI want to see the Help Page\n\n\n${preconditions}\nAnd I click the Help link on the header \nAnd I should be on the Help page\nAnd I should see certain urls/text related to help on Bookflix \nThen I can confirm I've seen the Help page \n\nExamples:\n| userType | credentials|\n| Teacher  | { username, password } |\n\n\n\n\nI want to see the Resources Page\n\n\n${preconditions}\nAnd I click the Resources link on the header \nAnd I should be on the Resources page\nAnd I click on the different tabs on the Resources page \nAnd I should see certain text for that particular tab I click\nThen I can confirm I've seen the Resources page \n\nExamples:\n| userType | credentials|\n| Teacher  | { username, password } |", 
+            "title": "Bookflix"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#performance-tests", 
+            "text": "", 
+            "title": "Performance Tests"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#overview", 
+            "text": "", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#authors", 
+            "text": "Name  Email      Navraj Nat     Sajjad Hossain", 
+            "title": "Authors"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#vesions", 
+            "text": "Date  Version      06/12/17  1.0    06/22/17  1.1", 
+            "title": "Vesions"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#scope", 
+            "text": "The scope of this test plan only extends extends itself to Performance Testing for Environment Promotion. If these tests fail, then there are major, critical bugs to resolve for performance and system requirements to meet expectations.", 
+            "title": "Scope"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#abstract", 
+            "text": "BookFlix is an online literacy resource that pairs classic video storybooks from Weston Woods with related nonfiction eBooks from Scholastic to build a love of reading and learning. An engaging way to link fact and fiction, BookFlix reinforces early reading skills and introduces children to a world of knowledge and exploration.", 
+            "title": "Abstract"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#requirements", 
+            "text": "", 
+            "title": "Requirements"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#compatibility", 
+            "text": "Operating System  OS Version  Webkit(s)  Supported Version(s)      Mac OS X  10.9.x +  Safari  Latest 3 versions      Chrome  Latest 3 versions    iOS  7.x.x +  Safari  Latest 3 versions      Chrome  Latest 3 versions    Windows  7.x.x +  Chrome  Latest 3 versions      Firefox  Latest 3 versions      Internet Explorer  Version 11.x.x +      Edge  Version 12.x.x +", 
+            "title": "Compatibility"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#environments", 
+            "text": "LOCAL (DEV)  BUILD  DEV  QA  PRODUCTION", 
+            "title": "Environments"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#personnel", 
+            "text": "Name  Email      Bruce Grogan     Deanna Rullan", 
+            "title": "Personnel"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#tools", 
+            "text": "MySQL  BitBucket  PHP 8", 
+            "title": "Tools"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#acceptance-criteria", 
+            "text": "The acceptance criteria for this test plan extends itself to only performance-level interaction with the application and its' endpoints and requests made under-the-hood.   The systems' performance during the performance   stress tests should be greater or equal to server conditions during baseline system performance test.  Application should have a reasonable response time:  User Interface requests should resolve under 6 seconds with no delays presented to the user  Background requests should timeout or resolve in 30 seconds with no impacts presented to the user    Server resource allocation should handle redirects and loadbalancing to serve performance and stress conditions  Load balancers should be identified and tested  CDNs, and other content delivery systems should be identified and tested     The tests do not meet pass criteria if:   System crashes during test  System becomes momentarily unresponsive  System performance during tests is worse than baseline test conditions", 
+            "title": "Acceptance Criteria"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#known-defects", 
+            "text": "JIRA  Notes", 
+            "title": "Known Defects"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#risks", 
+            "text": "Known defects are not identified", 
+            "title": "Risks"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#load-model", 
+            "text": "Application  User  Scenario  User Agent  Page Visits      BookFlix  Teacher  I want to see the Watch the Story Page  Browser  6500    \"\"  \"\"  I want to see the Read the Book Page  \"\"  \"\"    \"\"  \"\"  I want to see the Puzzlers Page  \"\"  \"\"    \"\"  \"\"  I want to play the Word Match puzzle game  \"\"  \"\"    \"\"  \"\"  I want to play the Fact or Fiction puzzle game  \"\"  \"\"    \"\"  \"\"  I want to play the Which Came First puzzle game  \"\"  \"\"    \"\"  \"\"  I want to see Meet the Author Page  \"\"  \"\"    \"\"  \"\"  I want to see Explore the Web Page  \"\"  \"\"    \"\"  \"\"  I want to see the Help Page  \"\"  \"\"    \"\"  \"\"  I want to see the Resources Page  \"\"  \"\"", 
+            "title": "Load Model"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#schedule", 
+            "text": "Task Name  Duration (days)  Start  Finish      Review and Finalize Plan  2  15.1  15.4    Dress Rehearsal  1  15.1  15.4    Test Scripting  3  15.1  15.4    1x Testing  1  15.1  15.4    2x Testing  1  15.1  15.4    Endurance Testing  1.5  15.1  15.4    Alpha Testing  1  15.1  15.4", 
+            "title": "Schedule"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#tests", 
+            "text": "Test Name  Description      Dress Rehearsal  This will test the JMeter installation and make sure that requests sent from JMeter is properly received by the system under test    1x Testing  These tests will be executed as a baseline for up to an hour.    2x Testing  These tests will stress test the system with 150% - 300% of our Peak Load.    Endurance Testing  These tests will stress test the system for about 36 hours with a moderate size load.    Alpha Testing  Re-run any tests that need to be ran again", 
+            "title": "Tests"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#epics", 
+            "text": "I want to benchmark the system under the highest load possible  I want to make sure scholastic resources are resolved within 2 seconds  I want to make sure server requests are load balanced  I want to make sure content is delivered from a content delivery network  I want to test the system under the highest expected load conditions  I want to stress test the system under high concurrent usage conditions  I want to test the views with the most unique page views from Google Analytics", 
+            "title": "Epics"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#test-cases", 
+            "text": "", 
+            "title": "Test Cases"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#preconditions", 
+            "text": "Given I am on Bookflix\nAnd I am a ${userType}\nThen I should be on Scholastic Digital Manager\nAnd I should see the log in form\nWhen I fill in the log in form with ${credentials}\nAnd I submit the log in form\nThen I should see the Bookflix icon\nWhen I launch Bookflix", 
+            "title": "${preconditions}"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#i-want-to-benchmark-the-system-under-the-highest-load-possible", 
+            "text": "As a quality engineer\nI want to benchmark the system under the highest load possible\nSo that I can benchmark the systems maximum load", 
+            "title": "I want to benchmark the system under the highest load possible"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#i-want-to-test-the-system-under-the-highest-expected-load-conditions", 
+            "text": "As a quality engineer\nI want to test the system under the highest expected load conditions\nSo that I can performance test our system according to benchmarks", 
+            "title": "I want to test the system under the highest expected load conditions"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#i-want-to-stress-test-the-system-under-high-concurrent-usage-conditions", 
+            "text": "As a quality engineer\nI want to stress test the system under high concurrent usage conditions\nSo that I can stress test our system under unusually high traffic", 
+            "title": "I want to stress test the system under high concurrent usage conditions"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#scenarios", 
+            "text": "I want to see the Watch the Story Page  I want to see the Read the Book Page  I want to see the Puzzlers Page  I want to play the Word Match puzzle game  I want to play the Fact or Fiction puzzle game   I want to play the Which Came First puzzle game   I want to see Meet the Author Page  I want to see Explore the Web Page  I want to see the Help Page   I want to see the Resources Page", 
+            "title": "Scenarios"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#stories", 
+            "text": "", 
+            "title": "Stories"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#i-want-to-see-the-watch-the-story-page", 
+            "text": "${preconditions}\nAnd I click the feature pair logo on the home page \nThen I click the Watch the Story link on the left nav \nAnd I should see a video playing \nThen I can confirm the Watch The Story page is functioning correctly \n\nExamples:\n| userType  | credentials| \n| Teacher   | { username, password } |", 
+            "title": "I want to see the Watch the Story Page"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#i-want-to-see-the-read-the-book-page", 
+            "text": "${preconditions}\nAnd I click the feature pair logo on the home page\nThen I click the Read the Book link on the left nav \nAnd I click through the book preseneted on the page \nThen I can confirm the Read The Book page is functioning correctly \n\nExamples:\n| userType  | credentials|\n| Teacher   | { username, password } |", 
+            "title": "I want to see the Read the Book page"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#i-want-to-see-the-puzzlers-page", 
+            "text": "${preconditions}\nAnd I click the feature pair logo on the home page \nThen I click the Puzzlers link on the left nav \nAnd I should be on the Puzzlers page \nAnd I should see three links named Word Match, Fact or Fiction or Which Came First\nAnd I click each one \nAnd determine if they took me to the correct puzzle page\nThen I can confirm the Puzzlers page is functioning correctly \n\nExamples:\n| userType  | credentials| \n| Teacher   | { username, password } |", 
+            "title": "I want to see the Puzzlers page"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#i-want-to-play-the-word-match-puzzle-game", 
+            "text": "${preconditions}\nAnd I click the feature pair logo on the home page \nThen I click the Puzzlers link on the left nav \nWhen I click the Word Match link \nThen I should be on the Word Match puzzle page \nAnd I start playing the Word Match puzzle game \nThen I can confirm the Word Match puzzle game is functioning correctly\n\nExamples:\n| userType  | credentials|\n| Teacher   | { username, password } |", 
+            "title": "I want to play the Word Match puzzle game"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#i-want-to-play-the-fact-or-fiction-puzzle-game", 
+            "text": "${preconditions}\nAnd I click the feature pair logo on the home page \nThen I click the Puzzlers link on the left nav \nWhen I click the Fact or Fiction link \nThen I should be on the Fact or Ficition puzzle page \nAnd I start playing the Fact or Fiction puzzle game \nThen I can confirm the Fact or Fiction puzzle game is functioning correctly\n\nExamples:\n| userType  | credentials| \n| Teacher   | { username, password } |", 
+            "title": "I want to play the Fact or Fiction puzzle game"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#i-want-to-play-the-which-came-first-puzzle-game", 
+            "text": "${preconditions}\nAnd I click the feature pair logo on the home page \nThen I click the Puzzlers link on the left nav \nWhen I click the Which Came First link \nThen I should be on the Which Came First puzzle page \nAnd I start playing the Which Came First puzzle game \nThen I can confirm the Which Came First puzzle game is functioning correctly\n\nExamples:\n| userType  | credentials| \n| Teacher   | { username, password } |", 
+            "title": "I want to play the Which Came First puzzle game"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#i-want-to-see-the-meet-the-author-page", 
+            "text": "${preconditions}\nAnd I click the feature pair logo on the home page \nThen I click the Meet the Author link on the left nav \nAnd I should see text about the author for the specific book \nThen I can confirm the Meet the Author page is functioning correctly \n\nExamples:\n| userType | credentials|\n| Teacher    | { username, password } |", 
+            "title": "I want to see the Meet the Author Page"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#i-want-to-see-the-explore-the-web-page", 
+            "text": "${preconditions}\nAnd I click the feature pair logo on the home page \nThen I click the Explore the Web link on the left nav \nAnd I should see certain urls/text on the Explore the Web page \nThen I can confirm the Explore the Web page is functioning correctly \n\nExamples:\n| userType | credentials|\n| Teacher  | { username, password } |", 
+            "title": "I want to see the Explore the Web Page"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#i-want-to-see-the-help-page", 
+            "text": "${preconditions}\nAnd I click the Help link on the header \nAnd I should be on the Help page\nAnd I should see certain urls/text related to help on Bookflix \nThen I can confirm I've seen the Help page \n\nExamples:\n| userType | credentials|\n| Teacher  | { username, password } |", 
+            "title": "I want to see the Help Page"
+        }, 
+        {
+            "location": "/plans/perf/bookflix_performance_test_plan/#i-want-to-see-the-resources-page", 
+            "text": "${preconditions}\nAnd I click the Resources link on the header \nAnd I should be on the Resources page\nAnd I click on the different tabs on the Resources page \nAnd I should see certain text for that particular tab I click\nThen I can confirm I've seen the Resources page \n\nExamples:\n| userType | credentials|\n| Teacher  | { username, password } |", 
+            "title": "I want to see the Resources Page"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/", 
+            "text": "Load Balancer Re-Platforming Plan\n\n\n\n\n\n\n\n\nProject\n\n\nJIRA\n\n\n\n\n\n\n\n\n\n\nGo Server Migration\n\n\nAgile Board\n\n\n\n\n\n\n\n\nDocument\n\n\nAuthor\n\n\nSajjad Hossain\n\n\nE:\n \nshossain@scholastic.com\n\n\nC:\n 347-661-3441 \n\n1271 Avenue of America,\n\nNew York, NY  10020, \nUnited States,\n\n32-414B  \n\n\nHistory\n\n\n\n\n\n\n\n\nVersion\n\n\nAuthor\n\n\nDate\n\n\n\n\n\n\n\n\n\n\n0.0.1\n\n\nSajjad Hossain\n\n\nJune 19, 2017\n\n\n\n\n\n\n0.1.0\n\n\nSajjad Hossain\n\n\nJune 20, 2017\n\n\n\n\n\n\n1.0.0\n\n\nSajjad Hossain\n\n\nJune 20, 2017\n\n\n\n\n\n\n\n\nAbstract\n\n\nWe are re-platforming all of our application load balancers to use Citrix, a load balancing solution. We will switch these servers after conducting a Proof of Concept (POC). After the POC passes testing and acceptance criteria. \n\n\nScope\n\n\nThe scope of work covered by this load balancer re-platforming plan ensures that all load balancers in the \nload balancers\n section of this plan is analyzed, and re-platformed to Citrix NetScaler solution and kept alive (with accruing costs) in the Scholastic virtual machine space. \n\n\nApplications load balanced by machines\n\n\n| Name |\n| --- |\n| Encyclopedia Americana |\n| EBSCO |\n| Grolier Multimedia Encyclopedia |\n| Grolier Online |\n| Lands and People |\n| New Book of Popular Science |\n| Nueva Encyclopedia Cumbre |\n\n\nPersonnel\n\n\n\n\n\n\n\n\nName\n\n\nRole\n\n\nSprint Commitment to GSM\n\n\n\n\n\n\n\n\n\n\nSajjad Hossain\n\n\nProject Owner\n\n\n100%\n\n\n\n\n\n\nSanjay Dabhi\n\n\nOverseeing 557 Shutdown\n\n\n~ 2.5%\n\n\n\n\n\n\nWayne Christie\n\n\nNetwork Resource\n\n\n~ 2.5%\n\n\n\n\n\n\nMohammed Azad\n\n\nData Center Resource\n\n\n~ 2.5%\n\n\n\n\n\n\nPraveen Kalevala\n\n\nServer Configuration Resource\n\n\n~ 2.5%\n\n\n\n\n\n\n\n\nStakeholders and affected parties\n\n\n\n\n\n\n\n\nApplication Space\n\n\nStakeholder\n\n\nEscalation Lead\n\n\n\n\n\n\n\n\n\n\nEncyclopedia Americana\n\n\nAllison Henderson\n\n\n\n\n\n\n\n\nEBSCO\n\n\nAllison Henderson\n\n\n\n\n\n\n\n\nGrolier Multimedia Encyclopedia\n\n\nAllison Henderson\n\n\n\n\n\n\n\n\nGrolier Online\n\n\nAllison Henderson\n\n\n\n\n\n\n\n\nLands and People\n\n\nAllison Henderson\n\n\n\n\n\n\n\n\nNew Book of Popular Science\n\n\nAllison Henderson\n\n\n\n\n\n\n\n\nNueva Cumbre Encyclopedia\n\n\nAllison Henderson\n\n\n\n\n\n\n\n\n\n\nLoad Balancers\n\n\n\n\nAll servers are identified \nhere\n.\n\n\nThere are a total of \n6\n load balancers that fall under the scope of this plan. \n\n\nThey are:\n\n\nlb-ea-557\n\n\nlb-ebsco-dby-557\n\n\nlb-gme-557\n\n\nlb-go-557\n\n\nlb-lp-dby-557\n\n\nlb-nbps-dby-557\n\n\n\n\n\n\n\n\nClusters\n\n\nThe load balancers included in these clusters are the \n6\n that fall within the scope of the \nRe-Platforming Plan\n. \n\n\n\n\n\n\n\n\nID\n\n\nCluster Name\n\n\n# of Machines\n\n\nProducts/Services\n\n\n\n\n\n\n\n\n\n\n12\n\n\nDanbury Loadbalancers\n\n\n7\n\n\nContent, GME, GO, LP, NBPS, EA, EBSCO, GME\n\n\n\n\n\n\n\n\nEpics\n\n\nLoad Balancers Re-platforming\n\n\nAs a lead\nI want to use the NetScaler Citrix solution\nSo that I can retire the load balancers in 557\n\n\n\n\nStories\n\n\n\n\nGSM-160\n\n\nGSM-155\n\n\nGSM-150\n\n\nGSM-145\n\n\nGSM-185\n\n\nGSM-196\n\n\n\n\nDefinition of done\n\n\nThere is \n1\n state of completion, outcome of planning, analysis and execution for all Load balancers.\n\n\nKeep Alive\n\n\nThese load balancers will be kept alive in new virtual machines, the load balancers will be \nRetired\n.  The new virtual machines will occupy less space in another data center using the \nNetScaler: Citrix\n solution after it has completed a POC in lower environments.\n\n\nAcceptance Criteria\n\n\nCriteria for Proof of Concept\n\n\nGIVEN I am a lead\nAND I have implemented my solution in a lower environment\nAND I have tested my new system\nAND I have tested my application in the new system\nAND I have tested my internal IP access\nAND I have tested my external IP access\nTHEN I can approve my proof of concept\n\n\n\n\nCriteria for Re-Platforming\n\n\nGIVEN I am a developer\nAND I identified the DNS\nAND I identified the external IP\nAND I identified internal IP\nTHEN I can configure a Citrix scale solution\nAND I notified affected teams and stakeholders of outages or downtimes\nAND I provided a rollback strategy\nWHEN I switch the external NAT to the new IP\nTHEN my load balancer is re-platformed\nWHEN I test all my identified applications\nTHEN they should pass request load balancing tests\n\n\n\n\nStrategy\n\n\nFor all of our load balancers being re-platformed, the strategy remains the same. \n\n\n1. Set up NetScaler solution\n\n\nSet up a NetScaler Citrix load balancer, using the same configurations, rules and ports as our current load balancers. \nThe Citrix solution is shown below in teal.\n \n\n\n\n\n2. Shut down one application virtual machine\n\n\nShut down one virtual machine in the original load balancing cluster.\n\n\n\n\n3. Point the load for a single port to the Citrix load balancer\n\n\nRedirect all request for a single port on the virtual machine load balancer, to the 10.x.x.x series. This would direct all traffic made to an identified port, to our new Citrix solution, making it available for testing. During this step, we will test that our requests to the specified port are being redirected as needed.\n\n\n\n\n4. Add rule in NetScaler to redirect traffic from External NAT to the new port\n\n\nHere, we expect a short downtime. The rule in NetScaler would direct all requests to the External NAT, from within Scholastic network to the Citrix load balancer. This would allow us to test requests made directly to the External NAT to test that traffic is directed as needed.\n\n\n\n\n5. Cutover. Attach the new External NAT to DNS\n\n\nHere, we expect a short outage time while the DNS is being routed to the one load balancer. Teams affected should be aware. During this step we will test requests made from outside the Scholastic network, directly to the DNS. \nAll requests should be directed to the same Citrix load balancing instance.\n\n\n\n\n6. Final cutover\n\n\nDuring this step, we repeat steps 2 to 5 for all of our remaining load balancers within the cluster for the given application. All requests, internal or external, with or without ports, will be directed to the new Citrix load balancing solution.\n\n\n\n\nRollback\n\n\nRolling back our proposed solution is much simpler for this plan. Steps 2 to 5 require editing values to match the new parameters for certain configuration files. Given that during time of cutover, these machines will remain available and not in use, rollback requires editing the configurations to the their previous values. The downtimes and outages will remain minimal, and upon refresh, requests would return to their normal load balancing methodology.\n\n\nRelease Notes\n\n\nImprovements\n\n\n\n\nCurrently we use \nHAProxy\n. This service does not provide service discovery. If there are downtimes or outages for any applications load balanced, then the requests made would fail. \nCitrix\n provides service discovery so that if there are downtimes or outages, requests would be \nautomatically\n directed to an endpoint that is up. \n\n\nIn addition, HAProxy requires heavy manual configuration. When executing requests to implement a load balancer or separate instance, Citrix allows simple configuration to complete the task. The new systems via Citrix are better isolated and manipulatable. \n\n\nLastly, our current load balancing for certain applications with higher load, i.e. GO!, we can spin and tear load balancers from the cluster with minimal work and \nno\n downtime. This means we can re-platform and migrate to the new data center, while consuming less virtual machine disk space as we wouldn't start with 6 instances for the example of GO!.\n\n\n\n\nMonitoring\n\n\nAt the request of Jenhau Chen, we need to implement monitoring to better prepare for outages and downtimes. After speaking with Sanjay, it is simple to implement and we have multiple solutions available. \n\n\n\n\nSensu\n\n\nNew Relic\n\n\nNagios\n\n\n\n\nTo implement monitoring there are \n3\n requirements needed by Sanjay's team. They are:\n\n\n\n\nDistribution List\n: Who will be informed of downtimes, outages, etc.\n\n\nBudget Approval\n: This will require additional costs to implement as there is no monitoring in place for these load balancers.\n\n\nMetrics and Benchmarks\n: We need to identify, for each application being load balanced:\n\n\nWhat is the maximum memory allotted for these services/products?\n\n\nWhat is the maximum disk space allotted for these services/products?\n\n\nWhat qualifies these as downtime for for these services/products?\n\n\nMore to be defined when approved...\n\n\n\n\n\n\n\n\nSchedule\n\n\nThese stories will be completed as apart of the \nVelociraptor\n sprints.\n\n\n\n\n\n\n\n\nStories\n\n\nJIRA\n\n\nStart Sprint\n\n\nEnd Sprint\n\n\n\n\n\n\n\n\n\n\nImplement NetScaler for NBPS\n\n\nGSM-160\n\n\n15.3 (June 14, 2017)\n\n\n15.3 (June 28, 2017)\n\n\n\n\n\n\nImplement NetScaler for NEC\n\n\nGSM-155\n\n\n\n\n\n\n\n\n\n\nImplement NetScaler for LP\n\n\nGSM-150\n\n\n\n\n\n\n\n\n\n\nImplement NetScaler for GO\n\n\nGSM-165\n\n\n\n\n\n\n\n\n\n\nImplement NetScaler for GME\n\n\nGSM-185\n\n\n\n\n\n\n\n\n\n\nImplement NetScaler for EA\n\n\nGSM-145\n\n\n\n\n\n\n\n\n\n\nImplement NetScaler for EBSCO\n\n\nGSM-196\n\n\n\n\n\n\n\n\n\n\n\n\nRisks\n\n\n\n\nUnknown -- Unknown", 
+            "title": "Load Balancer Replatforming"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#load-balancer-re-platforming-plan", 
+            "text": "Project  JIRA      Go Server Migration  Agile Board", 
+            "title": "Load Balancer Re-Platforming Plan"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#document", 
+            "text": "", 
+            "title": "Document"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#author", 
+            "text": "Sajjad Hossain  E:   shossain@scholastic.com  C:  347-661-3441  \n1271 Avenue of America, \nNew York, NY  10020, \nUnited States, \n32-414B", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#history", 
+            "text": "Version  Author  Date      0.0.1  Sajjad Hossain  June 19, 2017    0.1.0  Sajjad Hossain  June 20, 2017    1.0.0  Sajjad Hossain  June 20, 2017", 
+            "title": "History"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#abstract", 
+            "text": "We are re-platforming all of our application load balancers to use Citrix, a load balancing solution. We will switch these servers after conducting a Proof of Concept (POC). After the POC passes testing and acceptance criteria.", 
+            "title": "Abstract"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#scope", 
+            "text": "The scope of work covered by this load balancer re-platforming plan ensures that all load balancers in the  load balancers  section of this plan is analyzed, and re-platformed to Citrix NetScaler solution and kept alive (with accruing costs) in the Scholastic virtual machine space.", 
+            "title": "Scope"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#applications-load-balanced-by-machines", 
+            "text": "| Name |\n| --- |\n| Encyclopedia Americana |\n| EBSCO |\n| Grolier Multimedia Encyclopedia |\n| Grolier Online |\n| Lands and People |\n| New Book of Popular Science |\n| Nueva Encyclopedia Cumbre |", 
+            "title": "Applications load balanced by machines"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#personnel", 
+            "text": "Name  Role  Sprint Commitment to GSM      Sajjad Hossain  Project Owner  100%    Sanjay Dabhi  Overseeing 557 Shutdown  ~ 2.5%    Wayne Christie  Network Resource  ~ 2.5%    Mohammed Azad  Data Center Resource  ~ 2.5%    Praveen Kalevala  Server Configuration Resource  ~ 2.5%", 
+            "title": "Personnel"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#stakeholders-and-affected-parties", 
+            "text": "Application Space  Stakeholder  Escalation Lead      Encyclopedia Americana  Allison Henderson     EBSCO  Allison Henderson     Grolier Multimedia Encyclopedia  Allison Henderson     Grolier Online  Allison Henderson     Lands and People  Allison Henderson     New Book of Popular Science  Allison Henderson     Nueva Cumbre Encyclopedia  Allison Henderson", 
+            "title": "Stakeholders and affected parties"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#load-balancers", 
+            "text": "All servers are identified  here .  There are a total of  6  load balancers that fall under the scope of this plan.   They are:  lb-ea-557  lb-ebsco-dby-557  lb-gme-557  lb-go-557  lb-lp-dby-557  lb-nbps-dby-557", 
+            "title": "Load Balancers"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#clusters", 
+            "text": "The load balancers included in these clusters are the  6  that fall within the scope of the  Re-Platforming Plan .      ID  Cluster Name  # of Machines  Products/Services      12  Danbury Loadbalancers  7  Content, GME, GO, LP, NBPS, EA, EBSCO, GME", 
+            "title": "Clusters"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#epics", 
+            "text": "", 
+            "title": "Epics"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#load-balancers-re-platforming", 
+            "text": "As a lead\nI want to use the NetScaler Citrix solution\nSo that I can retire the load balancers in 557", 
+            "title": "Load Balancers Re-platforming"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#stories", 
+            "text": "GSM-160  GSM-155  GSM-150  GSM-145  GSM-185  GSM-196", 
+            "title": "Stories"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#definition-of-done", 
+            "text": "There is  1  state of completion, outcome of planning, analysis and execution for all Load balancers.", 
+            "title": "Definition of done"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#keep-alive", 
+            "text": "These load balancers will be kept alive in new virtual machines, the load balancers will be  Retired .  The new virtual machines will occupy less space in another data center using the  NetScaler: Citrix  solution after it has completed a POC in lower environments.", 
+            "title": "Keep Alive"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#acceptance-criteria", 
+            "text": "", 
+            "title": "Acceptance Criteria"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#criteria-for-proof-of-concept", 
+            "text": "GIVEN I am a lead\nAND I have implemented my solution in a lower environment\nAND I have tested my new system\nAND I have tested my application in the new system\nAND I have tested my internal IP access\nAND I have tested my external IP access\nTHEN I can approve my proof of concept", 
+            "title": "Criteria for Proof of Concept"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#criteria-for-re-platforming", 
+            "text": "GIVEN I am a developer\nAND I identified the DNS\nAND I identified the external IP\nAND I identified internal IP\nTHEN I can configure a Citrix scale solution\nAND I notified affected teams and stakeholders of outages or downtimes\nAND I provided a rollback strategy\nWHEN I switch the external NAT to the new IP\nTHEN my load balancer is re-platformed\nWHEN I test all my identified applications\nTHEN they should pass request load balancing tests", 
+            "title": "Criteria for Re-Platforming"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#strategy", 
+            "text": "For all of our load balancers being re-platformed, the strategy remains the same.", 
+            "title": "Strategy"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#1-set-up-netscaler-solution", 
+            "text": "Set up a NetScaler Citrix load balancer, using the same configurations, rules and ports as our current load balancers.  The Citrix solution is shown below in teal.", 
+            "title": "1. Set up NetScaler solution"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#2-shut-down-one-application-virtual-machine", 
+            "text": "Shut down one virtual machine in the original load balancing cluster.", 
+            "title": "2. Shut down one application virtual machine"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#3-point-the-load-for-a-single-port-to-the-citrix-load-balancer", 
+            "text": "Redirect all request for a single port on the virtual machine load balancer, to the 10.x.x.x series. This would direct all traffic made to an identified port, to our new Citrix solution, making it available for testing. During this step, we will test that our requests to the specified port are being redirected as needed.", 
+            "title": "3. Point the load for a single port to the Citrix load balancer"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#4-add-rule-in-netscaler-to-redirect-traffic-from-external-nat-to-the-new-port", 
+            "text": "Here, we expect a short downtime. The rule in NetScaler would direct all requests to the External NAT, from within Scholastic network to the Citrix load balancer. This would allow us to test requests made directly to the External NAT to test that traffic is directed as needed.", 
+            "title": "4. Add rule in NetScaler to redirect traffic from External NAT to the new port"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#5-cutover-attach-the-new-external-nat-to-dns", 
+            "text": "Here, we expect a short outage time while the DNS is being routed to the one load balancer. Teams affected should be aware. During this step we will test requests made from outside the Scholastic network, directly to the DNS.  All requests should be directed to the same Citrix load balancing instance.", 
+            "title": "5. Cutover. Attach the new External NAT to DNS"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#6-final-cutover", 
+            "text": "During this step, we repeat steps 2 to 5 for all of our remaining load balancers within the cluster for the given application. All requests, internal or external, with or without ports, will be directed to the new Citrix load balancing solution.", 
+            "title": "6. Final cutover"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#rollback", 
+            "text": "Rolling back our proposed solution is much simpler for this plan. Steps 2 to 5 require editing values to match the new parameters for certain configuration files. Given that during time of cutover, these machines will remain available and not in use, rollback requires editing the configurations to the their previous values. The downtimes and outages will remain minimal, and upon refresh, requests would return to their normal load balancing methodology.", 
+            "title": "Rollback"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#release-notes", 
+            "text": "", 
+            "title": "Release Notes"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#improvements", 
+            "text": "Currently we use  HAProxy . This service does not provide service discovery. If there are downtimes or outages for any applications load balanced, then the requests made would fail.  Citrix  provides service discovery so that if there are downtimes or outages, requests would be  automatically  directed to an endpoint that is up.   In addition, HAProxy requires heavy manual configuration. When executing requests to implement a load balancer or separate instance, Citrix allows simple configuration to complete the task. The new systems via Citrix are better isolated and manipulatable.   Lastly, our current load balancing for certain applications with higher load, i.e. GO!, we can spin and tear load balancers from the cluster with minimal work and  no  downtime. This means we can re-platform and migrate to the new data center, while consuming less virtual machine disk space as we wouldn't start with 6 instances for the example of GO!.", 
+            "title": "Improvements"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#monitoring", 
+            "text": "At the request of Jenhau Chen, we need to implement monitoring to better prepare for outages and downtimes. After speaking with Sanjay, it is simple to implement and we have multiple solutions available.    Sensu  New Relic  Nagios   To implement monitoring there are  3  requirements needed by Sanjay's team. They are:   Distribution List : Who will be informed of downtimes, outages, etc.  Budget Approval : This will require additional costs to implement as there is no monitoring in place for these load balancers.  Metrics and Benchmarks : We need to identify, for each application being load balanced:  What is the maximum memory allotted for these services/products?  What is the maximum disk space allotted for these services/products?  What qualifies these as downtime for for these services/products?  More to be defined when approved...", 
+            "title": "Monitoring"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#schedule", 
+            "text": "These stories will be completed as apart of the  Velociraptor  sprints.     Stories  JIRA  Start Sprint  End Sprint      Implement NetScaler for NBPS  GSM-160  15.3 (June 14, 2017)  15.3 (June 28, 2017)    Implement NetScaler for NEC  GSM-155      Implement NetScaler for LP  GSM-150      Implement NetScaler for GO  GSM-165      Implement NetScaler for GME  GSM-185      Implement NetScaler for EA  GSM-145      Implement NetScaler for EBSCO  GSM-196", 
+            "title": "Schedule"
+        }, 
+        {
+            "location": "/plans/gsm/load_balancer_re-platformimg_plan/#risks", 
+            "text": "Unknown -- Unknown", 
+            "title": "Risks"
         }, 
         {
             "location": "/guides/reading_pro_installation_guide/", 
@@ -332,7 +1257,7 @@
         }, 
         {
             "location": "/diagrams/environment_promotion/", 
-            "text": "Environment Promotion\n\n\nSee original document \nhere\n.\n\n\nAdditions", 
+            "text": "Environment Promotion\n\n\nSee original document \nhere\n.\n\n\nAdditions\n\n\n\n\nNotes\n\n\n\n\nEngineer refers to any and all resources responsible of comitting code to the codebase, including tests.\n\n\nAssuming Engineers have permission to tag and release code on git.\n\n\nWe should treat environment promotion agnostically, hollistic, first, then we should look at special, reductionist, cases.\n\n\n\n\nQuestions\n\n\n\n\nDoes this work in the event of a HOTFIX or ROLLBACK event?", 
             "title": "Environment Promotion"
         }, 
         {
@@ -344,6 +1269,16 @@
             "location": "/diagrams/environment_promotion/#additions", 
             "text": "", 
             "title": "Additions"
+        }, 
+        {
+            "location": "/diagrams/environment_promotion/#notes", 
+            "text": "Engineer refers to any and all resources responsible of comitting code to the codebase, including tests.  Assuming Engineers have permission to tag and release code on git.  We should treat environment promotion agnostically, hollistic, first, then we should look at special, reductionist, cases.", 
+            "title": "Notes"
+        }, 
+        {
+            "location": "/diagrams/environment_promotion/#questions", 
+            "text": "Does this work in the event of a HOTFIX or ROLLBACK event?", 
+            "title": "Questions"
         }, 
         {
             "location": "/tools/charles/", 
