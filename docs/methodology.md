@@ -160,10 +160,10 @@ Some advantages of detailed test cases are that they are reproducible and they a
 
 It is recommended that you find a compromise between the two extremes, one that tends toward more detail. Balance thoroughness with practicality to reach your goal of test integrity and manageability.
 
-##Advantages of Gherkin-based Tests
+## Advantages of Gherkin-based Tests
 Scenarios can be written in a multitude of ways. However, when it comes to standardization, its hard to hit the nail on the head as uniquely as Gherkin does. Even if AUT uses a JavaScript or fully-Manual testing solution, business-readable scenarios go along way for
 
-###Gherkin scenarios
+### Gherkin scenarios
 
 Once you've chosen a feature, it's time to write scenarios that describe each part of it. Each scenario follows a very specific pattern. Start by giving it a name.
 The body of a scenario is made up of three different parts, let's use: `Given`, `When` and `Then`.
